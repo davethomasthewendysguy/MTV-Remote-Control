@@ -1,0 +1,3309 @@
+[
+   {
+      "artist":"ABC",
+      "song":"The Look Of Love",
+      "album":"The Lexicon of Love",
+      "release_year":"1982",
+      "id":"w6Q3mHyzn78",
+      "offset":26
+   },
+   {
+      "artist":"AC/DC",
+      "alternates":[
+        "acdc",
+        "ac-dc"
+      ],
+      "song":"Back In Black",
+      "album":"Back In Black",
+      "release_year":"1980",
+      "id":"pAgnJDJN4VA"
+   },
+   {
+      "artist":"AC/DC",
+      "alternates":[
+        "acdc",
+        "ac-dc"
+      ],
+      "song":"Hells Bells",
+      "album":"Back in Black",
+      "release_year":"1980",
+      "id":"etAIpkdhU9Q" 
+   },
+   {
+      "artist":"AC/DC",
+      "alternates":[
+        "acdc",
+        "ac-dc"
+      ],
+      "song":"Thunderstruck",
+      "album":"The Razors Edge",
+      "release_year":"1990",
+      "id":"v2AC41dglnM"
+   },
+   {
+      "artist":"AC/DC",
+      "alternates":[
+        "acdc",
+        "ac-dc"
+      ],
+      "song":"You Shook Me All Night Long",
+      "album":"Back In Black",
+      "release_year":"1980",
+      "id":"zWCINQn6k0s"
+   },
+   {
+      "artist":"Adam Ant",
+      "song":"Goody Too Shoes",
+      "album":"Friend or Foe",
+      "release_year":"1982",
+      "id":"o41A91X5pns"
+   },
+   {
+      "artist":"After The Fire",
+      "song":"Der Kommissar",
+      "album":"Der Kommissar",
+      "release_year":"1982",
+      "id":"vBfFDTPPlaM",
+      "offset":48
+   },
+   {
+      "artist":"Aerosmith",
+      "song":"Angel",
+      "album":"Permanent Vacation",
+      "release_year":"1987",
+      "id":"CBTOGVb_cQg"
+   },
+   {
+      "artist":"Aerosmith",
+      "song":"Dude (Looks Like A Lady)",
+      "album":"Permanent Vacation",
+      "release_year":"1987",
+      "id":"nf0oXY4nDxE",
+      "offset":14
+   },
+   {
+      "artist":"A-ha",
+      "alternates":[
+        "Aha",
+        "A ha" 
+      ],
+      "song":"Take On Me",
+      "album":"Hunting High and Low",
+      "release_year":"1984",
+      "id":"djV11Xbc914",
+      "offset":10
+   },
+   {
+      "artist":"A-ha",
+      "alternates":[
+        "Aha",
+        "A ha" 
+      ],
+      "song":"The Sun Always Shines on T.V.",
+      "album":"Hunting High and Low",
+      "release_year":"1985",
+      "id":"a3ir9HC9vYg"
+   },
+   {
+      "artist":"The Alan Parsons Project",
+      "alternatives":[
+        "Alan Parsons Project" 
+      ],
+      "song":"Don\\'t Answer Me",
+      "album":"Ammonia Avenue",
+      "release_year":"",
+      "id":"JLvFbBR4XOg"
+   },
+   {
+      "artist":"Alphaville",
+      "song":"Forever Young",
+      "album":"Alphaville",
+      "release_year":"1984 ",
+      "id":"t1TcDHrkQYg"
+   },
+   {
+      "artist":"Animotion",
+      "song":"Obsession",
+      "album":"The Language Of Attraction",
+      "release_year":"1984",
+      "id":"hIs5StN8J-0",
+      "offset":10
+   },
+   {
+      "artist":"Asia",
+      "song":"Heat Of The Moment",
+      "album":"Asia",
+      "release_year":"1982",
+      "id":"2-RUsMCvIsQ",
+      "offset":34
+   },
+   {
+      "artist":"Asia",
+      "song":"Only Time Will Tell",
+      "album":"Asia",
+      "release_year":"1982",
+      "id":"Dmy405ko62w",
+      "offset":34
+   },
+   {
+      "artist":"Autograph",
+      "song":"Turn up the Radio",
+      "album":"Sign In Please",
+      "release_year":"1984",
+      "id":"w6Q3mHyzn78",
+      "offset":107
+   },
+   {
+      "artist":"Baltimora",
+      "song":"Tarzan",
+      "album":"Living In The Background",
+      "release_year":"1985",
+      "id":"_r0n9Dv6XnY"
+   },
+   {
+      "artist":"Bananarama",
+      "song":"Cruel Summer",
+      "album":"High Life",
+      "release_year":"1983",
+      "id":"l9ml3nyww80"
+   },
+   {
+      "artist":"The Bangles",
+      "song":"Eternal Flame",
+      "album":"Everything",
+      "release_year":"1986",
+      "id":"PSoOFn3wQV4",
+      "offset":4
+   },
+   {
+      "artist":"The Bangles",
+      "song":"Hazy Shade Of Winter",
+      "album":"Less Than Zero",
+      "release_year":"1987",
+      "id":"TxrwImCJCqk",
+      "offset":18
+   },
+   {
+      "artist":"The Bangles",
+      "song":"Manic Monday",
+      "album":"Different Light",
+      "release_year":"1986",
+      "id":"SsmVgoXDq2w"
+   },
+   {
+      "artist":"The Bangles",
+      "song":"Walk Like an Egyptian",
+      "album":"Different Light",
+      "release_year":"1986",
+      "id":"Cv6tuzHUuuk",
+      "offset":104
+   },
+   {
+      "artist":"Beastie Boys",
+      "song":"Hey Ladies",
+      "album":"Paul\\'s Boutique",
+      "release_year":"1989",
+      "id":"Naf5uJYGoiU",
+      "offset":8
+   },
+   {
+      "artist":"Beastie Boys",
+      "song":"No Sleep Till Brooklyn",
+      "album":"License To Ill",
+      "release_year":"1986",
+      "id":"07Y0cy-nvAg",
+      "offset":45
+   },
+   {
+      "artist":"Beastie Boys",
+      "song":"Shake Your Rump",
+      "album":"Paul\\'s Boutique",
+      "release_year":"1989",
+      "id":"BptQHAW2T5M"
+   },
+   {
+      "artist":"Beastie Boys",
+      "song":"(You Gotta) Fight For Your Right To Party",
+      "album":"License To Ill",
+      "release_year":"1986",
+      "id":"eBShN8qT4lk",
+      "offset":40
+   },
+   {
+      "artist":"Belinda Carlisle",
+      "song":"Heaven Is A Place On Earth",
+      "album":"Heaven on Earth",
+      "release_year":"1987",
+      "id":"NOGEyBeoBGM"
+   },
+   {
+      "artist":"Bel Biv Devoe",
+      "song":"Poison",
+      "album":"Poison",
+      "release_year":"1990",
+      "id":"hgnhVcyLy1I",
+      "offset":39
+   },
+   {
+     "artist":"Berlin",
+     "song":"No More Words",
+     "album":"Love Life",
+     "release_year":"1984",
+     "id":"oIb9QUGjdIc",
+     "offset":44
+   },
+   {
+     "artist":"Berlin",
+     "song":"Take My Breath Away",
+     "album":"Top Gun Soundtrack",
+     "release_year":"1986",
+     "id":"Bx51eegLTY8",
+     "offset":10
+   },
+   {
+      "artist":"Billy Idol",
+      "song":"Cradle Of Love",
+      "album":"Charmed Life",
+      "release_year":"1989",
+      "id":"NCZuYS-9qaw",
+      "offset":60
+   },
+   {
+      "artist":"Billy Idol",
+      "song":"Flesh For Fantasy",
+      "album":"Rebel Yell",
+      "release_year":"1983",
+      "id":"dw1oM7LBbxE"
+   },
+   {
+      "artist":"Billy Idol",
+      "song":"Rebel Yell",
+      "album":"Rebel Yell",
+      "release_year":"1983",
+      "id":"VdphvuyaV_I" 
+   },
+   {
+      "artist":"Billy Idol",
+      "song":"Dancing With Myself",
+      "album":"Don't Stop",
+      "release_year":"1981",
+      "id":"FG1NrQYXjLU",
+      "offset":6
+   },
+   {
+      "artist":"Billy Idol",
+      "song":"Eyes Without A Face",
+      "album":"Rebel Yell",
+      "release_year":"1983",
+      "id":"9OFpfTd0EIs"
+   },
+   {
+      "artist":"Billy Idol",
+      "song":"White Wedding Pt. 1",
+      "album":"Billy Idol",
+      "release_year":"1982",
+      "id":"AAZQaYKZMTI"
+   },
+   {
+      "artist":"Billy Joel",
+      "song":"The Longest Time",
+      "album":"An Innocent Man",
+      "release_year":"1983",
+      "id":"a_XgQhMPeEQ"
+   },
+   {
+      "artist":"Billy Joel",
+      "song":"Uptown Girl",
+      "album":"An Innocent Man",
+      "release_year":"1983",
+      "id":"hCuMWrfXG4E",
+      "offset":11
+   },
+   {
+      "artist":"Billy Joel",
+      "song":"We Didn\\'t Start The Fire",
+      "album":"Storm Front",
+      "release_year":"1989",
+      "id":"eFTLKWw542g"
+   },
+   {
+      "artist":"Billy Joel",
+      "song":"You May Be Right",
+      "album":"Glass Houses",
+      "release_year":"1980",
+      "id":"Jo9t5XK0FhA",
+      "offset":6
+   },
+   {
+      "artist":"Billy Ocean",
+      "song":"Caribbean Queen (No More Love on the Run)",
+      "album":"Suddenly",
+      "release_year":"1984",
+      "id":"uxX2gA18grk",
+      "offset":20
+   },
+   {
+      "artist":"Billy Ocean",
+      "song":"Get Outta My Dreams, Get Into My Car",
+      "album":"Tear Down These Walls",
+      "release_year":"1987",
+      "id":"zNgcYGgtf8M",
+      "offset":35
+   },
+   {
+      "artist":"Billy Ocean",
+      "song":"When the Going Gets Tough, The Tough Get Going",
+      "album":"Love Zone",
+      "release_year":"1985",
+      "id":"-n3sUWR4FV4"
+   },
+   {
+      "artist":"Billy Squier",
+      "song":"Everybody Wants You",
+      "album":"Emotions in Motion",
+      "release_year":"1982",
+      "id":"L-oNajGRoOQ",
+      "offset":25
+   },
+   {
+      "artist":"Blondie",
+      "song":"Call Me",
+      "album":"Autoamerican",
+      "release_year":"1980",
+      "id":"StKVS0eI85I"
+   },
+   {
+      "artist":"Blondie",
+      "song":"Heart of Glass",
+      "album":"Parallel Lines",
+      "release_year":"1979",
+      "id":"WGU_4-5RaxU",
+      "offset":5
+   },
+   {
+      "artist":"Bobby Brown",
+      "song":"Every Little Step",
+      "album":"Don't Be Cruel",
+      "release_year":"1988",
+      "id":"P0FKzPfsxA4" 
+   },
+   {
+     "artist":"Bonnie Tyler",
+     "song":"Holding Out For A Hero",
+     "album":"Footloose Soundtrack",
+     "release_year":"1984",
+     "id":"bWcASV2sey0",
+     "offset":35
+   },
+   {
+     "artist":"Bonnie Tyler",
+     "song":"Total Eclipse Of The Heart",
+     "album":"Faster Than the Speed of Night",
+     "release_year":"1983",
+     "id":"lcOxhH8N3Bo",
+     "offset":35
+   },
+   {
+     "artist":"Bon Jovi",
+     "song":"Wanted Dead Or Alive",
+     "album":"Slippery When Wet",
+     "release_year":"1986",
+     "id":"SRvCvsRp5ho",
+     "offset":31
+   },
+   {
+      "artist":"Bon Jovi",
+      "song":"I\\'ll Be There For You",
+      "album":"New Jersey",
+      "release_year":"1988",
+      "id":"mh8MIp2FOhc"
+   },
+   {
+      "artist":"Bon Jovi",
+      "song":"Livin\\' On A Prayer",
+      "album":"Slippery When Wet",
+      "release_year":"1986",
+      "id":"lDK9QqIzhwk",
+      "offset": 20
+   },
+   {
+      "artist":"Bon Jovi",
+      "song":"You Give Love A Bad Name",
+      "album":"Slippery When Wet",
+      "release_year":"1986",
+      "id":"KrZHPOeOxQQ" 
+   },
+   {
+     "artist":"Bon Jovi",
+     "song":"Wanted Dead Or Alive",
+     "album":"Slippery When Wet",
+     "release_year":"1986",
+     "id": "SRvCvsRp5ho",
+     "offset":31
+   },
+   {
+      "artist":"Boy Meets Girl",
+      "song":"Waiting For A Star To Fall",
+      "album":"Reel Life",
+      "release_year":"1988",
+      "id":"RhxF9Qg5mOU"
+   },
+   {
+      "artist":"Bruce Hornsby And The Range",
+      "alternates":[
+         "Bruce Hornsby & The Range",
+         "Bruce Hornsby"
+      ],
+      "song":"The Way It Is",
+      "album":"The Way It Is",
+      "release_year":"1986",
+      "id":"cOeKidp-iWo"
+   },
+   {
+      "artist":"Bruce Springsteen",
+      "song":"Born In The U.S.A.",
+      "album":"Born in the U.S.A.",
+      "release_year":"1984",
+      "id":"EPhWR4d3FJQ",
+      "offset":8
+   },
+   {
+      "artist":"Bruce Springsteen",
+      "song":"Dancing In The Dark",
+      "album":"Born In The U.S.A.",
+      "release_year":"1984",
+      "id":"129kuDCQtHs"
+   },
+   {
+      "artist":"Bruce Springsteen",
+      "song":"Glory Days",
+      "album":"Born in the U.S.A.",
+      "release_year":"1984",
+      "id":"6vQpW9XRiyM",
+      "offset":38
+   },
+   {
+      "artist":"The Buggles",
+      "song":"Video Killed The Radio Star",
+      "album":"The Age of Plastic",
+      "release_year":"1980",
+      "id":"W8r-tXRLazs"
+   },
+   {
+      "artist":"Buster Poindexter",
+      "song":"Hot Hot Hot",
+      "album":"Buster Poindexter",
+      "release_year":"1987",
+      "id":"EhZba-P7R18",
+      "offset":50
+   },
+   {
+      "artist":"Bryan Adams",
+      "song":"Cuts Like A Knife",
+      "album":"Cuts Like a Knife",
+      "release_year":"1983",
+      "id":"6VZhSkREYBc"
+   },
+   {
+      "artist":"Bryan Adams",
+      "song":"Run To You",
+      "album":"Reckless",
+      "release_year":"1984",
+      "id":"nCBASt507WA"
+   },
+   {
+      "artist":"Bryan Adams",
+      "song":"Summer Of ’69",
+      "album":"Reckless",
+      "release_year":"1984",
+      "id":"9f06QZCVUHg"
+   },
+   {
+      "artist":"The B-52s",
+      "alternates":[
+         "The B52s",
+         "B-52s"
+      ],
+      "song":"Roam",
+      "album":"Cosmic Thing",
+      "release_year":"1989",
+      "id":"iNwC0sp-uA4"
+   },
+   {
+      "artist":"The B-52s",
+      "alternates":[
+         "The B52s",
+         "B-52s",
+         "B52s"
+      ],
+      "song":"Love Shack",
+      "album":"Cosmic Thing",
+      "release_year":"1989",
+      "id":"9SOryJvTAGs"
+   },
+   {
+      "artist":"Cameo",
+      "song":"Word Up!",
+      "album":"Word Up!",
+      "release_year":"1986",
+      "id":"MZjAantupsA",
+      "offset":17
+   },
+   {
+      "artist":"The Cars",
+      "song":"Hello Again",
+      "album":"Heartbeat City",
+      "release_year":"1984",
+      "id":"KXpJ0bM5zbM",
+      "offset":40
+   },
+   {
+      "artist":"The Cars",
+      "song":"Magic",
+      "album":"Heartbeat City",
+      "release_year":"1984",
+      "id":"E0Kv6vxZwL8",
+      "offset":26
+   },
+   {
+      "artist":"The Cars",
+      "song":"Drive",
+      "album":"Heartbeat City",
+      "release_year":"1984",
+      "id":"xuZA6qiJVfU"
+   },
+   {
+      "artist":"The Cars",
+      "song":"You Might Think",
+      "album":"Heartbeat City",
+      "release_year":"1984",
+      "id":"3dOx510kyOs"
+   },
+   {
+      "artist":"Cher",
+      "song":"If I Could Turn Back Time",
+      "album":"Heart of Stone",
+      "release_year":"1989",
+      "id":"taM7k2QhJe8",
+      "offset":53
+   },
+   {
+      "artist":"Cher",
+      "song":"We All Sleep Alone",
+      "album":"Cher",
+      "release_year":"1988",
+      "id":"e7pHLn_gkpA",
+      "offset":75
+   },
+   {
+      "artist":"The Clash",
+      "song":"Rock The Casbah",
+      "album":"Combat Rock",
+      "release_year":"1982",
+      "id":"bJ9r8LMU9bQ"
+   },
+   {
+      "artist":"Cinderella",
+      "song":"Don\\'t Know What You Got (Till It\\'s Gone)",
+      "album":"Long Cold Winter",
+      "release_year":"1988",
+      "id":"i28UEoLXVFQ"
+   },
+   {
+      "artist":"The Communards",
+      "song":"Don\\'t Leave Me This Way",
+      "album":"Communards",
+      "release_year":"1986",
+      "id":"ifAtvI48R_0",
+      "offset":10
+   },
+   {
+      "artist":"Corey Hart",
+      "song":"Sunglasses At Night",
+      "album":"First Offense",
+      "release_year":"1983",
+      "id":"X2LTL8KgKv8"
+   },
+   {
+      "artist":"Crowded House",
+      "song":"Don\\'t Dream It\\'s Over",
+      "album":"Crowded House",
+      "release_year":"1986",
+      "id":"J9gKyRmic20",
+      "offset":10
+   },
+   {
+      "artist":"Culture Club",
+      "song":"Do You Really Want To Hurt Me",
+      "album":"Kissing to Be Clever",
+      "release_year":"1982",
+      "id":"2nXGPZaTKik"
+   },
+   {
+      "artist":"Culture Club",
+      "song":"Karma Chameleon",
+      "album":"Colour by Numbers",
+      "release_year":"1983",
+      "id":"JmcA9LIIXWw"
+   },
+      {
+      "artist":"Culture Club",
+      "song":"Time",
+      "album":"Kissing to Be Clever",
+      "release_year":"1982",
+      "id":"8tI1_KlO6xI",
+      "offset":5
+   },
+   {
+      "artist":"The Cure",
+      "song":"Just Like Heaven",
+      "album":"Kiss Me, Kiss Me, Kiss Me",
+      "release_year":"1987",
+      "id":"ZmHOl1eAcq8"
+   },
+   {
+      "artist":"The Cure",
+      "song":"The Lovecats",
+      "album":"Japanese Whispers",
+      "release_year":"1983",
+      "id":"4OLYoq7j14w"
+   },
+   {
+      "artist":"Cutting Crew",
+      "song":"(I Just) Died in Your Arms",
+      "album":"Broadcast",
+      "release_year":"1986",
+      "id":"rrJky8YuTr4",
+      "offset":18
+   },
+   {
+      "artist":"Cyndi Lauper",
+      "song":"Girls Just Wanna Have Fun",
+      "album":"She\\'s So Unusual",
+      "release_year":"1983",
+      "id":"PIb6AZdTr-A",
+      "offset":6
+   },
+   {
+      "artist":"Damn Yankees",
+      "song":"Come Again",
+      "album":"Damn Yankees",
+      "release_year":"1990",
+      "id":"BtuOAnsuZBY",
+      "offset":70
+   },
+   {
+      "artist":"Damn Yankees",
+      "song":"Coming Of Age",
+      "album":"Damn Yankees",
+      "release_year":"1990",
+      "id":"vCXYxGFbsBs",
+      "offset":30
+   },
+   {
+      "artist":"Damn Yankees",
+      "song":"High Enough",
+      "album":"Damn Yankees",
+      "release_year":"1990",
+      "id":"l_uh8XjgLTE",
+      "offset":36
+   },
+   {
+      "artist":"David Lee Roth",
+      "song":"Just A Gigolo / I Ain't Got Nobody",
+      "album":"Crazy from the Heat",
+      "release_year":"1985",
+      "id":"ui-zBq-f5XA",
+      "offset": 116
+   },
+   {
+      "artist":"Dead Or Alive",
+      "song":"You Spin Me Round (Like A Record)",
+      "album":"Youthquake",
+      "release_year":"1985",
+      "id":"PGNiXGX2nLU"
+   },
+   {
+      "artist":"DeBarge",
+      "song":"Rhythm Of The Night",
+      "album":"Rhythm of the Night",
+      "release_year":"1985",
+      "id":"cAQSZhazYk8"
+   },
+   {
+      "artist":"Debbie Gibson",
+      "song":"Electric Youth",
+      "album":"Electric Youth",
+      "release_year":"1988",
+      "id":"lqAOB143KqY",
+      "offset":25
+   },
+   {
+      "artist":"Debbie Gibson",
+      "song":"Lost In Your Eyes",
+      "album":"Electric Youth",
+      "release_year":"1988",
+      "id":"8Ms3mJFkSeg",
+      "offset":60
+   },
+   {
+      "artist":"Def Leppard",
+      "song":"Animal",
+      "album":"Hysteria",
+      "release_year":"1987",
+      "id":"ecFPU--vvf0",
+      "offset":20
+   },
+   {
+      "artist":"Def Leppard",
+      "song":"Armageddon It",
+      "album":"Hysteria",
+      "release_year":"1987",
+      "id":"urNFQw8VIvA",
+      "offset":25
+   },
+   {
+      "artist":"Def Leppard",
+      "song":"Hysteria",
+      "album":"Hysteria",
+      "release_year":"1987",
+      "id":"yMzyleT2FqY",
+      "offset":42
+   },
+   {
+      "artist":"Def Leppard",
+      "song":"Love Bites",
+      "album":"Hysteria",
+      "release_year":"1987",
+      "id":"0T1IVyXBGjM",
+      "offset":19
+   },
+   {
+      "artist":"Def Leppard",
+      "song":"Photograph",
+      "album":"Pyromania",
+      "release_year":"1983",
+      "id":"D4dHr8evt6k",
+      "offset":44
+   },
+   {
+      "artist":"Def Leppard",
+      "song":"Pour Some Sugar On Me",
+      "album":"Hysteria",
+      "release_year":"1987",
+      "id":"0UIB9Y4OFPs",
+      "offset":42
+   },
+   {
+      "artist":"Depeche Mode",
+      "song":"Enjoy The Silence",
+      "album":"Violator",
+      "release_year":"1990",
+      "id":"m0AKJMGxwpE" 
+   },
+   {
+      "artist":"Depeche Mode",
+      "song":"Just Can't Get Enough",
+      "album":"Speak & Spell",
+      "release_year":1981,
+      "id": "_6FBfAQ-NDE",
+      "offset":12
+   },
+   {
+      "artist":"Depeche Mode",
+      "song":"Never Let Me Down Again",
+      "album":"Music for the Masses",
+      "release_year":1987,
+      "id": "snILjFUkk_A",
+      "offset":36
+   },
+   {
+      "artist":"Depeche Mode",
+      "song":"Personal Jesus",
+      "album":"Violator",
+      "release_year":"1989",
+      "id":"u1xrNaTO1bI" 
+   },
+   {
+     "id": "M2VBmHOYpV8",
+     "artist":"Depeche Mode",
+     "song":"Policy Of Truth",
+     "album":"Violator",
+     "release_year":"1990",
+     "offset":30
+   },
+   {
+      "artist":"Dire Straits",
+      "song":"Money for Nothing",
+      "album":"Brothers In Arms",
+      "release_year":"1985",
+      "id":"wTP2RUD_cL0"
+   },
+   {
+      "artist":"Dire Straits",
+      "song":"Walk of Life",
+      "album":"Brothers In Arms",
+      "release_year":"1985",
+      "id":"kd9TlGDZGkI"
+   },
+   {
+      "artist":"DJ Jazzy Jeff And The Fresh Prince",
+      "song":"Brand New Funk",
+      "album":"He's the DJ, I'm the Rapper",
+      "release_year":"1988",
+      "id":"u68UmIY0lFQ",
+      "offset":26
+   },
+   {
+      "artist":"DJ Jazzy Jeff And The Fresh Prince",
+      "song":"Girls Ain\\'t Nothjing But Trouble",
+      "album":"Rock the House",
+      "release_year":"1987",
+      "id":"IOaFh-yJk_k",
+      "offset":25
+   },
+   {
+      "artist":"DJ Jazzy Jeff And The Fresh Prince",
+      "song":"I Thjink I Can Beat Mike Tyson",
+      "album":"...And In This Corner",
+      "release_year":"1989",
+      "id":"u68UmIY0lFQ",
+      "offset":38
+   },
+   {
+      "artist":"DJ Jazzy Jeff And The Fresh Prince",
+      "song":"Parents Just Don\\'t Understand",
+      "album":"He's the DJ, I'm the Rapper",
+      "release_year":"1988",
+      "id":"taM7k2QhJe8",
+      "offset":32
+   },
+   {
+      "artist":"Dokken",
+      "song":"Dream Warriors",
+      "album":"Back for the Attack",
+      "release_year":"1987",
+      "id":"noLPhZvcBpw",
+      "offset":33
+   },
+   {
+      "artist":"The Dream Academy",
+      "alternates":[
+         "Dream Academy" 
+      ],
+      "song":"Life In A Northern Town",
+      "album":"The Dream Academy",
+      "release_year":"1985",
+      "id":"5UXnulANF8g"
+   },
+   {
+      "artist":"Duran Duran",
+      "song":"Girls On Film",
+      "album":"Duran Duran",
+      "release_year":"1981",
+      "id":"KCjMZMxNr-0",
+      "offset":17
+   },
+   {
+      "artist":"Duran Duran",
+      "song":"Hungry Like The Wolf",
+      "album":"Rio",
+      "release_year":"1982",
+      "id":"oJL-lCzEXgI",
+      "offset":2
+   },
+   {
+      "artist":"Duran Duran",
+      "song":"Rio",
+      "album":"Rio",
+      "release_year":"1982",
+      "id":"nTizYn3-QN0",
+      "offset":12
+   },
+   {
+      "artist":"Duran Duran",
+      "song":"Save A Prayer",
+      "album":"Rio",
+      "release_year":"1982",
+      "id":"6Uxc9eFcZyM"
+   },
+   {
+      "artist":"Duran Duran",
+      "song":"Union Of The Snake",
+      "album":"Seven and the Ragged Tiger",
+      "release_year":"1983",
+      "id":"n6p5Q6_JBes",
+      "offset":14
+   },
+   {
+      "artist":"Duran Duran",
+      "song":"Wild Boys",
+      "album":"Arena",
+      "release_year":"1984",
+      "id":"M43wsiNBwmo"
+   },
+   {
+      "artist":"Eddie Money",
+      "song":"I Think I\\'m In Love",
+      "album":"No Control",
+      "release_year":"1982",
+      "id":"MJbBSIFN36k",
+      "offset":32
+   },
+   {
+      "artist":"Eddie Money",
+      "song":"I Wanna Go Back",
+      "album":"Can\\'t Hold Back",
+      "release_year":"1986",
+      "id":"o0JqC2UDpoE",
+      "offset":28
+   },
+   {
+      "artist":"Eddie Money",
+      "song":"Shakin\\'",
+      "album":"No Control",
+      "release_year":"1982",
+      "id":"2tcD_dVcXE4",
+      "offset":38
+   },
+   {
+      "artist":"Eddie Money",
+      "song":"Take Me Home Tonight",
+      "album":"Can\\'t Hold Back",
+      "release_year":"1986",
+      "id":"3aJvIFK9-xk",
+      "offset":54
+   },
+   {
+      "artist":"Eddie Money",
+      "song":"Walk On Water",
+      "album":"Nothing To Lose",
+      "release_year":"1988",
+      "id":"7FdYRq8-6kM",
+      "offset":7
+   },
+   {
+      "artist":"Eddie Murphy",
+      "song":"Party All The Time",
+      "album":"How Could It Be",
+      "release_year":"1985",
+      "id":"iWa-6g-TbgI",
+      "offset":54
+   },
+   {
+      "artist":"Eddy Grant",
+      "song":"Electric Avenue",
+      "album":"Killer on the Rampage",
+      "release_year":"1982",
+      "id":"vtPk5IUbdH0",
+      "offset":2
+   },
+   {
+      "artist":"Elton John",
+      "song":"I Don't Wanna Go On With You Like That",
+      "album":"Reg Strikes Back",
+      "release_year":"1988",
+      "id":"kaJRvZZBnX8",
+      "offset":13
+   },
+   {
+      "artist":"Elton John",
+      "song":"I Guess That\\'s Why They Call It The Blues",
+      "album":"Too Low For Zero",
+      "release_year":"1983",
+      "id":"h6KYAVn8ons",
+      "offset":2
+   },
+   {
+      "artist":"Elton John",
+      "song":"I\\'m Still Standing",
+      "album":"Too Low For Zero",
+      "release_year":"1983",
+      "id":"ZHwVBirqD2s"
+   },
+   {
+      "artist":"Elton John",
+      "song":"Sacrifice",
+      "album":"Sleeping With The Past",
+      "release_year":"1989",
+      "id":"NrLkTZrPZA4"
+   },
+   {
+      "artist":"Elton John",
+      "song":"Sad Songs (Say So Much)",
+      "album":"Breaking Hearts",
+      "release_year":"1984",
+      "id":"X23v5_K7cXk",
+      "offset":12
+   },
+   {
+      "artist":"Erasure",
+      "song":"A Little Respect",
+      "album":"The Innocents",
+      "release_year":"1988",
+      "id":"RhhYOMRO2Vc",
+      "offset":28
+   },
+   {
+      "artist":"Erasure",
+      "song":"Oh L\\'Amour",
+      "album":"Wonderland",
+      "release_year":"1986",
+      "id":"UyOOYn3A_6I",
+      "offset":36
+   },
+   {
+      "artist":"Eric Carmen",
+      "song":"Hungry Eyes",
+      "album":"Dirty Dancing Soundtrack",
+      "release_year":"1987",
+      "id":"2ssCL292DQA"
+   },
+   {
+      "artist":"Eric Carmen",
+      "song":"Make Me Lose Control",
+      "album":"Dirty Dancing Soundtrack",
+      "release_year":"1987",
+      "id":"fQlKa1IeZF8",
+      "offset":38
+   },
+   {
+      "artist":"The Escape Club",
+      "song":"Wild Wild West",
+      "album":"Wild Wild West",
+      "release_year":"1988",
+      "id":"6vE5ewvxdfo"
+   },
+   {
+      "artist":"Europe",
+      "song":"Carrie",
+      "album":"The Final Countdown",
+      "release_year":"1986",
+      "id":"KmWE9UBFwtY"
+   },
+   {
+      "artist":"Europe",
+      "song":"The Final Countdown",
+      "album":"The Final Countdown",
+      "release_year":"1986",
+      "id":"9jK-NcRmVcw",
+      "offset":9
+   },
+   {
+      "artist":"Eurythmics",
+      "song":"Sweet Dreams (Are Made of This)",
+      "album":"Sweet Dreams (Are Made of This)",
+      "release_year":"1983",
+      "id":"qeMFqkcPYcg" 
+   },
+   {
+      "artist":"Exposé",
+      "alternates":[
+         "Expose" 
+      ],
+      "song":"Come Go With Me",
+      "album":"Exposure",
+      "release_year":"1987",
+      "id":"SGi3AvfFfuA",
+      "offset":35
+   },
+   {
+      "artist":"Exposé",
+      "alternates":[
+         "Expose"
+      ],
+      "song":"Seasons Change",
+      "album":"Exposure",
+      "release_year":"1987",
+      "id":"Yqk6y5Hmy9s" 
+   },
+   {
+      "artist":"Extreme",
+      "song":"Decadent Dance",
+      "album":"Extreme II: Pornograffitti",
+      "release_year":"1990",
+      "id":"OoKJpcROgJk",
+      "offset":38
+   },
+   {
+      "artist":"Extreme",
+      "song":"Get The Funk Out",
+      "album":"Extreme II: Pornograffitti",
+      "release_year":"1990",
+      "id":"IqP76XWHQI0",
+      "offset":60
+   },
+   {
+      "artist":"Extreme",
+      "song":"Hole Hearted",
+      "album":"Pornograffitti",
+      "release_year":"1990",
+      "id":"UrIiLvg58SY",
+      "offset":105
+   },
+   {
+      "artist":"Extreme",
+      "song":"More Than Words",
+      "album":"Extreme II: Pornograffitti",
+      "release_year":"1990",
+      "id":"UrIiLvg58SY",
+      "offset":47
+   },
+   {
+      "artist":"Falco",
+      "song":"Rock Me Amadeus",
+      "album":"Falco 3",
+      "release_year":"1985",
+      "id":"cVikZ8Oe_XA",
+      "offset":40
+   },
+   {
+      "artist":"Fine Young Cannibals",
+      "song":"She Drives Me Crazy",
+      "album":" The Raw And the Cooked",
+      "release_year":"1988",
+      "id":"UtvmTu4zAMg"
+   },
+   {
+      "artist":"The Fixx",
+      "song":"One Thing Leads To Another",
+      "album":"Reach the Beach",
+      "release_year":"1983",
+      "id":"JHYIGy1dyd8",
+      "offset":19
+   },
+   {
+      "artist":"Fleetwood Mac",
+      "song":"Little Lies",
+      "album":"Tango In The Night",
+      "release_year":"1987",
+      "id":"uCGD9dT12C0"
+   },
+   {
+      "artist":"Flock Of Seagulls",
+      "song":"I Ran (So Far Away)",
+      "album":"A Flock of Seagulls",
+      "release_year":"1982",
+      "id":"qjuEXKwnkLE"
+   },
+   {
+      "artist":"Foreigner",
+      "song":"I Wanna Know What Love Is",
+      "album":"Agent Provocateur",
+      "release_year":"1984",
+      "id":"loWXMtjUZWM"
+   },
+   {
+      "artist":"Foreigner",
+      "song":"Urgent",
+      "album":"4",
+      "release_year":"1981",
+      "id":"Lcb-Fsx_phM",
+      "offset":40
+   },
+   {
+      "artist":"Frankie Goes To Hollywood",
+      "song":"Relax",
+      "album":"Welcome to the Pleasuredome",
+      "release_year":"1983",
+      "id":"Yem_iEHiyJ0",
+      "offset":14
+   },
+   {
+      "artist":"Gary Numan",
+      "song":"Cars",
+      "album":"The Pleasure Principle",
+      "release_year":"1979",
+      "id":"Im3JzxlatUs",
+      "offset":74
+   },
+   {
+      "artist":"Genesis",
+      "song":"Invisible Touch",
+      "album":"Invisible Touch",
+      "release_year":"1986",
+      "id":"n0-V01ArL-U",
+      "offset":51
+   },
+   {
+      "artist":"Genesis",
+      "song":"Land of Confusion",
+      "album":"Invisible Touch",
+      "release_year":"1986",
+      "id":"Yq7FKO5DlV0",
+      "offset":18
+   },
+   {
+      "artist":"George Clinton",
+      "song":"Atomic Dog",
+      "album":"Computer Games",
+      "release_year":"1982",
+      "id":"LuyS9M8T03A",
+      "offset":13
+   },
+   {
+      "artist":"George Michael",
+      "song":"Faith",
+      "album":"Faith",
+      "release_year":"1987",
+      "id":"6Cs3Pvmmv0E",
+      "offset":59
+   },
+   {
+      "artist":"George Michael",
+      "song":"Father Figure",
+      "album":"Faith",
+      "release_year":"1987",
+      "id":"m_9hfHvQSNo"
+   },
+   {
+      "artist":"Glenn Fry",
+      "song":"Smuggler\\'s Blues",
+      "album":"The Allnighter",
+      "release_year":"1984",
+      "id":"LSXKyHM133c",
+      "offset":74
+   },
+   {
+      "artist":"Gloria Estefan",
+      "song":"Rhythm Is Gonna Get You",
+      "album":"Let It Loose",
+      "release_year":"1985",
+      "id":"CZkjeJKBI0M"
+   },
+   {
+      "artist":"Go West",
+      "song":"King of Wishful Thinking",
+      "album":"Pretty Woman Soundtrack",
+      "release_year":"1990",
+      "id":"XBZUz4C6kqk",
+      "offset":26
+   },
+   {
+      "artist":"Great White",
+      "song":"Once Bitten Twice Shy",
+      "album":"...Twice Shy",
+      "release_year":"1989",
+      "id":"Bz61YQWZuYU",
+      "offset":65
+   },
+   {
+      "artist":"Guns N' Roses",
+      "alternates":[
+         "Guns N Roses" ,
+         "Guns 'N Roses",
+         "Guns and Roses"
+      ],
+      "song": "Patience",
+      "album":"G N\\' R Lies",
+      "release_year":"1988",
+      "id": "ErvgV4P6Fzc",
+      "offset":60
+   },
+   {
+      "artist":"Guns N' Roses",
+      "alternates":[
+         "Guns N Roses" ,
+         "Guns 'N Roses",
+         "Guns and Roses"
+      ],
+      "song": "Paradise City",
+      "album":"Appetite for Destruction",
+      "release_year":"1987",
+      "id": "Rbm6GXllBiw"
+   },
+   {
+      "artist":"Guns N' Roses",
+      "alternates":[
+         "Guns N Roses" ,
+         "Guns 'N Roses",
+         "Guns and Roses"
+      ],
+      "song":"Welcome To The Jungle",
+      "album":"Appetite For Destruction",
+      "release_year":"1987",
+      "id":"o1tj2zJ2Wvg",
+      "offset":6
+   },
+   {
+      "artist":"Hall and Oates",
+      "alternates":[
+         "Hall & Oates" 
+      ],
+      "song":"Maneater",
+      "album":"H2O",
+      "release_year":"1982",
+      "id":"yRYFKcMa_Ek" 
+   },
+   {
+      "artist":"Hall and Oates",
+      "alternates":[
+         "Hall & Oates" 
+      ],
+      "song":"Private Eyes",
+      "album":"Private Eyes",
+      "release_year":"1981",
+      "id":"JsntlJZ9h1U"
+   },
+   {
+      "artist":"Hall and Oates",
+      "alternates":[
+         "Hall & Oates" 
+      ],
+      "song":"You Make My Dreams",
+      "album":"Voices",
+      "release_year":"1981",
+      "id":"EErSKhC0CZs",
+      "offset":5
+   },
+   {
+      "artist":"Heart",
+      "song":"All I Wanna Do Is Make Love To You",
+      "album":"Brigade",
+      "release_year":"1990",
+      "id":"OAfxs0IDeMs"
+   },
+   {
+      "artist":"Heart",
+      "song":"Alone",
+      "album":"Bad Animals",
+      "release_year":"1987",
+      "id":"1Cw1ng75KP0" 
+   },
+   {
+      "artist":"Herbie Hancock",
+      "song":"Rockit",
+      "album":"Future Shock",
+      "release_year":"1983",
+      "id":"GHhD4PD75zY",
+      "offset":28
+   },
+   {
+      "artist":"The Hooters",
+      "song":"And We Danced",
+      "album":"Nervous Night",
+      "release_year":"1985",
+      "id":"zB1Q-PfUvN0",
+      "offset":59
+   },
+   {
+      "artist":"Human League",
+      "song":"Don\\'t You Want Me",
+      "album":"Dare",
+      "release_year":"1981",
+      "id":"uPudE8nDog0"
+   },
+   {
+      "artist":"The Human League",
+      "song":"Human",
+      "album":"Crash",
+      "release_year":"1986",
+      "id":"s1ysoohV_zA",
+      "offset":4
+   },
+   {
+     "artist":"Huey Lewis And The News",
+     "song":"If This Is It",
+     "album":"Sports",
+     "release_year":"1983",
+     "id": "AaTQAaJWW54",
+      "offset":41
+   },
+   {
+      "artist":"Huey Lewis And The News",
+      "song":"The Power Of Love",
+      "album":"Back to the Future Soundtrack",
+      "release_year":"1985",
+      "id":"wBl2QGAIx1s",
+      "offset":135
+   },
+   {
+      "artist":"Information Society",
+      "song":"What\\`s On Your Mind (Pure Energy)",
+      "album":"Creatures of Influence",
+      "release_year":"1984",
+      "id":"ijAYN9zVnwg",
+      "offset":43
+   },
+   {
+      "artist":"INXS",
+      "song":"I Need You Tonight",
+      "album":"Kick",
+      "release_year":"1987",
+      "id":"MiVbq6ZnNc4"
+   },
+   {
+      "artist":"Irene Cara",
+      "song":"Flashdance",
+      "album":"What a Feelin\\'",
+      "release_year":"1983",
+      "id":"ILWSp0m9G2U"
+   },
+   {
+      "artist":"Jane Child",
+      "song":"Don\\'t Wanna Fall In Love",
+      "album":"Jane Child",
+      "release_year":"1990",
+      "id":"zWd__w5UWVc",
+      "offset":40
+   },
+   {
+      "artist":"Janet Jackson",
+      "song":"The Pleasure Principle",
+      "album":"Control",
+      "release_year":"1986",
+      "id":"Q-gu1KETjVY"
+   },
+   {
+      "artist":"Janet Jackson",
+      "song":"When I Think Of You",
+      "album":"Control",
+      "release_year":"1986",
+      "id":"EaleKN9GQ54",
+      "offset":59
+   },
+   {
+      "artist":"John Mellencamp",
+      "alternates":[
+         "John Cougar Mellencamp"
+      ],
+      "song":"Jack and Diane",
+      "album":"American Fool",
+      "release_year":"1982",
+      "id":"h04CH9YZcpI"
+   },
+   {
+      "artist":"Johnny Hates Jazz",
+      "song":"Shattered Dreams",
+      "album":"Turn Back the Clock",
+      "release_year":"1988",
+      "id":"cX-8MHKuQ5I"
+   },
+   {
+      "artist":"John Parr",
+      "song":"St. Elmo\\'s Fire (Man In Motion)",
+      "album":"St. Elmo\\'s Fire Sountrack",
+      "release_year":"1985",
+      "id":"dx7vNdAb5e4"
+   },
+   {
+      "artist":"John Waite",
+      "song":"Missing You",
+      "album":"No Brakes",
+      "release_year":"1984",
+      "id":"k9e157Ner90",
+      "offset":20
+   },
+   {
+      "artist":"Journey",
+      "song":"Any Way You Want It",
+      "album":"Departure",
+      "release_year":"1980",
+      "id":"atxUuldUcfI",
+      "offset":38
+   },
+   {
+      "artist":"Journey",
+      "song":"Don\\'t Stop Believin\\'",
+      "album":"Escape",
+      "release_year":"1981",
+      "id":"VcjzHMhBtf0" 
+   },
+   {
+      "artist":"Journey",
+      "song":"Faithfully",
+      "album":"Frontiers",
+      "release_year":"1983",
+      "id":"OMD8hBsA-RI",
+      "offset":8
+   },
+   {
+      "artist":"Journey",
+      "song":"Separate Ways",
+      "album":"Frontiers",
+      "release_year":"1983",
+      "id":"LatorN4P9aA"
+   },
+   {
+      "artist":"Judas Priest",
+      "song":"You've Got Another Thing Coming",
+      "album":"Screaming for Vengeance",
+      "release_year":"1982",
+      "id":"WtuoFv4dcwM",
+      "offset":27
+   },
+   {
+      "artist":"J. Geils Band",
+      "alternates":[
+         "J Geils Band"
+      ],
+      "song":"Centerfold",
+      "album":"Showtime!",
+      "release_year":"1982",
+      "id":"BqDjMZKf-wg",
+      "offset":2
+   },
+   {
+      "artist":"J. Geils Band",
+      "alternates":[
+         "J Geils Band"
+      ],
+      "song":"Freeze Frame",
+      "album":"Freeze Frame",
+      "release_year":"1981",
+      "id":"wHo43B6nu60",
+      "offset":7
+   },
+   {
+      "artist":"Kate Bush",
+      "song":"Running Up That Hill",
+      "album":"Hounds of Love",
+      "release_year":"1985",
+      "id":"YwcnETl5xJ4",
+      "offset":5
+   },
+   {
+      "artist":"Kate Bush",
+      "song":"Wuthering Heights",
+      "album":"The Kick Inside",
+      "release_year":"1978",
+      "id":"4Mt2GXq0v8M"
+   },
+   {
+      "artist":"Katrina And The Waves",
+      "song":"Walking On Sunshine",
+      "album":"Walking On Sunshine",
+      "release_year":"1983",
+      "id":"iPUmE-tne5U"
+   },
+   {
+      "artist":"Kenny Loggins",
+      "song":"Danger Zone",
+      "album":"Top Gun Soundtrack",
+      "release_year":"1986",
+      "id":"siwpn14IE7E" 
+   },
+   {
+      "artist":"Kenny Loggins",
+      "song":"I\\'m Alright",
+      "album":"Caddyshack Soundtrack",
+      "release_year":"1980",
+      "id":"rbQgaHZOFZ0",
+      "offset":85
+   },
+   {
+      "artist":"Kenny Loggins",
+      "song":"I\\'m Free (Heaven Helps The Man)",
+      "album":"Footloose Soundtrack",
+      "release_year":"1984",
+      "id":"BdEvuQE6t5c",
+      "offset":51
+   },
+   {
+      "artist":"Kenny Loggins",
+      "song":"Nobody's Fool (Theme from \\'Caddyshack II\\')",
+      "album":"Back To Avalon",
+      "release_year":"1988",
+      "id":"S5N6-38EhLE",
+      "offset":15
+   },
+   {
+      "artist":"Kim Carnes",
+      "song":"Bette Davis Eyes",
+      "album":"Mistaken Identity",
+      "release_year":"1981",
+      "id":"EPOIS5taqA8"
+   },
+   {
+      "artist":"Kim Wilde",
+      "song":"Kids In America",
+      "id":"8BYKpQ_6GbM",
+      "album":"Kim Wilde",
+      "release_year":"1980",
+      "offset":30
+   },
+   {
+      "artist":"Lisa Stansfield",
+      "song":"All Around the World",
+      "album":"Affection",
+      "release_year":"1989",
+      "id":"JVuuatjHGnY"
+   },
+   {
+      "artist":"Laura Branigan",
+      "song": "Gloria",
+      "album":"Branigan",
+      "release_year":"1982",
+      "id":"nNEb2k_EmMg"
+   },
+   {
+      "artist":"Laura Branigan",
+      "song": "Self Control",
+      "album":"Laura Branigan",
+      "release_year":"1984",
+      "id":"RP0_8J7uxhs",
+      "offset":4
+   },
+   {
+      "artist":"Level 42",
+      "song":"Something About You",
+      "album":"World Machine",
+      "release_year":"1985",
+      "id":"wbydKAFfJAc",
+      "offset":26
+   },
+   {
+      "artist":"Lionel Richie",
+      "song":"All Night Long (All Night)",
+      "album":"Can\\'t Slow Down",
+      "release_year":"1983",
+      "id":"nqAvFx3NxUM"
+   },
+   {
+      "artist":"Lionel Richie",
+      "song":"Dancing On The Ceiling",
+      "album":"Dancing On The Ceiling",
+      "release_year":"1986",
+      "id":"ovo6zwv6DX4",
+      "offset":55
+   },
+   {
+      "artist":"LL Cool J",
+      "song":"Big Ole Butt",
+      "album":"Walking With A Panther",
+      "release_year":1989,
+      "id":"84LUpG6ieis",
+      "offset":28
+   },
+   {
+      "artist":"LL Cool J",
+      "song":"Going Back To Cali",
+      "album":"Less Than Zero",
+      "release_year":1987,
+      "id":"FdizL4on-Rc",
+      "offset":39
+   },
+   {
+      "artist":"LL Cool J",
+      "song":"I Need Love",
+      "album":"Bigger and Deffer",
+      "release_year":1987,
+      "id":"NEUX-HYRtUA"
+   },
+   {
+      "artist":"LL Cool J",
+      "song":"I\\'m Bad",
+      "album":"Bigger and Deffer",
+      "release_year":1987,
+      "id":"oVDfyc2lh4Q",
+      "offset":"33"
+   },
+   {
+      "artist":"Loverboy",
+      "song":"Turn Me Loose",
+      "album":"Loverboy",
+      "release_year":"1981",
+      "id":"TnHm4ro_l8s"
+   },
+   {
+      "artist":"Limahl",
+      "song":"NeverEnding Story",
+      "album":"The NeverEnding Story Soundtrack",
+      "release_year":"1984",
+      "id":"2WN0T-Ee3q4"
+   },
+   {
+      "artist":"Living Color",
+      "song":"Cult Of Personality",
+      "album":"Vivid",
+      "release_year":"1988",
+      "id":"7xxgRUyzgs0",
+      "offset":35
+   },
+   {
+      "artist":"Love And Rockets",
+      "alternates":[
+         "Love & Rockets"
+      ],
+      "song": "No New Tale To Tell",
+      "album":"Earth, Sun, Moon",
+      "release_year":"1988",
+      "id": "iRrn67ovuRQ",
+      "offset":68
+   },
+   {
+      "artist":"Madness",
+      "song":"Our House",
+      "album":"Madness",
+      "release_year":"1983",
+      "id":"KwIe_sjKeAY",
+      "offset":44
+   },
+   {
+      "artist":"Madonna",
+      "song":"Borderline",
+      "album":"Madonna",
+      "release_year":"1983",
+      "id":"rSaC-YbSDpo"
+   },
+   {
+      "artist":"Madonna",
+      "song":"Holiday",
+      "album":"Madonna",
+      "release_year":"1983",
+      "id":"5Rswx2Z7SDw",
+      "offset":24
+   },
+   {
+      "artist":"Madonna",
+      "song":"Like A Virgin",
+      "album":"Like A Virgin",
+      "release_year":"1984",
+      "id":"s__rX_WL100",
+      "offset":12
+   },
+   {
+      "artist":"Madonna",
+      "song":"Like A Prayer",
+      "album":"Like a Prayer",
+      "release_year":"1989",
+      "id":"79fzeNUqQbQ" 
+   },
+   {
+      "artist":"Madonna",
+      "song":"Open Your Heart",
+      "album":"True Blue",
+      "release_year":"1986",
+      "id":"snsTmi9N9Gs"
+   },
+   {
+      "artist":"Madonna",
+      "song":"Papa Don't Preach",
+      "album":"True Blue",
+      "release_year":"1986",
+      "id":"G333Is7VPOg"
+   },
+   {
+      "artist":"Madonna",
+      "song":"Vogue",
+      "album":"I'm Breathless",
+      "release_year":"1990",
+      "id":"GuJQSAiODqI" 
+   },
+   {
+      "artist":"Martika",
+      "song":"Toy Soldiers",
+      "album":"Martika",
+      "release_year":"1988",
+      "id":"LvdLovAaYzM"
+   },
+   {
+      "artist":"MC Hammer",
+      "song":"U Can\\'t Touch This",
+      "album":"Please Hammer Don't Hurt \\'Em",
+      "release_year":"1989",
+      "id":"otCpCn0l4Wo",
+      "offset":15
+   },
+   {
+      "artist":"Men At Work",
+      "song":"Down Under",
+      "album":"Business as Usual",
+      "release_year":"1981",
+      "id":"XfR9iY5y94s"
+   },
+   {
+      "artist":"Men Without Hats",
+      "song":"Pop Goes the World",
+      "album":"Pop Goes the World",
+      "release_year":"1987",
+      "id":"3zUUtf7gOe8"
+   },
+   {
+      "artist":"Men Without Hats",
+      "song":"Safety Dance",
+      "album":"Rhythm of Youth",
+      "release_year":"1982",
+      "id":"AjPau5QYtYs"
+   },
+   {
+      "artist":"Miami Sound Machine",
+      "song":"Bad Boy",
+      "album":"Primitive Love",
+      "release_year":"1985",
+      "id":"hk8ul2uJA5E",
+      "offset":56
+   },
+   {
+      "artist":"Miami Sound Machine",
+      "song":"Conga",
+      "album":"Primitive Love",
+      "release_year":"1985",
+      "id":"54ItEmCnP80",
+      "offset":58
+   },
+   {
+      "artist":"Michael Jackson",
+      "alternates":[
+         "King Of Pop",
+         "The King of Pop"
+      ],
+      "song":"Billie Jean",
+      "album":"Thriller",
+      "release_year":"1982",
+      "id":"Zi_XLOBDo_Y"
+   },
+   {
+      "artist":"Michael Jackson",
+      "alternates":[
+         "King Of Pop",
+         "The King of Pop"
+      ],
+      "song":"The Way You Make Me Feel",
+      "album":"Bad",
+      "release_year":"1987",
+      "id":"HzZ_urpj4As",
+      "offset":64
+   },
+   {
+      "artist":"Michael Jackson",
+      "alternates":[
+         "King Of Pop",
+         "The King of Pop"
+      ],
+      "song":"Thriller",
+      "album":"Thriller",
+      "release_year":"1982",
+      "id":"sOnqjkJTMaA",
+      "offset":273
+   },
+   {
+      "artist":"Midnight Oil",
+      "song":"Beds Are Burning",
+      "album":"Diesel and Dust",
+      "release_year":"1987",
+      "id":"ejorQVy3m8E",
+      "offset":10
+   },
+   {
+      "artist":"Mike And The Mechanics",
+      "song":"The Living Years",
+      "album":"Living Years",
+      "release_year":"1988",
+      "id":"uGDA0Hecw1k"
+   },
+   {
+      "artist":"Milli Vanilli",
+      "song":"Girl I'm Gonna Miss You",
+      "album":"All or Nothing",
+      "release_year":"1989",
+      "id":"ZbUENJ5FjBk"
+   },
+   {
+      "artist":"Modern English",
+      "song":"I Melt With You",
+      "album":"After the Snow",
+      "release_year":"1982",
+      "id":"LuN6gs0AJls"
+   },
+   {
+      "artist":"Morrissey",
+      "song":"Suedehead",
+      "album":"Viva Hate",
+      "release_year":"1988",
+      "id":"0AvuweztG4Q",
+      "offset":9
+   },
+   {
+      "artist":"Motley Crüe",
+      "alternatives":[
+         "Motley Crue"
+      ],
+      "song":"Girls Girls Girls",
+      "album":"Girls Girls Girls",
+      "release_year":"1987",
+      "id":"d2XdmyBtCRQ",
+      "offset":7
+   },
+   {
+      "artist":"Mr. Mister",
+      "alternates": [
+        "Mr Mister" 
+      ],
+      "song":"Broken Wings",
+      "album":"Welcome to the Real World",
+      "release_year":"1985",
+      "id":"nKhN1t_7PEY",
+      "offset":5
+   },
+   {
+      "artist":"Mr. Mister",
+      "alternates": [
+        "Mr Mister" 
+      ],
+      "song":"Kyrie",
+      "album":"Welcome to the Real World",
+      "release_year":"1985",
+      "id":"9NDjt4FzFWY",
+      "offset":5
+   },
+   {
+      "artist":"Murray Head",
+      "song":"One Night In Bangkok",
+      "album":"Chess",
+      "release_year":"1984",
+      "id":"rgc_LRjlbTU",
+      "offset":60
+   },
+   {
+      "artist":"Naked Eyes",
+      "song":"Always Something There To Remind Me",
+      "album":"Burning Bridges",
+      "release_year":"1983",
+      "id":"lVrELhxOFnM",
+      "offset":20
+   },
+   {
+      "artist":"Nelson",
+      "song":"After The Rain",
+      "album":"After the Rain",
+      "release_year":"1990",
+      "id":"bmywdJby43w",
+      "offset":104
+   },
+   {
+      "artist":"Nelson",
+      "song":"(Can\\'t Live Without Your) Love And Affection",
+      "album":"After the Rain",
+      "release_year":"1990",
+      "id":"x1W6-ErrHls",
+      "offset":46
+   },
+   {
+      "artist":"Nena",
+      "song":"99 Luftballoons",
+      "album":"Nena",
+      "release_year":"1983",
+      "id":"Fpu5a0Bl8eY",
+      "offset":68
+   },
+   {
+      "artist":"New Order",
+      "song":"True Faith",
+      "album":"Substance",
+      "release_year":"1987",
+      "id":"mfI1S0PKJR8",
+      "offset":5
+   },
+   {
+      "artist":"Olivia Newton John",
+      "song":"Physical",
+      "album":"Physical",
+      "release_year":"1981",
+      "id":"vWz9VN40nCA"
+   },
+   {
+      "artist":"Orchestral Manoeuvers In The Dark",
+      "alternates":[
+         "Orchestral Maneuvers In The Dark",
+         "OMD"
+      ],
+      "song":"If You Leave",
+      "album":"Pretty in Pink Soundtrack",
+      "release_year":"1986",
+      "id":"EPmTGFg06zA"
+   },
+   {
+      "artist":"The Outfield",
+      "alternates":[
+        "Outfield" 
+      ],
+      "song":"Your Love",
+      "album":"Play Deep",
+      "release_year":"1985",
+      "id":"4N1iwQxiHrs",
+      "offset":35
+   },
+   {
+      "artist":"Patrick Swayze",
+      "song":"She\\'s Like The Wind",
+      "album":"Dirty Dancing Soundtrack",
+      "release_year":"1987",
+      "id":"lU9p1WRfA9w"
+   },
+   {
+      "artist":"Pat Benatar",
+      "song":"Love Is A Battlefield",
+      "album":"Live from Earth",
+      "release_year":"1983",
+      "id":"IGVZOLV9SPo",
+      "offset":12
+   },
+   {
+      "artist":"Pat Benatar",
+      "song":"We Belong",
+      "album":"Tropico",
+      "release_year":"1984",
+      "id":"qxZInIyOBXk"
+   },
+   {
+      "artist":"Pink Floyd",
+      "song":"Learning To Fly",
+      "album":"A Momentary Lapse of Reason",
+      "release_year":"1987",
+      "id":"nVhNCTH8pDs",
+      "offset":34
+   },
+   {
+      "artist":"Paul McCartney",
+      "song":"No More Lonely Nights",
+      "album":"Give My Regards to Broad Street Soundtrack",
+      "release_year":"1984",
+      "id":"y3Xn9A4Negk",
+      "offset":105
+   },
+   {
+      "artist":"Paula Abdul",
+      "song":"Opposites Attract",
+      "album":"Forever Your Girl",
+      "release_year":"1988",
+      "id":"xweiQukBM_k"
+   },
+   {
+      "artist":"Paul Simon",
+      "song":"You Can Call Me Al",
+      "album":"Graceland",
+      "release_year":"1986",
+      "id":"uq-gYOrU8bA"
+   },
+   {
+      "artist":"Paul Young",
+      "song":"Everytime You Go Away",
+      "album":"The Secret Of Association",
+      "release_year":"1985",
+      "id":"nfk6sCzRTbM"
+   },
+   {
+      "artist":"Peter Cetera",
+      "song":"The Glory Of Love",
+      "album":"Solitude/Solitaire",
+      "release_year":"1986",
+      "id":"yQHhqDRn4_c",
+      "offset":30
+   },
+   {
+      "artist":"Peter Gabriel",
+      "song":"Big Time",
+      "album":"So",
+      "release_year":"1986",
+      "id":"PBAl9cchQac"
+   },
+   {
+      "artist":"Peter Gabriel",
+      "song":"In Your Eyes",
+      "album":"So",
+      "release_year":"1986",
+      "id":"kU8OJAOMbPg",
+      "offset":25
+   },
+   {
+      "artist":"Peter Gabriel",
+      "song":"Red Rain",
+      "album":"So",
+      "release_year":"1986",
+      "id":"FkLTwX0duY4",
+      "offset":29
+   },
+   {
+      "artist":"Peter Gabriel",
+      "song":"Shock The Monkey",
+      "album":"Peter Gabriel",
+      "release_year":"1982",
+      "id":"CnVf1ZoCJSo"
+   },
+   {
+      "artist":"Peter Gabriel",
+      "song":"Sledgehammer",
+      "album":"Peter Gabriel",
+      "release_year":"1986",
+      "id":"OJWJE0x7T4Q",
+      "offset":15
+   },
+   {
+      "artist":"Peter Gabriel",
+      "song":"Solsbury Hill",
+      "album":"Peter Gabriel",
+      "release_year":"1977",
+      "id":"_OO2PuGz-H8",
+      "offset":15
+   },
+   {
+      "artist":"Peter Gabriel And Kate Bush",
+      "alternates":[
+         "Peter Gabriel & Kate Bush"
+         "Peter Gabriel With Kate Bush"
+      ],
+      "song":"Don\\`t Give Up",
+      "album":"So",
+      "release_year":"1986",
+      "id":"_OO2PuGz-H8",
+      "offset":15
+   },
+   {
+      "artist":"Pet Shop Boys",
+      "song":"Domino Dancing",
+      "album":"Introspective",
+      "release_year":"1988",
+      "id":"ik2YF05iX2w"
+   },
+   {
+      "artist":"Pet Shop Boys",
+      "song":"West End Girls",
+      "album":"West End Girls",
+      "release_year":"1984",
+      "id":"p3j2NYZ8FKs"
+   },
+   {
+      "artist":"Phil Collins",
+      "song":"Another Day In Paradise",
+      "album":"...But Seriously",
+      "release_year":"1989",
+      "id":"Qt2mbGP6vFI",
+      "offset":10
+   },
+   {
+      "artist":"Phil Collins",
+      "song":"Sussudio",
+      "album":"No Jacket Required",
+      "release_year":"1985",
+      "id":"r0qBaBb1Y-U",
+      "offset":46
+   },
+   {
+      "artist":"The Police",
+      "song":"Don\\'t Stand So Close To Me",
+      "album":"Zenyatta Mondatta",
+      "release_year":"1980",
+      "id":"KNIZofPB8ZM",
+      "offset":25
+   },
+   {
+      "artist":"The Police",
+      "song":"Every Breath You Take",
+      "album":"Synchronicity",
+      "release_year":"1983",
+      "id":"OMOGaugKpzs"
+   },
+   {
+      "artist":"The Police",
+      "song":"Every Little Thing She Does Is Magic",
+      "album":"Ghost in the Machine",
+      "release_year":"1981",
+      "id":"aENX1Sf3fgQ"
+   },
+   {
+      "artist":"The Police",
+      "song":"Wrapped Around Your Finger",
+      "album":"Synchronicity",
+      "release_year":"1983",
+      "id":"svWINSRhQU0",
+      "offset":45
+   },
+   {
+        "artist":"The Pointer Sisters",
+        "song":"I\\'m So Excited",
+        "album":"The Pointer Sisters",
+        "release_year":"1982",
+        "id":"8iwBM_YB1sE"
+   },
+   {
+      "artist":"Poison",
+      "song":"Every Rose Has Its Thorn",
+      "album":"Open Up and Say... Ahh!",
+      "release_year":"1988",
+      "id":"j2r2nDhTzO4",
+      "offset":34
+   },
+   {
+      "artist":"Poison",
+      "song":"Nothin\\' But A Good Time",
+      "album":"Open Up and Say... Ahh!",
+      "release_year":"1988",
+      "id":"_88L-CU7PD4",
+      "offset":43
+   },
+   {
+      "artist":"Pretty Poison",
+      "song":"Catch Me I\\m Falling",
+      "album":"Hiding Out",
+      "release_year":"1987",
+      "id":"qNQUhqFZ3h8",
+      "offset":50
+   },
+   {
+      "artist":"Prince",
+      "song":"Let's Go Crazy",
+      "album":"Purple Rain",
+      "release_year":"1984",
+      "id":"WhOevoWv6u0",
+      "offset":20
+   },
+   {
+      "artist":"Prince",
+      "song":"When Doves Cry",
+      "album":"Purple Rain",
+      "release_year":"1984",
+      "id":"IUc0R8bbWQE"
+   },
+   {
+      "artist":"Quarterflash",
+      "song":"Harden My Heart",
+      "album":"Quarterflash",
+      "release_year":"1981",
+      "id":"OqeKV2UYq1Q",
+      "offset":20
+   },
+   {
+      "artist":"Queen",
+      "song":"Crazy Little Thing Called Love",
+      "album":"The Game",
+      "release_year":"1979",
+      "id":"zO6D_BAuYCI",
+      "offset":6
+   },
+   {
+      "artist":"Queen",
+      "song":"I Want To Break Free",
+      "album":"The Works",
+      "release_year":"1984",
+      "id":"eM8Ss28zjcE",
+      "offset":6
+   },
+   {
+      "artist":"Queen",
+      "song":"Princes Of The Universe",
+      "album":"A Kind of Magic",
+      "release_year":"1986",
+      "id":"VEJ8lpCQbyw",
+      "offset":13
+   },
+   {
+      "artist":"Quiet Riot",
+      "song":"Cum On Feel The Noize",
+      "album":"Metal Health",
+      "release_year":"1983",
+      "id":"ZxgMGk9JPVA",
+      "offset":20
+   },
+   {
+      "artist":"Quiet Riot",
+      "song":"Bang Your Head",
+      "album":"Metal Health",
+      "release_year":"1983",
+      "id":"ZxgMGk9JPVA",
+      "offset":20
+   },
+   {
+      "artist":"Ratt",
+      "song":"Round And Round",
+      "album":"Out of the Cellar",
+      "release_year":"1984",
+      "id":"0u8teXR8VE4"
+   },
+   {
+      "artist":"Ratt",
+      "song":"Way Cool Jr.",
+      "album":"Reach for the Sky",
+      "release_year":"1988",
+      "id":"Vo_ITHEVMm8",
+      "offset":73
+   },
+   {
+      "artist":"Ray Parker Jr.",
+      "alternates":[
+         "Ray Parker Jr"
+      ],
+      "song":"Ghostbusters",
+      "album":"Ghostbusters Soundtrack",
+      "release_year":"1984",
+      "id":"Fe93CLbHjxQ",
+      "offset":2
+   },
+   {
+      "artist":"Ready For The World",
+      "song":"Love You Down",
+      "album":"Long Time Coming",
+      "release_year":"1986",
+      "id":"r3Ui8_oqc9Q"
+   },
+   {
+      "artist":"R.E.M.",
+      "alternates":[
+         "REM"
+      ],
+      "song":"Finest Worksong",
+      "album": "Document",
+      "release_year":1987,
+      "id":"559eWB93jW4"
+   },
+   {
+      "artist":"R.E.M.",
+      "alternates":[
+         "REM"
+      ],
+      "song":"It\\'s The End Of The World As We Know It (And I Feel Fine)",
+      "album": "Document",
+      "release_year":1987,
+      "id":"Z0GFRcFm-aY",
+      "offset":3
+   },
+   {
+      "artist":"R.E.M.",
+      "alternates":[
+         "REM"
+      ],
+      "song":"Shiny Happy People",
+      "album":"Out of Time",
+      "release_year":1991,
+      "id":"YYOKMUTTDdA"
+   },
+   {
+      "artist":"R.E.M.",
+      "alternates":[
+         "REM"
+      ],
+      "song":"Orange Crush",
+      "album":"Green",
+      "release_year":1988,
+      "id":"_mSmOcmk7uQ"
+   },
+   {
+      "artist":"R.E.M.",
+      "alternates":[
+         "REM"
+      ],
+      "song":"The One I Love",
+      "album": "Document",
+      "release_year":1987,
+      "id":"j7oQEPfe-O8"
+   },
+   {
+      "artist":"R.E.M.",
+      "alternates":[
+         "REM"
+      ],
+      "song":"Radio Free Europe",
+      "album": "Murmur",
+      "release_year":1983,
+      "id":"Ac0oaXhz1u8"
+   },
+   {
+      "artist":"R.E.M.",
+      "alternates":[
+         "REM"
+      ],
+      "song":"Stand",
+      "album":"Green",
+      "release_year":"1988",
+      "id":"v=bLaSXpqp__E"
+   },
+   {
+      "artist":"REO Speedwagon",
+      "song":"Can\\'t Fight This Feeling",
+      "album":"Wheels Are Turnin\\'",
+      "release_year":"1984",
+      "id":"zpOULjyy-n8"
+   },
+   {
+      "artist":"Richard Marx",
+      "song":"Hold On To The Night",
+      "album":"Richard Marx",
+      "release_year":"1987",
+      "id":"LBmNTLxclXE",
+      "offset":5
+   },
+   {
+      "artist":"Richard Marx",
+      "song":"Right Here Waiting For You",
+      "album":"Repeat Offender",
+      "release_year":"1989",
+      "id":"S_E2EHVxNAE" 
+   },
+   {
+      "artist":"Richard Marx",
+      "song":"Should\\'ve Known Better",
+      "album":"Richard Marx",
+      "release_year":"1987",
+      "id":"TpKxH2dDqEM",
+      "offset":40
+   },
+   {
+      "artist":"Rick Astley",
+      "song":"Never Gonna Give You Up",
+      "album":"1987",
+      "release_year":"Whenever You Need Somebody",
+      "id":"dQw4w9WgXcQ"
+   },
+   {
+      "artist":"Rick James",
+      "song":"Super Freak",
+      "album":"Street Songs",
+      "release_year":"1981",
+      "id":"QYHxGBH6o4M"
+   },
+   {
+      "artist":"Rick Springfield",
+      "song":"Jessie\\'s Girl",
+      "album":"Working Class Dog",
+      "release_year":"1981",
+      "id":"qYkbTyHXwbs"
+   },
+   {
+      "artist":"Robert Palmer",
+      "song":"Addicted To Love",
+      "album":"Riptide",
+      "release_year":"1985",
+      "id":"XcATvu5f9vE"
+   },
+   {
+      "artist":"Robert Palmer",
+      "song":"Simply Irresistible",
+      "album":"Heavy Nova",
+      "release_year":"1988",
+      "id":"UrGw_cOgwa8",
+      "offset":7
+   },
+   {
+      "artist":"Rockwell",
+      "song":"Somebody\\'s Watching Me",
+      "album":"Somebody\\'s Watching Me",
+      "release_year":"1984",
+      "id":"7YvAYIJSSZY" 
+   },
+   {
+      "artist":"Rod Stewart",
+      "song":"Love Touch",
+      "album":"Every Beat of My Heart",
+      "release_year":"1986",
+      "id":"ZFVgPWXeMaQ",
+      "offset":37
+   },
+   {
+      "artist":"The Rolling Stones",
+      "song":"Start Me Up",
+      "album":"Tattoo You",
+      "release_year":"1981",
+      "id":"SGyOaCXr8Lw"
+   },
+   {
+      "artist":"The Romantics",
+      "song":"Talking In Your Sleep",
+      "album":"In Heat",
+      "release_year":"1983",
+      "id":"JmGMzyajA2U"
+   },
+
+   {
+      "artist":"Roxette",
+      "song":"It Must Have Been Love",
+      "album":"It Must Have Been Love",
+      "release_year":"1987",
+      "id":"k2C5TjS2sh4"
+   },
+   {
+      "artist":"Roxette",
+      "song":"The Look",
+      "album":"Look Sharp!",
+      "release_year":"1988",
+      "id":"LlVI7ZNiFlI"
+   },
+   {
+      "artist":"RUN-DMC",
+      "alternates":[
+         "RUN DMC"
+      ],
+      "song":"It\\'s Tricky",
+      "album":"Raising Hell",
+      "release_year":"1986",
+      "id":"l-O5IHVhWj0",
+      "offset":113
+   },
+   {
+      "artist":"RUN-DMC And Aerosmith",
+      "alternates":[
+         "RUN DMC And Aerosmith",
+         "RUN-DMC with Aerosmith",
+         "RUN DMC with Aerosmith",
+         "RUN-DMC Aerosmith",
+         "RUN DMC Aerosmith"
+      ],
+      "song": "Walk This Way",
+      "album":"Raising Hell",
+      "release_year":"1986",
+      "id":"4B_UYYPb-Gk" 
+   },
+   {
+      "artist":"Sade",
+      "song":"Smooth Operator",
+      "album":"Diamond Life",
+      "release_year":"1984",
+      "id":"4TYv2PhG89A"
+   },
+   {
+      "artist":"Sade",
+      "song":"The Sweetest Taboo",
+      "album":"Promise",
+      "release_year":"1985",
+      "id":"kcPc18SG6uA",
+      "offset":45
+   },
+   {
+      "artist":"Salt-N-Pepa",
+      "song":"Push It",
+      "album":"Hot, Cool And Vicious",
+      "release_year":"1986",
+      "id":"vCadcBR95oU"
+   },
+   {
+      "artist":"Scandal",
+      "song":"The Warrior",
+      "album":"Warrior ",
+      "release_year":"1984",
+      "id":"47y5bo8wtqM"
+   },
+   {
+      "artist":"Scandal",
+      "song":"Goodbye To You",
+      "album":"Scandal",
+      "release_year":"1982",
+      "id":"_50-gOeBilc",
+      "offset":17
+   },
+   {
+      "artist":"Scorpions",
+      "song":"Rock You Like A Hurricane",
+      "album":"Love At First Sting",
+      "release_year":"1984",
+      "id":"6yP1tcy9a10"
+   },
+   {
+      "artist":"Scorpions",
+      "song":"Winds of Change",
+      "album":"Crazy World",
+      "release_year":"1990",
+      "id":"n4RjJKxsamQ"
+   },
+   {
+      "artist":"Simple Minds",
+      "song":"Alive And Kicking",
+      "album":"Once Upon a Time",
+      "release_year":"1985",
+      "id":"ljIQo1OHkTI" 
+   },
+   {
+      "artist":"Simple Minds",
+      "song":"Don\\'t You Forget About Me",
+      "album":"The Breakfast Club Soundtrack",
+      "release_year":"1985",
+      "id":"CdqoNKCCt7A"
+   },
+   {
+      "artist":"Simply Red",
+      "song":"If You Don\\'t Know Me By Now",
+      "album":"A New Flame",
+      "release_year":"1989",
+      "id":"zTcu7MCtuTs"
+   },
+   {
+      "artist":"Siouxsie And The Banshees",
+      "alternates":[
+         "Siouxsie Sioux And The Banshees"
+      ],
+      "song":"Peek-A-Boo",
+      "album":"Peepshow",
+      "release_year":"1988",
+      "id":"gGH_16SICL0"
+   },
+   {
+      "artist":"Skid Row",
+      "song":"I Remember You",
+      "album":"Skid Row",
+      "release_year":"1989",
+      "id":"qjuEXKwnkLE"
+   },
+   {
+      "artist":"Soft Cell",
+      "song":"Tainted Love",
+      "album":"Non-Stop Erotic Cabaret",
+      "release_year":"1981",
+      "id":"XZVpR3Pk-r8"
+   },
+   {
+      "artist":"Spandau Ballet",
+      "song":"True",
+      "album":"True",
+      "release_year":"1983",
+      "id":"AR8D2yqgQ1U"
+   },
+   {
+      "artist":"Starship",
+      "song":"Nothing\\'s Gonna Stop Us Now",
+      "album":"No Protection",
+      "release_year":"1987",
+      "id":"3wxyN3z9PL4"
+   },
+   {
+      "artist":"Starship",
+      "song":"Sara",
+      "album":"Knee Deep in the Hoopla",
+      "release_year":"1985",
+      "id":"32ScTb6_KHg"
+   },
+   {
+      "artist":"Starship",
+      "song":"We Built This City (On Rock And Roll)",
+      "album":"Knee Deep in the Hoopla",
+      "release_year":"1985",
+      "id":"K1b8AhIsSYQ",
+      "offset":4
+   },
+   {
+      "artist":"Steve Miller Band",
+      "song":"Abracadabra",
+      "album":"Abracadabra",
+      "release_year":"1982",
+      "id":"tY8B0uQpwZs"
+   },
+   {
+      "artist":"Steve Winwood",
+      "song":"Back In The High Life Again",
+      "album":"Back in the High Life",
+      "release_year":"1986",
+      "id":"Adw772km7PQ",
+      "offset":24
+   },
+   {
+      "artist":"Steve Winwood",
+      "song":"Valerie",
+      "album":"Talking Back to the Night",
+      "release_year":"1982",
+      "id":"xOTjkQMdF6o"
+   },
+   {
+      "artist":"Stray Cats",
+      "song":"Stray Cat Strut",
+      "album":"Stray Cats",
+      "release_year":"1981",
+      "id":"vEtbfzMLVWU",
+      "offset":8
+   },
+   {
+      "artist":"Stryper",
+      "song":"Always There For You",
+      "album":" In God We Trust",
+      "release_year":"1988",
+      "id":"0kiTy_rBtSk",
+      "offset":22
+   },
+   {
+      "artist":"Survivor",
+      "song":"Eye of the Tiger",
+      "album":"Eye of the Tiger",
+      "release_year":"1982",
+      "id":"btPJPFnesV4"
+   },
+   {
+      "artist":"Survivor",
+      "song":"The Search Is Over",
+      "album":"Vital Signs",
+      "release_year":"1984",
+      "id":"xELTfJ-ZVBc"
+   },
+   {
+      "artist":"Suzanne Vega",
+      "song":"Luka",
+      "album":"Solitude Standing",
+      "release_year":"1987",
+      "id":"VZt7J0iaUD0"
+   },
+   {
+      "artist":"Taco",
+      "song":"Puttin' On The Ritz",
+      "album":"After Eight",
+      "release_year":"1982",
+      "id":"l5txyTYkZt8"
+   },
+   {
+      "artist":"Talking Heads",
+      "song":"And She Was",
+      "album":"Little Creatures",
+      "release_year":"1985",
+      "id":"YgSVTdAtNYE",
+      "offset":16
+   },
+   {
+      "artist":"Talking Heads",
+      "song":"Once In A Lifetime",
+      "album":"Remain in Light",
+      "release_year":"1981",
+      "id":"5IsSpAOD6K8",
+      "offset":12
+   },
+   {
+      "artist":"Taylor Dayne",
+      "song":"Tell It To My Heart",
+      "album":"Tell It to My Heart",
+      "release_year":"1988",
+      "id":"Ud6sU3AclT4"
+   },
+   {
+      "artist":"Tears For Fears",
+      "song":"Everybody Wants To Rule The World",
+      "album":"Songs from the Big Chair",
+      "release_year":"1985",
+      "id":"CsHiG-43Fzg",
+      "offset":57
+   },
+   {
+      "artist":"Tears For Fears",
+      "song":"Head Over Heels",
+      "album":"Songs from the Big Chair",
+      "release_year":"1985",
+      "id":"CsHiG-43Fzg",
+      "offset":30
+   },
+   {
+      "artist":"Tears For Fears",
+      "song":"Shout",
+      "album":"Songs from the Big Chair",
+      "release_year":"1985",
+      "id":"Ye7FKc1JQe4",
+      "offset":16
+   },
+   {
+      "artist":"Teena Marie",
+      "song":"Lovergirl",
+      "album":"Starchild",
+      "release_year":"1984",
+      "id":"1fyWgjhe_Zg",
+      "offset":89
+   },
+   {
+      "artist":"Thomas Dolby",
+      "song":"She Blinded Me With Science",
+      "album":"The Golden Age of Wireless",
+      "release_year":"1983",
+      "id":"V83JR2IoI8k",
+      "offset":23
+   },
+   {
+      "artist":"Thompson Twins",
+      "song":"Hold Me Now",
+      "album":"Into the Gap",
+      "release_year":"1983",
+      "id":"CsHiG-43Fzg",
+      "offset":32
+   },
+   {
+      "artist":"Tiffany",
+      "song":"I Think We\\'re Alone Now",
+      "album":"Tiffany",
+      "release_year":"1987",
+      "id":"w6Q3mHyzn78",
+      "offset":5
+   },
+   {
+      "artist":"Timbuk 3",
+      "song":"The Future\\'s So Bright",
+      "album":"Greetings from Timbuk3",
+      "release_year":"1986",
+      "id":"8qrriKcwvlY"
+   },
+   {
+      "artist":"Tina Turner",
+      "song":"Private Dancer",
+      "album":"Private Dancer",
+      "release_year":"1984",
+      "id":"d4QnalIHlVc"
+   },
+   {
+      "artist":"Tina Turner",
+      "song":"The Best",
+      "album":"Hide Your Heart",
+      "release_year":"1988",
+      "id":"GC5E8ie2pdM"
+   },
+   {
+      "artist":"Tina Turner",
+      "song":"We Don't Need Another Hero (Thunderdome)",
+      "album":"Mad Max Beyond Thunderdome Soundtrack",
+      "release_year":"1985",
+      "id":"Gcm-tOGiva0",
+      "offset":24
+   },
+   {
+      "artist":"Tom Petty",
+      "song":"Don\\'t Come Around Here No More",
+      "album":"Southern Accents",
+      "release_year":"1985",
+      "id":"h0JvF9vpqx8",
+      "offset":41
+   },
+   {
+      "artist":"Tom Petty",
+      "song":"Free Fallin\\'",
+      "album":"Full Moon Fever",
+      "release_year":"1989",
+      "id":"1lWJXDG2i0A",
+      "offset":5
+   },
+   {
+      "artist":"Tom Petty",
+      "song":"Runnin\\' Down A Dream",
+      "album":"Full Moon Fever",
+      "release_year":"1989",
+      "id":"Y1D3a5eDJIs",
+      "offset":14
+   },
+   {
+      "artist":"Tom Petty",
+      "song":"You Got Lucky",
+      "album":"Long After Dark",
+      "release_year":"1982",
+      "id":"mtLpZWNyM0I",
+      "offset":74
+   },
+   {
+     "artist":"Tommy Tutone",
+     "song":"867-5309/Jenny",
+     "album":"Tommy Tutone 2",
+     "release_year":"1981",
+     "id": "6WTdTwcmxyo",
+     "offset":14
+   },
+   {
+      "artist": "Tone Loc",
+      "song":"Funky Cold Medina",
+      "album":"Lōc-ed After Dark",
+      "release_year":"1989",
+      "id":"63ZIf2H9S0E",
+      "offset":14
+   },
+   {
+      "artist":"Tone Loc",
+      "song":"Wild Thing",
+      "album":"Wild Thing",
+      "release_year":"1988",
+      "id":"387ZDGSKVSg"
+   },
+   {
+      "artist":"Toni Basil",
+      "song":"Hey Mickey",
+      "album":"Word of Mouth",
+      "release_year":"1981",
+      "id":"0aqLwHP4y6Q",
+      "offset":45
+   },
+   {
+      "artist":"Toto",
+      "song": "Africa",
+      "album":"Toto IV",
+      "release_year":"1982",
+      "id":"FTQbiNvZqaY",
+      "offset":1
+   },
+   {
+      "artist":"Toto",
+      "song":"Rosanna",
+      "album":"Toto IV",
+      "release_year":"1982",
+      "id":"qmOLtTGvsbM"
+   },
+   {
+      "artist":"Tracy Chapman",
+      "song":"Fast Car",
+      "album":"Tracy Chapman",
+      "release_year":"1988",
+      "id":"qmOLtTGvsbM",
+      "offset":39
+   },
+   {
+      "artist":"Twisted Sister",
+      "song":"I Wanna Rock",
+      "album":"Stay Hungry",
+      "release_year":"1984",
+      "id":"SRwrg0db_zY",
+      "offset":88
+   },
+   {
+      "artist":"Twisted Sister",
+      "song":"We're Not Gonna Take It",
+      "album":"Stay Hungry",
+      "release_year":"1984",
+      "id":"V9AbeALNVkk",
+      "offset":173
+   },
+   {
+      "artist":"U2",
+      "song":"Desire",
+      "album":"Rattle And Hum",
+      "release_year":"1988",
+      "id":"GzZWSrr5wFI",
+      "offset":30
+   },
+   {
+      "artist":"U2",
+      "song":"I Still Haven\\'t Found What I'm Looking For",
+      "album":"The Joshua Tree",
+      "release_year":"1987",
+      "id":"e3-5YC_oHjE",
+      "offset":20
+   },
+   {
+      "artist":"U2",
+      "song":"Pride (In The Name Of Love)",
+      "album":"The Unforgettable Fire",
+      "release_year":"1984",
+      "id":"LHcP4MWABGY",
+      "offset":18
+   },
+   {
+      "artist":"U2",
+      "song":"Sunday Bloody Sunday",
+      "album":"War",
+      "release_year":"1983",
+      "id":"Yv5U0A10hrI",
+      "offset":42
+   },
+   {
+      "artist":"U2",
+      "song":"Where The Streets Have No Name",
+      "album":"The Joshua Tree",
+      "release_year":"1987",
+      "id":"GzZWSrr5wFI",
+      "offset":162
+   },
+   {
+      "artist":"Vanilla Ice",
+      "song":"Ice Ice Baby",
+      "album":"Ice Ice Baby",
+      "release_year":1990,
+      "id":"rog8ou-ZepE"
+   },
+   {
+      "artist":"Van Halen",
+      "song":"Dance the Night Away",
+      "album":"Van Halen II",
+      "release_year":"1979",
+      "id":"llfjDUB66Z4",
+      "offset": 48
+   },
+   {
+      "artist":"Van Halen",
+      "song":"Hot For Teacher",
+      "album":"1984",
+      "release_year":"1984",
+      "id":"6M4_Ommfvv0",
+      "offset:":49
+   },
+   {
+      "artist":"Van Halen",
+      "song":"Jump",
+      "album":"1984",
+      "release_year":"1984",
+      "id":"SwYN7mTi6HM"
+   },
+   {
+      "artist":"Van Halen",
+      "song":"Panama",
+      "album":"1984",
+      "release_year":"1984",
+      "id":"fuKDBPw8wQA",
+      "offset": 10
+   },
+   {
+      "artist":"Van Halen",
+      "song":"Running With The Devil",
+      "album":"Van Halen",
+      "release_year":"1978",
+      "id":"i5txwFv-zYM",
+      "offset":15
+   },
+   {
+      "artist":"Van Halen",
+      "song":"Unchained",
+      "album":"Fair Warning",
+      "release_year":"1981",
+      "id":"ojNrj-sWfpk",
+      "offset":20
+   },
+   {
+      "artist":"Vixen",
+      "song":"Edge Of A Broken Heart",
+      "album":"Vixen",
+      "release_year":"1988",
+      "id":"mQOmDUnt8Hs",
+      "offset":38
+   },
+   {
+      "artist":"The Waitresses",
+      "song":"I Knows What Boys Like",
+      "album":"Wasn't Tomorrow Wonderful?",
+      "release_year":"1982",
+      "id":"5UX2afsTqFI",
+      "offset":16
+   },
+   {
+      "artist":"Wang Chung",
+      "song":"Dance Hall Days",
+      "album":"Points on the Curve",
+      "release_year":"1983",
+      "id":"V-xpJRwIA-Q"
+   },
+   {
+      "artist":"Warrant",
+      "song":"Big Talk",
+      "album":"Dirty Rotten Filthy Stinking Rich",
+      "release_year":"1989",
+      "id":"__1u99UXrq8",
+      "offset":72
+   },
+   {
+      "artist":"Warrant",
+      "song":"Blind Faith",
+      "album":"Warrant",
+      "release_year":"1990",
+      "id":"uNoJ9YHtqq0",
+      "offset":54
+   },
+   {
+      "artist":"Warrant",
+      "song":"Cherry Pie",
+      "album":"Warrant",
+      "release_year":"1990",
+      "id":"OjyZKfdwlng"
+   },
+   {
+      "artist":"Warrant",
+      "song":"Down Boys",
+      "album":"Dirty Rotten Filthy Stinking Rich",
+      "release_year":"1989",
+      "id":"0RHENr6Xe70",
+      "offset":38
+   },
+   {
+      "artist":"Warrant",
+      "song":"Heaven",
+      "album":"Dirty Rotten Filthy Stinking Rich",
+      "release_year":"1989",
+      "id":"bx6f68Wd9dc"
+   },
+   {
+      "artist":"Warrant",
+      "song":"I Saw Red",
+      "album":"Warrant",
+      "release_year":"1990",
+      "id":"3dh79Ggx9Js",
+      "offset":30
+   },
+   {
+      "artist":"Warrant",
+      "song":"Sometimes She Cries",
+      "album":"Dirty Rotten Filthy Stinking Rich",
+      "release_year":"1989",
+      "id":"DAX20LoVgxE",
+      "offset":48
+   },
+   {
+      "artist":"Warrant",
+      "song":"Uncle Tom's Cabin",
+      "album":"Warrant",
+      "release_year":"1990",
+      "id":"OjyZKfdwlng",
+      "offset":60 
+   },
+   {
+      "artist":"Wham!",
+      "alternates": [
+         "Wham"
+      ],
+      "song": "Careless Whisper",
+      "album":"Make It Big",
+      "release_year":"1984",
+      "id":"izGwDsrQ1eQ"
+   },
+   {
+      "artist":"Wham!",
+      "alternatives":[
+        "Wham"
+      ],
+      "song":"Everything She Wants",
+      "album":"Make It Big",
+      "release_year":"1984",
+      "id":"Yf_Lwe6p-Cg"
+   },
+   {
+      "artist":"Wham!",
+      "alternates": [
+         "Wham"
+      ],
+      "song": "Last Christmas",
+      "album":"Last Christmas",
+      "release_year":"1984",
+      "id":"E8gmARGvPlI"
+   },
+   {
+      "artist":"Wham!",
+      "alternates": [
+         "Wham"
+      ],
+      "song":"Wake Me Up Before You Go-Go",
+      "album":"Make It Big",
+      "release_year":"1984",
+      "id":"pIgZ7gMze7A" 
+   },
+   {
+      "artist":"When In Rome",
+      "song":"The Promise",
+      "album":"When In Rome",
+      "release_year":"1988",
+      "id":"5HI_xFQWiYU"
+   },
+   {
+      "artist":"Whitesnake",
+      "song":"Here I Go Again \\'87",
+      "album":"Whitesnake",
+      "release_year":"1987",
+      "id":"WyF8RHM1OCg"
+   },
+   {
+      "artist":"Whitesnake",
+      "song":"Is This Love",
+      "album":"Whitesnake",
+      "release_year":"1987",
+      "id":"GOJk0HW_hJw" 
+   },
+   {
+      "artist":"Whitney Houston",
+      "song":"I Wanna Dance With Somebody",
+      "album":"Whitney",
+      "release_year":"1987",
+      "id":"eH3giaIzONA" 
+   },
+   {
+      "artist":"Winger",
+      "song":"Can\\'t Get Enough",
+      "album":"In The Heart Of The Young",
+      "release_year":"1990",
+      "id":"5PnDcjtYGzI",
+      "offset":41
+   },
+   {
+      "artist":"Winger",
+      "song":"Easy Come Easy Go",
+      "album":"In The Heart Of The Young",
+      "release_year":"1990",
+      "id":"XLyWeO2MhPA",
+      "offset":122
+   },
+   {
+      "artist":"Winger",
+      "song":"Headed For A Heartbreak",
+      "album":"Winger",
+      "release_year":"1988",
+      "id":"Xn7rSQCHoKc",
+      "offset":35
+   },
+   {
+      "artist":"Winger",
+      "song":"Hungry",
+      "album":"Winger",
+      "release_year":"1988",
+      "id":"XLyWeO2MhPA",
+      "offset":63
+   },
+   {
+      "artist":"Winger",
+      "song":"Madalaine",
+      "album":"Winger",
+      "release_year":"1988",
+      "id":"D1IOJs6H9qg",
+      "offset":31
+   },
+   {
+      "artist":"Winger",
+      "song":"Miles Away",
+      "album":"In The Heart Of The Young",
+      "release_year":"1990",
+      "id":"ySxCY6Tqr_U",
+      "offset":41
+   },
+   {
+      "artist":"Winger",
+      "song":"Seventeen",
+      "album":"Winger",
+      "release_year":"1988",
+      "id":"Irc5j1gkihY",
+      "offset":25
+   },
+   {
+      "artist":"Yazoo",
+      "alternates":[
+          "Yaz"
+      ],
+      "song":"Situation",
+      "album":"Upstairs at Eric\\'s'",
+      "release_year":"1982",
+      "id":"_erd8-u8BE8"
+   },
+   {
+      "artist":"Yes",
+      "song":"Owner Of A Lonely Heart",
+      "album":"90125",
+      "release_year":"1983",
+      "id":"SVOuYquXuuc",
+      "offset":40
+   },
+   {
+      "artist":"Young MC",
+      "song":"Bust A Move",
+      "album":"Stone Cold Rhymin\\'",
+      "release_year":"1989",
+      "id":"xy4FXhkm6Nw" 
+   },
+   {
+      "artist":"ZZ Top",
+      "song":"Gimme All Your Lovin\\'",
+      "album":"Eliminator",
+      "release_year":"1983",
+      "id":"Ae829mFAGGE",
+      "offset":35
+   },
+   {
+      "artist":"ZZ Top",
+      "song":"Legs",
+      "album":"Eliminator",
+      "release_year":"1983",
+      "id":"eUDcTLaWJuo",
+      "offset":29
+   },
+   {
+      "artist":"ZZ Top",
+      "song":"Sharp Dressed Man",
+      "album":"Eliminator",
+      "release_year":"1983",
+      "id":"7wRHBLwpASw",
+      "offset":24
+   },
+   {
+        "artist":".38 Special",
+        "alternates":[
+         "38 Special"
+        ],
+      "song":"So Caught Up In You",
+      "album":"Special Forces",
+      "release_year":"1982",
+      "id":"zg21Rkew874",
+      "offset":16
+   }
+]
