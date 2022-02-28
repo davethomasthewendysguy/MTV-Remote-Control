@@ -24,3 +24,8 @@ v0.7 -
 	- More songs added (345 total)
 	- Implemented Reset Game button
 	- Implemented a click to reveal info for missed answers
+
+v0.75 -
+	- Fixed issue with duplicate videos from the same artist appearing in a single game
+	- More songs added (497 total)
+	

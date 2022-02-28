@@ -45,6 +45,7 @@ const Intro = () => {
 			<h3 className="play-themsong type-sans-serif">Play Theme</h3>
 			<audio className="themesong" controls>
 				<source src={ThemeSong} type="audio/mpeg" />
+
 			  	Your browser does not support the video element.
 			</audio>
 		</div>
@@ -176,7 +177,7 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 
 const HomePage = ({ counter, dispatch }) => {
 	const randomVideos = VideoList.sort(() => Math.random() - Math.random());
-	const formattedRandomVideos = formatDataHelper([...new Set(randomVideos.map(item => item))]);
+	const formattedRandomVideos = formatDataHelper([...new Map(randomVideos.map((video) => [video["artist"], video])).values()]);
 
 	const videoArray = formattedRandomVideos.slice(0, 9).map(video => {
 		return {
@@ -302,7 +303,7 @@ const HomePage = ({ counter, dispatch }) => {
 							<div className="u-margin-bottom-med u-padding-left-med u-padding-right-med">
 								<img className="intro-logo" src={GameLogo} />
 
-								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.7</h1>
+								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.75</h1>
 								<Intro />
 
 								<div className="game-rules type-sans-serif u-rounded-corners-lg">
