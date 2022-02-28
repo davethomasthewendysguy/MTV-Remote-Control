@@ -256,14 +256,6 @@
       "id":"BptQHAW2T5M"
    },
    {
-      "artist":"Beastie Boys",
-      "song":"(You Gotta) Fight For Your Right To Party",
-      "album":"License To Ill",
-      "release_year":"1986",
-      "id":"eBShN8qT4lk",
-      "offset":40
-   },
-   {
       "artist":"Belinda Carlisle",
       "song":"Heaven Is A Place On Earth",
       "album":"Heaven on Earth",
@@ -301,6 +293,22 @@
      "release_year":"1986",
      "id":"Bx51eegLTY8",
      "offset":10
+   },
+   {
+      "artist":"Big Daddy Kane",
+      "song":"Ain\\'t No Half-Steppin\\'",
+      "album":"Long Live The Kane",
+      "release_year":"1988",
+      "id":"wTCGw0wizRo",
+      "offset":45
+   },
+   {
+      "artist":"Big Daddy Kane",
+      "song":"Smooth Operator",
+      "album":"It\\'s a Big Daddy Thing",
+      "release_year":"1989",
+      "id":"7CivihbG_A0",
+      "offset":56
    },
    {
       "artist":"Billy Idol",
@@ -422,6 +430,14 @@
       "release_year":"1982",
       "id":"L-oNajGRoOQ",
       "offset":25
+   },
+   {
+      "artist":"Biz Markie",
+      "song":"Just A Friend",
+      "album":"The Biz Never Sleeps",
+      "release_year":"1989",
+      "id":"9aofoBrFNdg",
+      "offset":54
    },
    {
       "artist":"Blondie",
@@ -802,7 +818,8 @@
      "song":"Time After Time (Official HD Video)",
      "album":"She\\'s So Unusual",
      "release_year":"1983",
-     "id":"VdQY7BusJNU"
+     "id":"VdQY7BusJNU",
+     "offset":63
    },
    {
       "artist":"Damn Yankees",
@@ -825,8 +842,32 @@
       "song":"High Enough",
       "album":"Damn Yankees",
       "release_year":"1990",
-      "id":"l_uh8XjgLTE",
+      "id":"621Nk3Ubz4A",
       "offset":36
+   },
+   {
+      "artist":"Dan Hartman",
+      "song":"I Can Dream About You",
+      "album":"Streets of Fire Soundtrack",
+      "release_year":"1984",
+      "id":"l_uh8XjgLTE",
+      "offset":63
+   },
+   {
+      "artist":"Dan Hartman",
+      "song":"Second Nature",
+      "album":"I Can Dream About You",
+      "release_year":"1984",
+      "id":"Ewocec8hTns",
+      "offset":40
+   },
+   {
+      "artist":"Dan Hartman",
+      "song":"We Are The Young",
+      "album":"I Can Dream About You",
+      "release_year":"1984",
+      "id":"6uzGmcRN114",
+      "offset":20
    },
    {
       "artist":"David Lee Roth",
@@ -1017,6 +1058,18 @@
       "release_year":"1987",
       "id":"noLPhZvcBpw",
       "offset":33
+   },
+   {
+      "artist":"Doug E. Fresh And The Get Fresh Crew",
+      "alternates":[
+         "Doug E. Fresh",
+         "Doug E Fresh"
+      ],
+      "song":"Keep Risin\\' To The Top",
+      "album":"The World's Greatest Entertainer",
+      "release_year":"1988",
+      "id":"19RQYMJTd0Q",
+      "offset":72
    },
    {
       "artist":"The Dream Academy",
@@ -1844,7 +1897,8 @@
       "song":"Don\\'t Stop Believin\\'",
       "album":"Escape",
       "release_year":"1981",
-      "id":"VcjzHMhBtf0" 
+      "id":"VcjzHMhBtf0",
+      "offset":5
    },
    {
       "artist":"Journey",
@@ -3437,7 +3491,8 @@
       "song":"The Search Is Over",
       "album":"Vital Signs",
       "release_year":"1984",
-      "id":"xELTfJ-ZVBc"
+      "id":"xELTfJ-ZVBc",
+      "offset":6
    },
    {
       "artist":"Suzanne Vega",

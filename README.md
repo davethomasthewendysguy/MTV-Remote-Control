@@ -1,3 +1,13 @@
+**Getting started:**
+
+Run npm install from the root directory to get the necessary node modules.
+
+`npm run start` will spin up a local instance in your browser at `localhost:8080`.
+
+`npm run build` will build a production version.
+
+
+
 v0.1 - Basic design scaffolding in place.
 
 v0.3 - Added test videos.
@@ -28,4 +38,6 @@ v0.7 -
 v0.75 -
 	- Fixed issue with duplicate videos from the same artist appearing in a single game
 	- More songs added (497 total)
+
+v0.76 - Now next video shown will be the next in order after the last guessed instead of the lowest non-guessed video index. Will loop around to beginning if need be.
 	

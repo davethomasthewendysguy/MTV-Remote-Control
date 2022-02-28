@@ -227,11 +227,31 @@ const HomePage = ({ counter, dispatch }) => {
 
 			console.log("You guessed correctly!");
 
-			const nextIndex = gameVideos.findIndex((el, idx) => {
-				if(el.guessed === false) {
-					return true;
+			let highestUnguessedIndex;
+
+			// Find highest unguessed video to know where to loop back around
+			for (var idx = updatedGameVideos.length - 1; idx >= 0; idx--) {
+	 			if(updatedGameVideos[idx].guessed === false) {
+	 				highestUnguessedIndex = idx;
+	 				break;
+	 			}
+			}
+
+			const nextIndex = updatedGameVideos.findIndex((el, idx) => {
+				// If current element is not solved and it does not equal the active video
+				if(el.guessed === false
+					&& idx + 1 != activeVideo) {
+					if(activeVideo === highestUnguessedIndex + 1) { // If already at highest unguessed video loop back around to the beginning
+						return true;
+					} else if(idx + 1 > activeVideo) { // Advance forward to the next unguessed video
+						return true;
+					} else if(highestUnguessedIndex < activeVideo) { // Loop back around if no higher indexed videos are unguessed
+						return true;
+					}
 				}
 			});
+
+			console.log(nextIndex);
 
 			if(nextIndex === -1) {
 				// Win Status
@@ -303,7 +323,7 @@ const HomePage = ({ counter, dispatch }) => {
 							<div className="u-margin-bottom-med u-padding-left-med u-padding-right-med">
 								<img className="intro-logo" src={GameLogo} />
 
-								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.75</h1>
+								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.76</h1>
 								<Intro />
 
 								<div className="game-rules type-sans-serif u-rounded-corners-lg">
