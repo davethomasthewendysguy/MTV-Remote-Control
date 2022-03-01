@@ -273,7 +273,8 @@
       "song":"Flesh For Fantasy",
       "album":"Rebel Yell",
       "release_year":"1983",
-      "id":"dw1oM7LBbxE"
+      "id":"dw1oM7LBbxE",
+      "offset":7
    },
    {
       "artist":"Billy Idol",
@@ -309,7 +310,8 @@
       "song":"The Longest Time",
       "album":"An Innocent Man",
       "release_year":"1983",
-      "id":"a_XgQhMPeEQ"
+      "id":"a_XgQhMPeEQ",
+      "offset":20
    },
    {
       "artist":"Billy Joel",
@@ -527,7 +529,8 @@
       "song":"Roam",
       "album":"Cosmic Thing",
       "release_year":"1989",
-      "id":"iNwC0sp-uA4"
+      "id":"iNwC0sp-uA4",
+      "offset":6
    },
    {
       "artist":"The B-52s",
@@ -894,7 +897,8 @@
       "song":"Life In A Northern Town",
       "album":"The Dream Academy",
       "release_year":"1985",
-      "id":"5UXnulANF8g"
+      "id":"5UXnulANF8g",
+      "offset":22
    },
    {
       "artist":"Duran Duran",
@@ -1437,7 +1441,8 @@
       "song":"Flashdance",
       "album":"What a Feelin\\'",
       "release_year":"1983",
-      "id":"ILWSp0m9G2U"
+      "id":"ILWSp0m9G2U",
+      "offset":10
    },
    {
       "artist":"Jane Child",
@@ -1452,7 +1457,8 @@
       "song":"The Pleasure Principle",
       "album":"Control",
       "release_year":"1986",
-      "id":"Q-gu1KETjVY"
+      "id":"Q-gu1KETjVY",
+      "offset":30
    },
    {
       "artist":"Janet Jackson",
@@ -1627,7 +1633,8 @@
       "song":"All Around the World",
       "album":"Affection",
       "release_year":"1989",
-      "id":"JVuuatjHGnY"
+      "id":"JVuuatjHGnY",
+      "offset":15
    },
    {
       "artist":"Laura Branigan",
@@ -1767,7 +1774,8 @@
       "song":"Like A Prayer",
       "album":"Like a Prayer",
       "release_year":"1989",
-      "id":"79fzeNUqQbQ" 
+      "id":"79fzeNUqQbQ",
+      "offset":15
    },
    {
       "artist":"Madonna",
@@ -1945,7 +1953,7 @@
       "album":"Welcome to the Real World",
       "release_year":"1985",
       "id":"9NDjt4FzFWY",
-      "offset":5
+      "offset":15
    },
    {
       "artist":"Murray Head",
@@ -2096,7 +2104,8 @@
       "song":"Big Time",
       "album":"So",
       "release_year":"1986",
-      "id":"PBAl9cchQac"
+      "id":"PBAl9cchQac",
+      "offset":5
    },
    {
       "artist":"Peter Gabriel",
@@ -2161,7 +2170,8 @@
       "song":"West End Girls",
       "album":"West End Girls",
       "release_year":"1984",
-      "id":"p3j2NYZ8FKs"
+      "id":"p3j2NYZ8FKs",
+      "offset":20
    },
    {
       "artist":"Phil Collins",
@@ -2214,7 +2224,8 @@
         "song":"I\\'m So Excited",
         "album":"The Pointer Sisters",
         "release_year":"1982",
-        "id":"8iwBM_YB1sE"
+        "id":"8iwBM_YB1sE",
+        "offset":20
    },
    {
       "artist":"Poison",
@@ -2405,7 +2416,7 @@
       "song":"Stand",
       "album":"Green",
       "release_year":"1988",
-      "id":"v=bLaSXpqp__E"
+      "id":"bLaSXpqp__E"
    },
    {
       "artist":"REO Speedwagon",
@@ -2657,7 +2668,8 @@
       "song":"Sara",
       "album":"Knee Deep in the Hoopla",
       "release_year":"1985",
-      "id":"32ScTb6_KHg"
+      "id":"32ScTb6_KHg",
+      "offset":15
    },
    {
       "artist":"Starship",
@@ -2910,7 +2922,7 @@
       "album":"Toto IV",
       "release_year":"1982",
       "id":"FTQbiNvZqaY",
-      "offset":1
+      "offset":3
    },
    {
       "artist":"Toto",
@@ -3167,7 +3179,8 @@
       "song":"The Promise",
       "album":"When In Rome",
       "release_year":"1988",
-      "id":"5HI_xFQWiYU"
+      "id":"5HI_xFQWiYU",
+      "offset":15
    },
    {
       "artist":"Whitesnake",
