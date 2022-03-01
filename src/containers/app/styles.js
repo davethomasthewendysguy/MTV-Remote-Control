@@ -668,6 +668,29 @@ export default createGlobalStyle`
 	  transform: rotate(180deg);
 	}
 
+	@keyframes fadeIn {
+		from {
+		  opacity: 0;
+		}
+
+		90% {
+			opacity: 0;
+		}
+	  
+		to {
+		  opacity: 1;
+		}
+	  }
+
+	.youtube-wrapper {
+		opacity: 0;
+
+	}
+	.youtube-wrapper-played {
+		animation-duration: 5s;
+		animation-name: fadeIn;
+	}
+
 	.frame-wrapper {
 	   overflow: hidden;
 	   max-width: 100%;

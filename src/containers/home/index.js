@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { soundex } from 'soundex-code'
+import YouTube from 'react-youtube';
 
 import Button from '@components/button';
 import { Wrapper } from './styles';
@@ -24,7 +25,7 @@ let VideoList = require('@assets/videoList.json');
 
 const imageStyle = { display: 'block', margin: 'auto' };
 
-const gameClock = 120;
+const gameClock = 1020;
 
 const Placeholder = ({videoId, image}) => <img className={`game-video-placeholder`} src={image} alt="Video Placeholder" />;
 
@@ -133,6 +134,23 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 }
 
 
+const YouTubeComponent = ({id , options}) => {
+	const [played, setPlayed] = useState(false)
+	return (
+		<div class={played ? "youtube-wrapper-played" : "youtube-wrapper"}>
+			<YouTube 
+				videoId={id} 
+				opts={options}
+				onReady={(e)=>{
+					console.log("ready:", e)
+					e.target.playVideo();
+					setPlayed(true);
+				}}
+			/>
+		</div>
+	)
+}
+
 const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 	const guessState = gameVideos[videoId - 1].guessed;
 	const offset = gameVideos[videoId - 1].offset || 0;
@@ -141,11 +159,14 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 		<div id={`video-${videoId}`} className="game-video-container">
 		  	<div className="u-display-flex u-position-relative">
 			    <div className="game-video-number">{videoId}</div>
-			    <div className={`game-video game-video-${videoId}`} onClick={() => {
-			      	if(!guessState) {
-			      		setActiveVideo(videoId);
-			      	}
-			      }}>
+			    <div
+					className={`game-video game-video-${videoId}`}
+					onClick={() => {
+			      		if(!guessState) {
+			      			setActiveVideo(videoId);
+			      		}
+			      	}}
+				  >
 			      	{activeVideo !== videoId
 			      		&& guessState === false
 			      		&& (
@@ -161,11 +182,27 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 			      	{activeVideo === videoId
 			      		&& guessState === false
 			      		&& (
-			      			<div className="frame-wrapper">
-							   <div className="frame-container">
-							      <iframe className="" width="560" height="315" src={`https://www.youtube.com/embed/${gameVideos[videoId - 1].id}?start=${offset}&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1&playsinline=1`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							   </div>
-							</div>
+			      			// <div className="frame-wrapper">
+							//    <div className="frame-container">
+							//       <iframe className="" width="560" height="315" src={`https://www.youtube.com/embed/${gameVideos[videoId - 1].id}?start=${offset}&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1&playsinline=1`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+							//    </div>
+							// </div>
+							<YouTubeComponent
+								id={gameVideos[videoId - 1].id}
+								options={{
+									start: offset,
+									autoplay: 1,
+									controls: 0,
+									disablekb: 0,
+									fs: 0,
+									modestbranding: 1,
+									rel: 0,
+									showinfo: 0,
+									autohide: 0,
+									playsinline: 1,
+									loop: 1,
+								}}
+							/>
 			      		)
 			      	}
 	      		</div>
