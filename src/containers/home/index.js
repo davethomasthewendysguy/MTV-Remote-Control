@@ -46,6 +46,7 @@ const Intro = () => {
 			<h3 className="play-themsong type-sans-serif">Play Theme</h3>
 			<audio className="themesong" controls>
 				<source src={ThemeSong} type="audio/mpeg" />
+
 			  	Your browser does not support the video element.
 			</audio>
 		</div>
@@ -215,7 +216,7 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 
 const HomePage = ({ counter, dispatch }) => {
 	const randomVideos = VideoList.sort(() => Math.random() - Math.random());
-	const formattedRandomVideos = formatDataHelper([...new Set(randomVideos.map(item => item))]);
+	const formattedRandomVideos = formatDataHelper([...new Map(randomVideos.map((video) => [video["artist"], video])).values()]);
 
 	const videoArray = formattedRandomVideos.slice(0, 9).map(video => {
 		return {
@@ -265,11 +266,31 @@ const HomePage = ({ counter, dispatch }) => {
 
 			console.log("You guessed correctly!");
 
-			const nextIndex = gameVideos.findIndex((el, idx) => {
-				if(el.guessed === false) {
-					return true;
+			let highestUnguessedIndex;
+
+			// Find highest unguessed video to know where to loop back around
+			for (var idx = updatedGameVideos.length - 1; idx >= 0; idx--) {
+	 			if(updatedGameVideos[idx].guessed === false) {
+	 				highestUnguessedIndex = idx;
+	 				break;
+	 			}
+			}
+
+			const nextIndex = updatedGameVideos.findIndex((el, idx) => {
+				// If current element is not solved and it does not equal the active video
+				if(el.guessed === false
+					&& idx + 1 != activeVideo) {
+					if(activeVideo === highestUnguessedIndex + 1) { // If already at highest unguessed video loop back around to the beginning
+						return true;
+					} else if(idx + 1 > activeVideo) { // Advance forward to the next unguessed video
+						return true;
+					} else if(highestUnguessedIndex < activeVideo) { // Loop back around if no higher indexed videos are unguessed
+						return true;
+					}
 				}
 			});
+
+			console.log(nextIndex);
 
 			if(nextIndex === -1) {
 				// Win Status
@@ -330,7 +351,9 @@ const HomePage = ({ counter, dispatch }) => {
 	return (
 		<React.Fragment>
 			<div className="tile-background">
-				{gameState > 0
+				{gameState === 1
+				 	&& gameState === 2
+				 	&& gameState === 3
 					&& (
 						<img className="game-logo" src={GameLogo} />
 					)
@@ -341,7 +364,7 @@ const HomePage = ({ counter, dispatch }) => {
 							<div className="u-margin-bottom-med u-padding-left-med u-padding-right-med">
 								<img className="intro-logo" src={GameLogo} />
 
-								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.7</h1>
+								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.76</h1>
 								<Intro />
 
 								<div className="game-rules type-sans-serif u-rounded-corners-lg">
@@ -353,6 +376,8 @@ const HomePage = ({ counter, dispatch }) => {
 								</div>
 
 								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => {setGameState(1); setActiveVideo(1);} }>Start Bonus Round</button>
+
+								<button className="about-author type-sans-serif" onClick={() => setGameState(4)}>About Author</button>
 							</div>
 						)
 					}
@@ -404,6 +429,25 @@ const HomePage = ({ counter, dispatch }) => {
 						&& (
 							<div className="win-screen type-sans-serif u-margin-top-lg">
 								<LoseScreen gameVideos={gameVideos} resetGame={resetGame} setVideoArray={setVideoArray} />
+							</div>
+						)
+					}
+
+					{gameState === 4
+						&& (
+							<div className="author-info-container">
+								<img className="intro-logo" src={GameLogo} />
+								<div className="author-info type-sans-serif u-rounded-corners-lg u-margin-left-med u-margin-right-med">
+									<p><b>Created by:</b> Dave Rottino</p>
+									<p>This game was created out the love of the 80s. Maintaining and adding to this in my free time. Have a question, suggestion, comment, or bug?</p>
+									<p><a className="animated-link" href="mailto:contact@mtvremotecontrol.site">E-mail me</a></p>
+
+									<p>Front End web developer who's looking for work.</p>
+
+									<p>I also do a podcast about video games. Take a listen if you'd like:</p>
+									<p><a className="animated-link" href="https://www.ratedgforgamers.com">Rated G for Gamers Podcast</a></p>
+								</div>
+								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => setGameState(0)}>Back</button>
 							</div>
 						)
 					}

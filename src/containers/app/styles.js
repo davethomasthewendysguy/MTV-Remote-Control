@@ -6,6 +6,7 @@ const tablet = '768'
 const smallDesktop = '1024';
 const desktop = '1280';
 const laptopHeight = '800';
+const desktopHeight = '900';
 
 
 const tabletBreakpoint = `@media all and (min-width: ${tablet}px)`;
@@ -282,6 +283,52 @@ export default createGlobalStyle`
 	   Custom Styles
 	   ========================================================================== */
 
+	a:link,
+	a:visited {
+		color: #51d994;
+		text-decoration: none;
+		transition: color 0.4s ease-out;
+	}
+
+	.animated-link {
+		display: inline-block;
+		position: relative;
+		padding: 0.2em 0;
+	}
+
+	.animated-link::after {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 0.1em;
+		background-color: #51d994;
+		opacity: 0;
+		transition: opacity 300ms, transform 300ms;
+	}
+
+	.animated-link:hover::after,
+	.animated-link:focus::after {
+		opacity: 1;
+		transform: translate3d(0, 0.2em, 0);
+	}
+
+	/* Slide in */
+	p .animated-link {
+		overflow: hidden;
+	}
+
+	p .animated-link::after {
+	    opacity 1;
+	    transform: translate3d(-100%, 0, 0);
+	}
+
+	.animated-link:hover::after,
+	.animated-link:focus::after{
+		transform: translate3d(0, 0, 0);
+	}
+
 	.tile-background {
 		margin: 0 auto;
 		width: 100%;
@@ -384,9 +431,9 @@ export default createGlobalStyle`
 		background-color: rgba(0,0,0,0.7);
 		font-size: 14px;
 
-		${smallDesktopBreakpoint} {
+		@media all and (min-width: ${smallDesktop}px) and (min-height: ${laptopHeight}px) {
 		    font-size: 18px;
-		}	
+		}
 	}
 
 	.start-game {
@@ -395,15 +442,55 @@ export default createGlobalStyle`
 		margin-right: auto;
 		width: 200px;
 		height: 50px;
-		color: #fff;
+		color: #000;
 		background-color: #51d994;
-		border: 2px solid #000;
+		border: 3px solid #000;
 		border-radius: 5px;
+		box-shadow: 0px 0px 5px 2px transparent;
 		font-size: 16px;
 		cursor: pointer;
+		transition: background-color 0.4s ease-out, color 0.4s ease-out, border 0.4s ease-out, box-shadow 0.4s ease-out;
 
 		&:hover {
+			color: #fff;
 			background-color: #06d26a;
+			border: 3px solid #fff;
+			box-shadow: 0px 0px 5px 2px #E8AE00;
+		}
+	}
+
+	.about-author {
+		display: block;
+		position: absolute;
+		right: 30px;
+		bottom: 30px;
+    	width: 200px;
+    	height: 40px;
+    	background-color: #51d994;
+    	border: 3px solid #000;
+    	border-radius: 5px;
+		box-shadow: 0px 0px 5px 2px transparent;
+		cursor: pointer;
+		transition: background-color 0.4s ease-out, color 0.4s ease-out, border 0.4s ease-out, box-shadow 0.4s ease-out;
+
+		&:hover {
+			color: #fff;
+			background-color: #06d26a;
+			border: 3px solid #fff;
+			box-shadow: 0px 0px 5px 2px #E8AE00;
+		}
+	}
+
+	.author-info {
+		margin: 30px auto 0;
+		padding: 1px 20px;
+		max-width: 500px;
+		color: #fff;
+		background-color: rgba(0,0,0,0.7);
+		font-size: 14px;
+
+		@media all and (min-width: ${smallDesktop}px) and (min-height: ${laptopHeight}px) {
+		    font-size: 18px;
 		}
 	}
 
@@ -445,9 +532,12 @@ export default createGlobalStyle`
     	background-color: #51d994;
     	border: 3px solid #000;
 		cursor: pointer;
+		transition: background-color 0.4s ease-out, color 0.4s ease-out, border 0.4s ease-out;
 
 		&:hover {
+			color: #fff;
 			background-color: #06d26a;
+			border: 3px solid #fff;
 		}
 
 		${smallDesktopBreakpoint} {
@@ -533,6 +623,11 @@ export default createGlobalStyle`
 	  	@media all and (min-width: ${smallDesktop}px) and (max-height: ${laptopHeight - 1}px) {
 			width: 600px;
 		}
+
+		@media all and (min-width: ${smallDesktop}px) and (min-height: ${desktopHeight}px) {
+		    margin-top: 10px;
+    		margin-bottom: 30px;
+    	}
 	}
 
 	.game-row-3 {
@@ -585,8 +680,6 @@ export default createGlobalStyle`
     		margin: initial;
     		width: 210px;
     		height: 199px;
-    		// width: 180px;
-    		// height: 161px;
     	}
 
     	@media all and (min-width: ${smallDesktop}px) and (max-height: ${laptopHeight - 1}px) {
@@ -848,6 +941,14 @@ export default createGlobalStyle`
 
 	.u-margin-left-sm {
 		margin-left: 10px;
+	}
+
+	.u-margin-left-med {
+		margin-left: 20px;
+	}
+
+	.u-margin-right-med {
+		margin-right: 20px;
 	}
 
 	.u-margin-bottom-sm {
