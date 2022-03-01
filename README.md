@@ -40,4 +40,5 @@ v0.75 -
 	- More songs added (497 total)
 
 v0.76 - Now next video shown will be the next in order after the last guessed instead of the lowest non-guessed video index. Will loop around to beginning if need be.
-	
+
+v0.77 - About screen added.

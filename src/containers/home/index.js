@@ -312,7 +312,9 @@ const HomePage = ({ counter, dispatch }) => {
 	return (
 		<React.Fragment>
 			<div className="tile-background">
-				{gameState > 0
+				{gameState === 1
+				 	&& gameState === 2
+				 	&& gameState === 3
 					&& (
 						<img className="game-logo" src={GameLogo} />
 					)
@@ -335,6 +337,8 @@ const HomePage = ({ counter, dispatch }) => {
 								</div>
 
 								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => {setGameState(1); setActiveVideo(1);} }>Start Bonus Round</button>
+
+								<button className="about-author type-sans-serif" onClick={() => setGameState(4)}>About Author</button>
 							</div>
 						)
 					}
@@ -386,6 +390,25 @@ const HomePage = ({ counter, dispatch }) => {
 						&& (
 							<div className="win-screen type-sans-serif u-margin-top-lg">
 								<LoseScreen gameVideos={gameVideos} resetGame={resetGame} setVideoArray={setVideoArray} />
+							</div>
+						)
+					}
+
+					{gameState === 4
+						&& (
+							<div className="author-info-container">
+								<img className="intro-logo" src={GameLogo} />
+								<div className="author-info type-sans-serif u-rounded-corners-lg u-margin-left-med u-margin-right-med">
+									<p><b>Created by:</b> Dave Rottino</p>
+									<p>This game was created out the love of the 80s. Maintaining and adding to this in my free time. Have a question, suggestion, comment, or bug?</p>
+									<p><a className="animated-link" href="mailto:contact@mtvremotecontrol.site">E-mail me</a></p>
+
+									<p>Front End web developer who's looking for work.</p>
+
+									<p>I also do a podcast about video games. Take a listen if you'd like:</p>
+									<p><a className="animated-link" href="https://www.ratedgforgamers.com">Rated G for Gamers Podcast</a></p>
+								</div>
+								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => setGameState(0)}>Back</button>
 							</div>
 						)
 					}

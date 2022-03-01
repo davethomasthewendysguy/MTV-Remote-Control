@@ -128,7 +128,8 @@
       "song":"Forever Young",
       "album":"Alphaville",
       "release_year":"1984 ",
-      "id":"t1TcDHrkQYg"
+      "id":"t1TcDHrkQYg",
+      "offset":8
    },
    {
       "artist":"Animotion",
@@ -4033,6 +4034,22 @@
       "release_year":"1985",
       "id":"ewxmv2tyeRs",
       "offset":37
+   },
+   {
+      "artist":"Wilson Phillips",
+      "song":"Hold On",
+      "album":"Wilson Phillips",
+      "release_year":"1990",
+      "id":"uIbXvaE39wM",
+      "offset":29
+   },
+   {
+      "artist":"Wilson Phillips",
+      "song":"You\\'re In Love",
+      "album":"Wilson Phillips",
+      "release_year":"1990",
+      "id":"_mpS1Dw_4VY",
+      "offset":36
    },
    {
       "artist":"Winger",
