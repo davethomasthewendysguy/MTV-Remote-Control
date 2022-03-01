@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { soundex } from 'soundex-code'
+import YouTube from 'react-youtube';
 
 import Button from '@components/button';
 import { Wrapper } from './styles';
@@ -134,19 +135,54 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 }
 
 
+const YouTubeComponent = ({id , options}) => {
+	const [played, setPlayed] = useState(false)
+	return (
+		<YouTube
+			videoId={id}
+			opts={options}
+			onReady={(e)=>{
+				console.log("ready:", e)
+				e.target.playVideo();
+				setPlayed(true);
+			}}
+		/>
+	)
+}
+
 const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 	const guessState = gameVideos[videoId - 1].guessed;
 	const offset = gameVideos[videoId - 1].offset || 0;
+
+	const opts = {
+		playerVars: {
+            autohide: 0,
+            autoplay: 1,
+            controls: 0,
+			disablekb: 0,
+			enablejsapi: 1,
+			fs: 0,
+			loop: 1,
+			modestbranding: 1,
+			playsinline: 1,
+			rel: 0,
+			showinfo: 0,
+            start: offset,
+      	},
+    };
 
 	return (
 		<div id={`video-${videoId}`} className="game-video-container">
 		  	<div className="u-display-flex u-position-relative">
 			    <div className="game-video-number">{videoId}</div>
-			    <div className={`game-video game-video-${videoId}`} onClick={() => {
-			      	if(!guessState) {
-			      		setActiveVideo(videoId);
-			      	}
-			      }}>
+			    <div
+					className={`game-video game-video-${videoId}`}
+					onClick={() => {
+			      		if(!guessState) {
+			      			setActiveVideo(videoId);
+			      		}
+			      	}}
+				  >
 			      	{activeVideo !== videoId
 			      		&& guessState === false
 			      		&& (
@@ -162,10 +198,13 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 			      	{activeVideo === videoId
 			      		&& guessState === false
 			      		&& (
-			      			<div className="frame-wrapper">
-							   <div className="frame-container">
-							      <iframe className="" width="560" height="315" src={`https://www.youtube.com/embed/${gameVideos[videoId - 1].id}?start=${offset}&modestbranding=1&autohide=1&showinfo=0&controls=0&autoplay=1&playsinline=1`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-							   </div>
+							<div className="frame-wrapper">
+								<div className="frame-container">
+									<YouTubeComponent
+										id={gameVideos[videoId - 1].id}
+										options={opts}
+									/>
+								</div>
 							</div>
 			      		)
 			      	}

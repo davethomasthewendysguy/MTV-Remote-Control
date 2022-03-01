@@ -761,6 +761,10 @@ export default createGlobalStyle`
 	  transform: rotate(180deg);
 	}
 
+	.youtube-wrapper {
+		opacity: 0;
+	}
+
 	.frame-wrapper {
 	   overflow: hidden;
 	   max-width: 100%;
