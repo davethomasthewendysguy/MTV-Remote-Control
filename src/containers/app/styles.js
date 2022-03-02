@@ -9,6 +9,7 @@ const laptopHeight = '800';
 const desktopHeight = '900';
 
 
+const underTabletBreakpoint = `@media all and (max-width: ${tablet - 1}px)`;
 const tabletBreakpoint = `@media all and (min-width: ${tablet}px)`;
 const tabletAndSmallDesktopBreakpoint = `@media all and (min-width: ${tablet}px) and (max-width: ${smallDesktop - 1}px)`;
 const smallDesktopBreakpoint = `@media all and (min-width: ${smallDesktop}px)`;
@@ -479,11 +480,19 @@ export default createGlobalStyle`
 			border: 3px solid #fff;
 			box-shadow: 0px 0px 5px 2px #E8AE00;
 		}
+
+		${underTabletBreakpoint} {
+			position: relative;
+			margin: 20px auto 0;
+			right: initial;
+			bottom: initial;
+		}
 	}
 
 	.author-info {
 		margin: 30px auto 0;
 		padding: 1px 20px;
+		width: calc(100% - 40px);
 		max-width: 500px;
 		color: #fff;
 		background-color: rgba(0,0,0,0.7);

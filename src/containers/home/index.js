@@ -1,6 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { soundex } from 'soundex-code'
 import YouTube from 'react-youtube';
+import { useScrollSection, Section } from 'react-scroll-section';
+
 
 import Button from '@components/button';
 import { Wrapper } from './styles';
@@ -21,6 +23,15 @@ const winVideos = [
 	WinVideo3,
 ];
 
+/*******************
+	GAME STATE INDEX
+	0 - Initial
+	1 - Game Started
+	2 - Win
+	3 - Lose
+	4 - About Author
+*******************/
+
 let VideoList = require('@assets/videoList.json');
 
 const imageStyle = { display: 'block', margin: 'auto' };
@@ -28,6 +39,13 @@ const imageStyle = { display: 'block', margin: 'auto' };
 const gameClock = 120;
 
 const Placeholder = ({videoId, image}) => <img className={`game-video-placeholder`} src={image} alt="Video Placeholder" />;
+
+const useScroll = () => {
+	const elRef = useRef(null);
+  	const executeScroll = () => elRef.current.scrollIntoView();
+
+  	return [executeScroll, elRef];
+};
 
 function formatDataHelper(randomVideos) {
 	return randomVideos.map(video => {
@@ -104,12 +122,12 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 							song,
 						} = video;
 
-						if(guessed) {
+						if (guessed) {
 							return (
 								<p key={idx}>{idx + 1}: {artist} - {song}<br />
 								Album: {album} ({release_year})</p>
 							);
-						} else if(revealAnswer) {
+						} else if (revealAnswer) {
 							return (
 								<p key={idx} className="u-inline"><span>{idx + 1}:</span> <span className="color-red">{artist} - {song}<br />
 								Album: {album} ({release_year})</span></p>
@@ -134,7 +152,6 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 	);
 }
 
-
 const YouTubeComponent = ({id , options}) => {
 	const [played, setPlayed] = useState(false)
 	return (
@@ -150,7 +167,7 @@ const YouTubeComponent = ({id , options}) => {
 	)
 }
 
-const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
+const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo, ref}) => {
 	const guessState = gameVideos[videoId - 1].guessed;
 	const offset = gameVideos[videoId - 1].offset || 0;
 
@@ -172,7 +189,7 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
     };
 
 	return (
-		<div id={`video-${videoId}`} className="game-video-container">
+		<Section id={`video-${videoId}`} className="game-video-container" ref={(ref) ? ref : undefined}>
 		  	<div className="u-display-flex u-position-relative">
 			    <div className="game-video-number">{videoId}</div>
 			    <div
@@ -210,7 +227,7 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo}) => {
 			      	}
 	      		</div>
 	      	</div>
-	    </div>
+	    </Section>
 	);
 }
 
@@ -230,6 +247,15 @@ const HomePage = ({ counter, dispatch }) => {
 	const [activeVideo, setActiveVideo] = useState(null);
 	const [gameVideos, setVideoArray] = useState(videoArray);
 	const [timeLeft, setTimeLeft] = useState(gameClock);
+	const videoSection1 = useScrollSection('video-1');
+	const videoSection2 = useScrollSection('video-2');
+	const videoSection3 = useScrollSection('video-3');
+	const videoSection4 = useScrollSection('video-4');
+	const videoSection5 = useScrollSection('video-5');
+	const videoSection6 = useScrollSection('video-6');
+	const videoSection7 = useScrollSection('video-7');
+	const videoSection8 = useScrollSection('video-8');
+	const videoSection9 = useScrollSection('video-9');
 
 	const mountainBackground = gameState === 1 ? 'mountain-background' : '';
 
@@ -290,8 +316,6 @@ const HomePage = ({ counter, dispatch }) => {
 				}
 			});
 
-			console.log(nextIndex);
-
 			if(nextIndex === -1) {
 				// Win Status
 				setGameState(2);
@@ -331,6 +355,40 @@ const HomePage = ({ counter, dispatch }) => {
 
 		if(nextIndex !== -1) {
 			setActiveVideo(nextIndex + 1);
+
+			let videoSection; 
+
+			switch (nextIndex + 1) {
+  				case 1:
+  					videoSection1.onClick();
+  					break;
+				case 2:
+  					videoSection2.onClick();
+  					break;
+  				case 3:
+  					videoSection3.onClick();
+  					break;
+  				case 4:
+  					videoSection4.onClick();
+  					break;
+  				case 5:
+  					videoSection5.onClick();
+  					break;
+  				case 6:
+  					videoSection6.onClick();
+  					break;
+  				case 7:
+  					videoSection7.onClick();
+  					break;
+  				case 8:
+  					videoSection8.onClick();
+  					break;
+  				case 9:
+  					videoSection9.onClick();
+  					break;
+  				default:
+  					break;
+  			}
 		}
 	}
 
@@ -437,7 +495,7 @@ const HomePage = ({ counter, dispatch }) => {
 						&& (
 							<div className="author-info-container">
 								<img className="intro-logo" src={GameLogo} />
-								<div className="author-info type-sans-serif u-rounded-corners-lg u-margin-left-med u-margin-right-med">
+								<div className="author-info type-sans-serif u-rounded-corners-lg">
 									<p><b>Created by:</b> Dave Rottino</p>
 									<p>This game was created out the love of the 80s. Maintaining and adding to this in my free time. Have a question, suggestion, comment, or bug?</p>
 									<p><a className="animated-link" href="mailto:contact@mtvremotecontrol.site">E-mail me</a></p>

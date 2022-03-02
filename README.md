@@ -42,3 +42,5 @@ v0.75 -
 v0.76 - Now next video shown will be the next in order after the last guessed instead of the lowest non-guessed video index. Will loop around to beginning if need be.
 
 v0.77 - About screen added.
+
+v0.8 - Rework to embeds to use YouTube API instead of Iframe element.

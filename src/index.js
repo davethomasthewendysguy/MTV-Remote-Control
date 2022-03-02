@@ -2,6 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
+import { ScrollingProvider } from 'react-scroll-section';
 
 import App from '@containers/app';
 import store from './store';
@@ -12,7 +13,9 @@ const node = document.getElementById('app');
 const router = Application => (
 	<Provider store={store}>
 		<BrowserRouter>
-			<Application />
+			<ScrollingProvider>
+				<Application />
+			</ScrollingProvider>
 		</BrowserRouter>
 	</Provider>
 );
