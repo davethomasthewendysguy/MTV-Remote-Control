@@ -2164,6 +2164,14 @@
    },
    {
       "artist":"Madonna",
+      "song":"Material Girl",
+      "album":"Like a Virgin",
+      "release_year":"1984",
+      "id":"6p-lDYPR2P8",
+      "offset":8
+   },
+   {
+      "artist":"Madonna",
       "song":"Express Yourself",
       "album":"Like A Prayer",
       "release_year":"1989",
@@ -4182,5 +4190,13 @@
       "release_year":"1982",
       "id":"zg21Rkew874",
       "offset":16
-   }
+   },
+   {
+      "artist":"David Bowie & Mick Jagger",
+      "song":"Dancing in the Street",
+      "album":"Dancing in the Street",
+      "release_year":"1982",
+      "id":"HasaQvHCv4w",
+      "offset":7
+   },
 ]
