@@ -243,6 +243,14 @@
    },
    {
       "artist":"Beastie Boys",
+      "song":"Fight For Your Right",
+      "album":"Licensed to Ill",
+      "release_year":"1987",
+      "id":"eBShN8qT4lk",
+      "offset":3
+   }
+   {
+      "artist":"Beastie Boys",
       "song":"No Sleep Till Brooklyn",
       "album":"License To Ill",
       "release_year":"1986",
@@ -1833,6 +1841,14 @@
       "release_year":"1986",
       "id":"EaleKN9GQ54",
       "offset":59
+   },
+   {
+      "artist":"Janet Jackson",
+      "song":"Rhythm Nation",
+      "album":"Janet Jackson\\'s Rhythm Nation 1814",
+      "release_year":"1989",
+      "id":"OAwaNWGLM0c",
+      "offset":27
    },
    {
       "artist":"The Jets",
