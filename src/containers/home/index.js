@@ -251,15 +251,14 @@ const HomePage = ({ counter, dispatch }) => {
 
 	function validateGuess(el, activeVideo) {
 		const currentGuess = el.target.value.toLowerCase() || '';
-		let currentAnswers = [gameVideos[activeVideo - 1].artist.toLowerCase()] || [];
-		const currentAlternates = gameVideos[activeVideo - 1].alternates ? gameVideos[activeVideo - 1].alternates.map(name => name.toLowerCase()) : []
+		const currentAnswers = [gameVideos[activeVideo - 1].artist] || [];
+		//const currentAlternates = [gameVideos[activeVideo - 1].alternates] || [];
 
-		// Combine artist and alternate spellings into one searchable value.
-		currentAnswers = currentAnswers.concat(currentAlternates);
+		//currentAnswers.push(...currentAlternates);
 
 		if(Array.isArray(currentAnswers)
 			&& currentAnswers.length > 0
-			&& currentAnswers.includes(currentGuess)) {
+			&& isAnswerCorrect(currentGuess, ...currentAnswers)) {
 			const updatedGameVideos = gameVideos;
 
 			updatedGameVideos[activeVideo - 1].guessed = true;
@@ -384,11 +383,11 @@ const HomePage = ({ counter, dispatch }) => {
 
 					{gameState === 1
 						&& (
-							<React.Fragment>	
+							<React.Fragment>
 								<div className="answer-container type-sans-serif">
 									<input className="answer u-rounded-corners-sm" placeholder="Guess" onKeyUp={(e) => validateGuess(e, activeVideo) }/>
 									<button className="skip-button type-sans-serif u-rounded-corners-sm" onClick={() => gotoNextVideo(gameVideos, activeVideo)}>Skip Video</button>
-									
+
 									<span className={`${timeLeft > 20 || timeLeft <= 0 ? 'color-white' : 'color-white a-warning-flash'} timer u-margin-top-xs`}>
 										{timeLeft > 0 ? `TIMER: ${timeLeft}` : 'Time\'s up!'}
 									</span>
@@ -457,4 +456,35 @@ const HomePage = ({ counter, dispatch }) => {
 	)
 };
 
+function isAnswerCorrect (userAnswer, ...knownCorrectAnswers) {
+
+	const stringsToRemoveFromBeginning = [ "the" ];
+	const stringsToConvert = { "&": "and" };
+
+	const correctAnswers = [];
+
+	correctAnswers.push(...knownCorrectAnswers);
+
+	stringsToRemoveFromBeginning.forEach(s => {
+		correctAnswers.forEach(ca => {
+			if (ca.toLowerCase().startsWith(s.toLowerCase())) {
+				correctAnswers.push(ca.slice(s.length).trim())
+			}
+		});
+	});
+
+	for (const toReplace in stringsToConvert) {
+		correctAnswers.filter(ca => ca.toLowerCase().includes(toReplace)).forEach(ca => {
+			correctAnswers.push(ca.toLowerCase().replace(toReplace, stringsToConvert[toReplace]));
+		});
+
+		correctAnswers.filter(ca => ca.toLowerCase().includes(stringsToConvert[toReplace])).forEach(ca => {
+			correctAnswers.push(ca.toLowerCase().replace(stringsToConvert[toReplace], toReplace));
+		});
+	}
+
+	return correctAnswers.map(ca => soundex(ca)).includes(soundex(userAnswer));
+}
+
 export default HomePage;
+export { isAnswerCorrect };

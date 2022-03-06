@@ -17,10 +17,6 @@
    },
    {
       "artist":"AC/DC",
-      "alternates":[
-        "acdc",
-        "ac-dc"
-      ],
       "song":"Back In Black",
       "album":"Back In Black",
       "release_year":"1980",
@@ -28,21 +24,13 @@
    },
    {
       "artist":"AC/DC",
-      "alternates":[
-        "acdc",
-        "ac-dc"
-      ],
       "song":"Hells Bells",
       "album":"Back in Black",
       "release_year":"1980",
-      "id":"etAIpkdhU9Q" 
+      "id":"etAIpkdhU9Q"
    },
    {
       "artist":"AC/DC",
-      "alternates":[
-        "acdc",
-        "ac-dc"
-      ],
       "song":"Thunderstruck",
       "album":"The Razors Edge",
       "release_year":"1990",
@@ -50,10 +38,6 @@
    },
    {
       "artist":"AC/DC",
-      "alternates":[
-        "acdc",
-        "ac-dc"
-      ],
       "song":"Who Made Who",
       "album":"Who Made Who",
       "release_year":"1986",
@@ -102,10 +86,6 @@
    },
    {
       "artist":"A-ha",
-      "alternates":[
-        "Aha",
-        "A ha" 
-      ],
       "song":"Take On Me",
       "album":"Hunting High and Low",
       "release_year":"1984",
@@ -114,10 +94,6 @@
    },
    {
       "artist":"A-ha",
-      "alternates":[
-        "Aha",
-        "A ha" 
-      ],
       "song":"The Sun Always Shines on T.V.",
       "album":"Hunting High and Low",
       "release_year":"1985",
@@ -126,9 +102,6 @@
    },
    {
       "artist":"The Alan Parsons Project",
-      "alternatives":[
-        "Alan Parsons Project" 
-      ],
       "song":"Don\\'t Answer Me",
       "album":"Ammonia Avenue",
       "release_year":"",
@@ -407,7 +380,7 @@
       "song":"Rebel Yell",
       "album":"Rebel Yell",
       "release_year":"1983",
-      "id":"VdphvuyaV_I" 
+      "id":"VdphvuyaV_I"
    },
    {
       "artist":"Billy Idol",
@@ -553,7 +526,7 @@
       "song":"Every Little Step",
       "album":"Don't Be Cruel",
       "release_year":"1988",
-      "id":"P0FKzPfsxA4" 
+      "id":"P0FKzPfsxA4"
    },
    {
      "artist":"Bonnie Tyler",
@@ -599,7 +572,7 @@
       "song":"You Give Love A Bad Name",
       "album":"Slippery When Wet",
       "release_year":"1986",
-      "id":"KrZHPOeOxQQ" 
+      "id":"KrZHPOeOxQQ"
    },
    {
       "artist":"Bon Jovi",
@@ -627,7 +600,6 @@
    {
       "artist":"Bruce Hornsby And The Range",
       "alternates":[
-         "Bruce Hornsby & The Range",
          "Bruce Hornsby"
       ],
       "song":"The Way It Is",
@@ -712,10 +684,6 @@
    },
    {
       "artist":"The B-52s",
-      "alternates":[
-         "The B52s",
-         "B-52s"
-      ],
       "song":"Roam",
       "album":"Cosmic Thing",
       "release_year":"1989",
@@ -724,11 +692,6 @@
    },
    {
       "artist":"The B-52s",
-      "alternates":[
-         "The B52s",
-         "B-52s",
-         "B52s"
-      ],
       "song":"Love Shack",
       "album":"Cosmic Thing",
       "release_year":"1989",
@@ -923,7 +886,7 @@
       "release_year":"1989",
       "id":"hXCKLJGLENs",
       "offset":18
-   },
+   },      
    {
       "artist":"The Cure",
       "song":"Lullaby",
@@ -1022,9 +985,6 @@
    },
    {
       "artist":"David Bowie And Mick Jagger",
-      "alternates":[
-         "David Bowie & Mick Jagger"
-      ],
       "song":"Dancing in the Street",
       "album":"Dancing in the Street",
       "release_year":"1982",
@@ -1138,7 +1098,7 @@
       "song":"Enjoy The Silence",
       "album":"Violator",
       "release_year":"1990",
-      "id":"m0AKJMGxwpE" 
+      "id":"m0AKJMGxwpE"
    },
    {
       "artist":"Depeche Mode",
@@ -1161,7 +1121,7 @@
       "song":"Personal Jesus",
       "album":"Violator",
       "release_year":"1989",
-      "id":"u1xrNaTO1bI" 
+      "id":"u1xrNaTO1bI"
    },
    {
      "id": "M2VBmHOYpV8",
@@ -1187,9 +1147,6 @@
    },
    {
       "artist":"DJ Jazzy Jeff And The Fresh Prince",
-      "alternates":[
-         "DJ Jazzy Jeff & The Fresh Prince"
-      ],
       "song":"Brand New Funk",
       "album":"He's the DJ, I'm the Rapper",
       "release_year":"1988",
@@ -1198,9 +1155,6 @@
    },
    {
       "artist":"DJ Jazzy Jeff And The Fresh Prince",
-      "alternates":[
-         "DJ Jazzy Jeff & The Fresh Prince"
-      ],
       "song":"Girls Ain\\'t Nothjing But Trouble",
       "album":"Rock the House",
       "release_year":"1987",
@@ -1209,9 +1163,6 @@
    },
    {
       "artist":"DJ Jazzy Jeff And The Fresh Prince",
-      "alternates":[
-         "DJ Jazzy Jeff & The Fresh Prince"
-      ],
       "song":"I Think I Can Beat Mike Tyson",
       "album":"...And In This Corner",
       "release_year":"1989",
@@ -1220,9 +1171,6 @@
    },
    {
       "artist":"DJ Jazzy Jeff And The Fresh Prince",
-      "alternates":[
-         "DJ Jazzy Jeff & The Fresh Prince"
-      ],
       "song":"Parents Just Don\\'t Understand",
       "album":"He's the DJ, I'm the Rapper",
       "release_year":"1988",
@@ -1239,10 +1187,6 @@
    },
    {
       "artist":"Doug E. Fresh And The Get Fresh Crew",
-      "alternates":[
-         "Doug E. Fresh",
-         "Doug E Fresh"
-      ],
       "song":"Keep Risin\\' To The Top",
       "album":"The World's Greatest Entertainer",
       "release_year":"1988",
@@ -1251,9 +1195,6 @@
    },
    {
       "artist":"The Dream Academy",
-      "alternates":[
-         "Dream Academy" 
-      ],
       "song":"Life In A Northern Town",
       "album":"The Dream Academy",
       "release_year":"1985",
@@ -1316,9 +1257,6 @@
    },
    {
       "artist":"Echo And The Bunnymen",
-      "alternates":[
-         "Echo & The Bunnymen"
-      ],
       "song":"Lips Like Sugar",
       "album":"Echo And The Bunnymen",
       "release_year":"1987",
@@ -1521,13 +1459,10 @@
       "song":"Sweet Dreams (Are Made of This)",
       "album":"Sweet Dreams (Are Made of This)",
       "release_year":"1983",
-      "id":"qeMFqkcPYcg" 
+      "id":"qeMFqkcPYcg"
    },
    {
       "artist":"Exposé",
-      "alternates":[
-         "Expose" 
-      ],
       "song":"Come Go With Me",
       "album":"Exposure",
       "release_year":"1987",
@@ -1536,13 +1471,10 @@
    },
    {
       "artist":"Exposé",
-      "alternates":[
-         "Expose"
-      ],
       "song":"Seasons Change",
       "album":"Exposure",
       "release_year":"1987",
-      "id":"Yqk6y5Hmy9s" 
+      "id":"Yqk6y5Hmy9s"
    },
    {
       "artist":"Extreme",
@@ -1756,10 +1688,6 @@
    },
    {
       "artist":"The Go-Go's",
-      "alternates":[
-         "The GoGo's",
-         "The GoGos"
-      ],
       "song":"Head Over Heels",
       "album":"Talk Show",
       "release_year":"1984",
@@ -1768,10 +1696,6 @@
    },
    {
       "artist":"The Go-Go's",
-      "alternates":[
-         "The GoGo's",
-         "The GoGos"
-      ],
       "song":"Our Lips Are Sealed",
       "album":"The Beauty And The Beat",
       "release_year":"1981",
@@ -1780,10 +1704,6 @@
    },
    {
       "artist":"The Go-Go's",
-      "alternates":[
-         "The GoGo's",
-         "The GoGos"
-      ],
       "song":"Turn To You",
       "album":"Talk Show",
       "release_year":"1984",
@@ -1792,10 +1712,6 @@
    },
    {
       "artist":"The Go-Go's",
-      "alternates":[
-         "The GoGo's",
-         "The GoGos"
-      ],
       "song":"Vacation",
       "album":"Vacation",
       "release_year":"1982",
@@ -1804,10 +1720,6 @@
    },
    {
       "artist":"The Go-Go's",
-      "alternates":[
-         "The GoGo's",
-         "The GoGos"
-      ],
       "song":"We Got The Beat",
       "album":"The Beauty And The Beat",
       "release_year":"1981",
@@ -1832,11 +1744,6 @@
    },
    {
       "artist":"Guns N' Roses",
-      "alternates":[
-         "Guns N Roses" ,
-         "Guns 'N Roses",
-         "Guns and Roses"
-      ],
       "song": "Patience",
       "album":"G N\\' R Lies",
       "release_year":"1988",
@@ -1845,11 +1752,6 @@
    },
    {
       "artist":"Guns N' Roses",
-      "alternates":[
-         "Guns N Roses" ,
-         "Guns 'N Roses",
-         "Guns and Roses"
-      ],
       "song": "Paradise City",
       "album":"Appetite for Destruction",
       "release_year":"1987",
@@ -1857,11 +1759,6 @@
    },
    {
       "artist":"Guns N' Roses",
-      "alternates":[
-         "Guns N Roses" ,
-         "Guns 'N Roses",
-         "Guns and Roses"
-      ],
       "song": "Sweet Child O\\' Mine",
       "album":"Appetite for Destruction",
       "release_year":"1987",
@@ -1870,11 +1767,6 @@
    },
    {
       "artist":"Guns N' Roses",
-      "alternates":[
-         "Guns N Roses" ,
-         "Guns 'N Roses",
-         "Guns and Roses"
-      ],
       "song":"Welcome To The Jungle",
       "album":"Appetite For Destruction",
       "release_year":"1987",
@@ -1883,9 +1775,6 @@
    },
    {
       "artist":"Hall and Oates",
-      "alternates":[
-         "Hall & Oates" 
-      ],
       "song":"I Can't Go For That (No Can Do)",
       "album":"Private Eyes",
       "release_year":"1981",
@@ -1894,30 +1783,21 @@
    },
    {
       "artist":"Hall and Oates",
-      "alternates":[
-         "Hall & Oates" 
-      ],
       "song":"Maneater",
       "album":"H2O",
       "release_year":"1982",
-      "id":"yRYFKcMa_Ek" 
+      "id":"yRYFKcMa_Ek"
    },
    {
       "artist":"Hall and Oates",
-      "alternates":[
-         "Hall & Oates" 
-      ],
       "song":"Out Of Time",
       "album":"Big Bam Boom",
       "release_year":"1984",
       "id":"D00M2KZH1J0",
-      "offset":53 
+      "offset":53
    },
    {
       "artist":"Hall and Oates",
-      "alternates":[
-         "Hall & Oates" 
-      ],
       "song":"Private Eyes",
       "album":"Private Eyes",
       "release_year":"1981",
@@ -1925,9 +1805,6 @@
    },
    {
       "artist":"Hall and Oates",
-      "alternates":[
-         "Hall & Oates" 
-      ],
       "song":"You Make My Dreams",
       "album":"Voices",
       "release_year":"1981",
@@ -1946,7 +1823,7 @@
       "song":"Alone",
       "album":"Bad Animals",
       "release_year":"1987",
-      "id":"1Cw1ng75KP0" 
+      "id":"1Cw1ng75KP0"
    },
    {
       "artist":"Heart",
@@ -2206,9 +2083,6 @@
    },
    {
       "artist":"J. Geils Band",
-      "alternates":[
-         "J Geils Band"
-      ],
       "song":"Centerfold",
       "album":"Showtime!",
       "release_year":"1982",
@@ -2217,9 +2091,6 @@
    },
    {
       "artist":"J. Geils Band",
-      "alternates":[
-         "J Geils Band"
-      ],
       "song":"Freeze Frame",
       "album":"Freeze Frame",
       "release_year":"1981",
@@ -2253,7 +2124,7 @@
       "song":"Danger Zone",
       "album":"Top Gun Soundtrack",
       "release_year":"1986",
-      "id":"siwpn14IE7E" 
+      "id":"siwpn14IE7E"
    },
    {
       "artist":"Kenny Loggins",
@@ -2403,9 +2274,6 @@
    },
    {
       "artist":"Love And Rockets",
-      "alternates":[
-         "Love & Rockets"
-      ],
       "song": "No New Tale To Tell",
       "album":"Earth, Sun, Moon",
       "release_year":"1988",
@@ -2459,7 +2327,7 @@
       "id":"79fzeNUqQbQ",
       "offset":15
    },
-   {     
+   {
      "artist":"Madonna",
      "song":"Lucky Star",
      "album":"Madonna",
@@ -2494,7 +2362,7 @@
       "song":"Vogue",
       "album":"I'm Breathless",
       "release_year":"1990",
-      "id":"GuJQSAiODqI" 
+      "id":"GuJQSAiODqI"
    },
    {
       "artist":"Martika",
@@ -2599,7 +2467,6 @@
    {
       "artist":"Michael Jackson",
       "alternates":[
-         "King Of Pop",
          "The King of Pop"
       ],
       "song":"Billie Jean",
@@ -2610,7 +2477,6 @@
    {
       "artist":"Michael Jackson",
       "alternates":[
-         "King Of Pop",
          "The King of Pop"
       ],
       "song":"The Way You Make Me Feel",
@@ -2622,7 +2488,6 @@
    {
       "artist":"Michael Jackson",
       "alternates":[
-         "King Of Pop",
          "The King of Pop"
       ],
       "song":"Thriller",
@@ -2641,9 +2506,6 @@
    },
    {
       "artist":"Mike And The Mechanics",
-      "alternates":[
-         "Mike & The Mechanics" 
-      ],
       "song":"The Living Years",
       "album":"Living Years",
       "release_year":"1988",
@@ -2651,9 +2513,6 @@
    },
    {
       "artist":"Mike And The Mechanics",
-      "alternates":[
-         "Mike & The Mechanics" 
-      ],
       "song":"Silent Running (On Dangerous Ground)",
       "album":"Mike And The Mechanics",
       "release_year":"1985",
@@ -2692,11 +2551,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Dr. Feelgood",
       "album":"Dr. Feelgood",
       "release_year":"1989",
@@ -2705,11 +2559,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Girls Girls Girls",
       "album":"Girls Girls Girls",
       "release_year":"1987",
@@ -2718,11 +2567,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Home Sweet Home",
       "album":"Theatre of Pain",
       "release_year":"1985",
@@ -2731,11 +2575,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Kickstart My Heart",
       "album":"Dr. Feelgood",
       "release_year":"1989",
@@ -2744,11 +2583,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Live Wire",
       "album":"Too Fast For Love",
       "release_year":"1981",
@@ -2757,11 +2591,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Looks That Kill",
       "album":"Shout At The Devil",
       "release_year":"1983",
@@ -2770,11 +2599,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Same Old Situation",
       "album":"Dr. Feelgood",
       "release_year":"1989",
@@ -2783,11 +2607,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Shout At The Devil",
       "album":"Shout At The Devil",
       "release_year":"1983",
@@ -2796,11 +2615,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Too Young To Fall In Love",
       "album":"Shout At The Devil",
       "release_year":"1983",
@@ -2809,11 +2623,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Smokin In The Boys Room",
       "album":"Theater Of Pain",
       "release_year":"1989",
@@ -2822,11 +2631,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Wild Side",
       "album":"Girls, Girls, Girls",
       "release_year":"1987",
@@ -2835,11 +2639,6 @@
    },
    {
       "artist":"Mötley Crüe",
-      "alternates":[
-         "Mötley Crue",
-         "Motley Crüe",
-         "Motley Crue"
-      ],
       "song":"Without You",
       "album":"Dr. Feelgood",
       "release_year":"1989",
@@ -2849,7 +2648,8 @@
    {
       "artist":"Mr. Mister",
       "alternates": [
-        "Mr Mister" 
+         "Mister Mister",
+         "Mr. Mr."
       ],
       "song":"Broken Wings",
       "album":"Welcome to the Real World",
@@ -2860,7 +2660,8 @@
    {
       "artist":"Mr. Mister",
       "alternates": [
-         "Mr Mister" 
+         "Mister Mister",
+         "Mr. Mr."
       ],
       "song":"Is It Love",
       "album":"Welcome to the Real World",
@@ -2871,7 +2672,8 @@
    {
       "artist":"Mr. Mister",
       "alternates": [
-        "Mr Mister" 
+         "Mister Mister",
+         "Mr. Mr."
       ],
       "song":"Kyrie",
       "album":"Welcome to the Real World",
@@ -2927,7 +2729,7 @@
       "id":"mfI1S0PKJR8",
       "offset":5
    },
-   {     
+   {
      "artist":"Night Ranger",
      "song":"Don\\'t Tell Me You Love Me",
      "album":"Dawn Patrol",
@@ -2935,7 +2737,7 @@
      "id":"7OgZqOafUrc",
      "offset":36
    },
-   {     
+   {
      "artist":"Night Ranger",
      "song":"Sister Christian",
      "album":"Midnight Madness",
@@ -2943,7 +2745,7 @@
      "id":"z92bmlcmyq0",
      "offset":29
    },
-   {     
+   {
      "artist":"Night Ranger",
      "song":"When You Close Your Eyes",
      "album":"Midnight Madness",
@@ -2961,7 +2763,6 @@
    {
       "artist":"Orchestral Manoeuvers In The Dark",
       "alternates":[
-         "Orchestral Maneuvers In The Dark",
          "OMD"
       ],
       "song":"If You Leave",
@@ -2972,7 +2773,6 @@
    {
       "artist":"Orchestral Manoeuvers In The Dark",
       "alternates":[
-         "Orchestral Maneuvers In The Dark",
          "OMD"
       ],
       "song":"Secret",
@@ -2983,9 +2783,6 @@
    },
    {
       "artist":"The Outfield",
-      "alternates":[
-        "Outfield" 
-      ],
       "song":"Your Love",
       "album":"Play Deep",
       "release_year":"1985",
@@ -3123,10 +2920,6 @@
    },
    {
       "artist":"Peter Gabriel And Kate Bush",
-      "alternates":[
-         "Peter Gabriel & Kate Bush",
-         "Peter Gabriel With Kate Bush"
-      ],
       "song":"Don\\`t Give Up",
       "album":"So",
       "release_year":"1986",
@@ -3158,7 +2951,7 @@
       "offset":40
    },
    {
-     "artist":"Pet Shop Boys",
+      "artist":"Pet Shop Boys",
      "song":"Suburbia",
      "album":"Please",
      "release_year":"1986",
@@ -3387,9 +3180,6 @@
    },
    {
       "artist":"Ray Parker Jr.",
-      "alternates":[
-         "Ray Parker Jr"
-      ],
       "song":"Ghostbusters",
       "album":"Ghostbusters Soundtrack",
       "release_year":"1984",
@@ -3413,9 +3203,6 @@
    },
    {
       "artist":"R.E.M.",
-      "alternates":[
-         "REM"
-      ],
       "song":"Finest Worksong",
       "album": "Document",
       "release_year":1987,
@@ -3423,9 +3210,6 @@
    },
    {
       "artist":"R.E.M.",
-      "alternates":[
-         "REM"
-      ],
       "song":"It\\'s The End Of The World As We Know It (And I Feel Fine)",
       "album": "Document",
       "release_year":1987,
@@ -3434,9 +3218,6 @@
    },
    {
       "artist":"R.E.M.",
-      "alternates":[
-         "REM"
-      ],
       "song":"Shiny Happy People",
       "album":"Out of Time",
       "release_year":1991,
@@ -3444,9 +3225,6 @@
    },
    {
       "artist":"R.E.M.",
-      "alternates":[
-         "REM"
-      ],
       "song":"Orange Crush",
       "album":"Green",
       "release_year":1988,
@@ -3454,9 +3232,6 @@
    },
    {
       "artist":"R.E.M.",
-      "alternates":[
-         "REM"
-      ],
       "song":"The One I Love",
       "album": "Document",
       "release_year":1987,
@@ -3464,9 +3239,6 @@
    },
    {
       "artist":"R.E.M.",
-      "alternates":[
-         "REM"
-      ],
       "song":"Radio Free Europe",
       "album": "Murmur",
       "release_year":1983,
@@ -3474,9 +3246,6 @@
    },
    {
       "artist":"R.E.M.",
-      "alternates":[
-         "REM"
-      ],
       "song":"Stand",
       "album":"Green",
       "release_year":"1988",
@@ -3510,7 +3279,7 @@
       "song":"Right Here Waiting For You",
       "album":"Repeat Offender",
       "release_year":"1989",
-      "id":"S_E2EHVxNAE" 
+      "id":"S_E2EHVxNAE"
    },
    {
       "artist":"Richard Marx",
@@ -3569,7 +3338,7 @@
       "song":"Somebody\\'s Watching Me",
       "album":"Somebody\\'s Watching Me",
       "release_year":"1984",
-      "id":"7YvAYIJSSZY" 
+      "id":"7YvAYIJSSZY"
    },
    {
       "artist":"Rod Stewart",
@@ -3602,9 +3371,6 @@
    },
    {
       "artist":"RUN-DMC",
-      "alternates":[
-         "RUN DMC"
-      ],
       "song":"It\\'s Tricky",
       "album":"Raising Hell",
       "release_year":"1986",
@@ -3613,17 +3379,10 @@
    },
    {
       "artist":"RUN-DMC And Aerosmith",
-      "alternates":[
-         "RUN DMC And Aerosmith",
-         "RUN-DMC with Aerosmith",
-         "RUN DMC with Aerosmith",
-         "RUN-DMC Aerosmith",
-         "RUN DMC Aerosmith"
-      ],
       "song": "Walk This Way",
       "album":"Raising Hell",
       "release_year":"1986",
-      "id":"4B_UYYPb-Gk" 
+      "id":"4B_UYYPb-Gk"
    },
    {
       "artist":"Sade",
@@ -3697,7 +3456,7 @@
       "song":"Alive And Kicking",
       "album":"Once Upon a Time",
       "release_year":"1985",
-      "id":"ljIQo1OHkTI" 
+      "id":"ljIQo1OHkTI"
    },
    {
       "artist":"Simple Minds",
@@ -3838,7 +3597,7 @@
       "offset":8
    },
    {
-     "artist":"Stray Cats",
+      "artist":"Stray Cats",
      "song":"(She\\'s) Sexy And 17",
      "album":"Rant N\\' Rave With The Stray Cats",
      "release_year":"1983",
@@ -3875,7 +3634,7 @@
       "release_year":"1987",
       "id":"VZt7J0iaUD0"
    },
-   {      
+   {
       "artist":"Susanne Vega",
       "song":"Tom\\'s Diner",
       "album":"Solitude Standing",
@@ -4031,7 +3790,7 @@
       "offset":13
    },
    {
-     "artist":"Tom Petty",
+      "artist":"Tom Petty",
      "song":"Refugee",
      "album":"Damn The Torpedoes",
      "release_year":"1980",
@@ -4134,10 +3893,6 @@
    },
    {
       "artist":"T'Pau",
-      "alternates":[
-         "Tpau",
-         "T-Pau"
-      ],
       "song":"Heart And Soul",
       "album":"Bridge of Spies",
       "release_year":"1987",
@@ -4321,13 +4076,10 @@
       "album":"Warrant",
       "release_year":"1990",
       "id":"OjyZKfdwlng",
-      "offset":60 
+      "offset":60
    },
    {
       "artist":"Wham!",
-      "alternates": [
-         "Wham"
-      ],
       "song": "Careless Whisper",
       "album":"Make It Big",
       "release_year":"1984",
@@ -4335,9 +4087,6 @@
    },
    {
       "artist":"Wham!",
-      "alternatives":[
-        "Wham"
-      ],
       "song":"Everything She Wants",
       "album":"Make It Big",
       "release_year":"1984",
@@ -4345,9 +4094,6 @@
    },
    {
       "artist":"Wham!",
-      "alternates": [
-         "Wham"
-      ],
       "song": "Last Christmas",
       "album":"Last Christmas",
       "release_year":"1984",
@@ -4355,13 +4101,10 @@
    },
    {
       "artist":"Wham!",
-      "alternates": [
-         "Wham"
-      ],
       "song":"Wake Me Up Before You Go-Go",
       "album":"Make It Big",
       "release_year":"1984",
-      "id":"pIgZ7gMze7A" 
+      "id":"pIgZ7gMze7A"
    },
    {
       "artist":"When In Rome",
@@ -4383,7 +4126,7 @@
       "song":"Is This Love",
       "album":"Whitesnake",
       "release_year":"1987",
-      "id":"GOJk0HW_hJw" 
+      "id":"GOJk0HW_hJw"
    },
    {
       "artist":"Whitney Houston",
@@ -4512,7 +4255,7 @@
       "song":"Bust A Move",
       "album":"Stone Cold Rhymin\\'",
       "release_year":"1989",
-      "id":"xy4FXhkm6Nw" 
+      "id":"xy4FXhkm6Nw"
    },
    {
       "artist":"ZZ Top",
@@ -4539,10 +4282,10 @@
       "offset":24
    },
    {
-      "artist":".38 Special",
-      "alternates":[
+        "artist":".38 Special",
+        "alternates":[
          "38 Special"
-      ],
+        ],
       "song":"So Caught Up In You",
       "album":"Special Forces",
       "release_year":"1982",
