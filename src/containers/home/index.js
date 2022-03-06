@@ -437,7 +437,7 @@ const HomePage = ({ counter, dispatch }) => {
 						&& (
 							<div className="author-info-container">
 								<img className="intro-logo" src={GameLogo} />
-								<div className="author-info type-sans-serif u-rounded-corners-lg u-margin-left-med u-margin-right-med">
+								<div className="author-info type-sans-serif u-rounded-corners-lg">
 									<p><b>Created by:</b> Dave Rottino</p>
 									<p>This game was created out the love of the 80s. Maintaining and adding to this in my free time. Have a question, suggestion, comment, or bug?</p>
 									<p><a className="animated-link" href="mailto:contact@mtvremotecontrol.site">E-mail me</a></p>

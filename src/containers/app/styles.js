@@ -484,6 +484,7 @@ export default createGlobalStyle`
 	.author-info {
 		margin: 30px auto 0;
 		padding: 1px 20px;
+		width: calc(100% - 40px);
 		max-width: 500px;
 		color: #fff;
 		background-color: rgba(0,0,0,0.7);
