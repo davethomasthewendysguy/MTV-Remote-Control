@@ -43,4 +43,6 @@ v0.76 - Now next video shown will be the next in order after the last guessed in
 
 v0.77 - About screen added.
 
+v.0.78 - More songs added (551 total) and fixed alignment of about us screen.
+
 v0.8 - Rework to embeds to use YouTube API instead of Iframe element.

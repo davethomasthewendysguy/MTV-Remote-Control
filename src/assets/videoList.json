@@ -54,6 +54,17 @@
         "acdc",
         "ac-dc"
       ],
+      "song":"Who Made Who",
+      "album":"Who Made Who",
+      "release_year":"1986",
+      "id":"PiZHNw1MtzI"
+   },
+   {
+      "artist":"AC/DC",
+      "alternates":[
+        "acdc",
+        "ac-dc"
+      ],
       "song":"You Shook Me All Night Long",
       "album":"Back In Black",
       "release_year":"1980",
@@ -140,11 +151,75 @@
       "offset":10
    },
    {
+      "artist":"Annie Lennox",
+      "song":"No More I Love You\\'s",
+      "album":"The Lover Speaks",
+      "release_year":"1986",
+      "id":"NSkboTTTmpg",
+      "offset": 42
+   },
+   {
+      "artist":"Anthrax",
+      "song":"Antisocial",
+      "album":"State Of Euphoria",
+      "release_year":"1988",
+      "id":"VI53G_D5Dbw",
+      "offset":53
+   },
+   {
+      "artist":"Anthrax",
+      "song":"Caught In A Mosh",
+      "album":"Among The Living",
+      "release_year":"1987",
+      "id":"zlLn0UicWrM",
+      "offset":50
+   },
+   {
+      "artist":"Anthrax",
+      "song":"Got The Time",
+      "album":"Persistence of Time",
+      "release_year":"1990",
+      "id":"be7iNHw8QoQ",
+      "offset":37
+   },
+   {
+      "artist":"Anthrax",
+      "song":"I\\'m The Man",
+      "album":"I\\'m The Man",
+      "release_year":"1987",
+      "id":"GiHdr4rWG98",
+      "offset":20
+   },
+   {
+      "artist":"Anthrax",
+      "song":"Indians",
+      "album":"Among The Living",
+      "release_year":"1987",
+      "id":"RzpRU347BDU",
+      "offset":40
+   },
+   {
+      "artist":"Anthrax",
+      "song":"Madhouse",
+      "album":"Spreading The Disease",
+      "release_year":"1985",
+      "id":"Hx_m7Y9nGtU",
+      "offset":48
+   },
+   {
+      "artist":"Anthrax",
+      "song":"Who Cares Wins",
+      "album":"Persistence of Time",
+      "release_year":"1990",
+      "id":"gtD_GUvu-wc",
+      "offset":152
+   },
+   {
       "artist":"Anything Box",
       "song":"Living In Oblivion (St. James Club Mix)",
       "album":"Peace",
       "release_year":"1990",
-      "id":"VI53G_D5Dbw",
+      "id":"uGHsxMqpL0c",
       "offset":44
    },
    {
@@ -351,6 +426,22 @@
    },
    {
       "artist":"Billy Idol",
+      "song":"Hot In The City",
+      "album":"Billy Idol",
+      "release_year":"1982",
+      "id":"PinBVYKQGeM",
+      "offset":40
+   },
+   {
+      "artist":"Billy Idol",
+      "song":"To Be A Lover",
+      "album":"Whiplash Smile",
+      "release_year":"1986",
+      "id":"_L9epO3tJT4",
+      "offset":80
+   },
+   {
+      "artist":"Billy Idol",
       "song":"White Wedding Pt. 1",
       "album":"Billy Idol",
       "release_year":"1982",
@@ -525,6 +616,14 @@
       "release_year":"1988",
       "id":"RhxF9Qg5mOU"
    },
+   {   
+      "artist":"Breathe",
+      "song":"How Can I Fall",
+      "album":"All That Jazz",
+      "release_year":"1988",
+      "id":"PwZ4erdJZRA",
+      "offset":37
+   },
    {
       "artist":"Bruce Hornsby And The Range",
       "alternates":[
@@ -566,6 +665,14 @@
      "release_year":"1984",
      "id":"lrpXArn3hII",
      "offset":91
+   },
+   {
+     "artist":"BulletBoys",
+     "song":"Smooth Up In Ya",
+     "album":"BulletBoys",
+     "release_year":"1988",
+     "id":"ziL2FyIg1_I",
+     "offset":60
    },
    {
       "artist":"The Buggles",
@@ -697,6 +804,22 @@
       "offset":33
    },
    {
+      "artist":"Chicago",
+      "song":"I Don\\'t Wanna Live Without Your Love",
+      "album":"Chicago 19",
+      "release_year":"1988",
+      "id":"kGU_-fnSQI8",
+      "offset":48
+   },
+   {
+      "artist":"Chris De Burgh",
+      "song":"Lady in Red",
+      "album":"Into the Light",
+      "release_year":"1986",
+      "id":"g6hpAihC3Qk",
+      "offset":89
+   },
+   {
       "artist":"The Clash",
       "song":"Rock The Casbah",
       "album":"Combat Rock",
@@ -732,6 +855,14 @@
       "album":"First Offense",
       "release_year":"1983",
       "id":"X2LTL8KgKv8"
+   },
+   {
+      "artist":"Corey Hart",
+      "song":"Never Surrender",
+      "album":"Boy in the Box",
+      "release_year":"1985",
+      "id":"-4pg6Jh94Lo",
+      "offset":101
    },
    {
       "artist":"Crowded House",
@@ -793,6 +924,14 @@
       "id":"hXCKLJGLENs",
       "offset":18
    },
+   {
+      "artist":"The Cure",
+      "song":"Lullaby",
+      "album":"Disintegration",
+      "release_year":"1989",
+      "id":"sS6t56U9tBg",
+      "offset":65
+   },
    {      
       "artist":"The Cure",
       "song":"Pictures Of You",
@@ -800,6 +939,14 @@
       "release_year":"1989",
       "id":"X8UR2TFUp8w",
       "offset":39
+   },
+   {
+      "artist":"The Cure",
+      "song":"Why Can\\'t I Be You?",
+      "album":"Kiss Me, Kiss Me, Kiss Me",
+      "release_year":"1987",
+      "id":"MI0a9hTh5AU",
+      "offset":42
    },
    {
       "artist":"Cutting Crew",
@@ -872,6 +1019,33 @@
       "release_year":"1984",
       "id":"6uzGmcRN114",
       "offset":20
+   },
+   {
+      "artist":"David Bowie And Mick Jagger",
+      "alternates":[
+         "David Bowie & Mick Jagger"
+      ],
+      "song":"Dancing in the Street",
+      "album":"Dancing in the Street",
+      "release_year":"1982",
+      "id":"HasaQvHCv4w",
+      "offset":7
+   },
+   {
+      "artist":"David Lee Roth",
+      "song":"California Girls",
+      "album":"Crazy From The Heat",
+      "release_year":"1985",
+      "id":"CRAeAsgawtw",
+      "offset":36
+   },
+   {
+      "artist":"David Lee Roth",
+      "song":"Goin' Crazy!",
+      "album":"Eat \\'Em and Smile",
+      "release_year":"1986",
+      "id":"tmCU_QtSzWI",
+      "offset":70
    },
    {
       "artist":"David Lee Roth",
@@ -1104,6 +1278,14 @@
    },
    {
       "artist":"Duran Duran",
+      "song":"Is There Something I Should Know?",
+      "album":"Is There Something I Should Know?",
+      "release_year":"1983",
+      "id":"3M0hogZyRyU",
+      "offset":32
+   },
+   {
+      "artist":"Duran Duran",
       "song":"Rio",
       "album":"Rio",
       "release_year":"1982",
@@ -1232,6 +1414,14 @@
    },
    {
       "artist":"Elton John",
+      "song":"Nikita",
+      "album":"Ice On Fire",
+      "release_year":"1985",
+      "id":"Tg-Q-Acv4qs",
+      "offset":55
+   },
+   {
+      "artist":"Elton John",
       "song":"Sacrifice",
       "album":"Sleeping With The Past",
       "release_year":"1989",
@@ -1244,6 +1434,18 @@
       "release_year":"1984",
       "id":"X23v5_K7cXk",
       "offset":12
+   },
+   {
+      "artist":"Enuff Z'Nuff",
+      "alternates":[
+         "Enuff ZNuff",
+         "Enuff Z Nuff"
+      ],
+      "song":"Fly High Michelle",
+      "album":"Enuff Z'Nuff",
+      "release_year":"1989",
+      "id":"aWTD7Y24oY8",
+      "offset":91
    },
    {
       "artist":"Erasure",
@@ -1409,7 +1611,8 @@
       "song":"I Ran (So Far Away)",
       "album":"A Flock of Seagulls",
       "release_year":"1982",
-      "id":"qjuEXKwnkLE"
+      "id":"iIpfWORQWhU",
+      "offset":27
    },
    {
      "artist":"Foreigner",
@@ -1465,6 +1668,38 @@
       "release_year":"1986",
       "id":"Yq7FKO5DlV0",
       "offset":18
+   },
+   {
+      "artist":"Gene Loves Jezebel",
+      "song":"Desire",
+      "album":"Immigrant",
+      "release_year":"1985",
+      "id":"_RLTUguVO8g",
+      "offset":38
+   },
+   {
+      "artist":"Gene Loves Jezebel",
+      "song":"Heartache",
+      "album":"Discover",
+      "release_year":"1986",
+      "id":"D1Lt_yl749c",
+      "offset":60
+   },
+   {
+      "artist":"Gene Loves Jezebel",
+      "song":"Jealous",
+      "album":"Kiss Of Life",
+      "release_year":"1990",
+      "id":"sUSOlhhE_1Y",
+      "offset":34
+   },
+   {
+      "artist":"Gene Loves Jezebel",
+      "song":"Motion Of Love",
+      "album":"The House Of Dolls",
+      "release_year":"1987",
+      "id":"tbJGst7CGr8",
+      "offset":38
    },
    {
       "artist":"George Clinton",
@@ -1800,12 +2035,28 @@
       "id":"MiVbq6ZnNc4"
    },
    {
+      "artist":"INXS",
+      "song":"Never Tear Us Apart",
+      "album":"Kick",
+      "release_year":"1987",
+      "id":"AIBv2GEnXlc",
+      "offset":58
+   },
+   {
       "artist":"Irene Cara",
       "song":"Flashdance",
       "album":"What a Feelin\\'",
       "release_year":"1983",
       "id":"ILWSp0m9G2U",
       "offset":10
+   },
+   {
+      "artist":"Iron Maiden",
+      "song":"Run To The Hills",
+      "album":"The Number of the Beast",
+      "release_year":"1982",
+      "id":"u5Snehl2bAk",
+      "offset":52
    },
    {
       "artist":"Jane Child",
@@ -1840,12 +2091,36 @@
       "offset":59
    },
    {
+      "artist":"Janet Jackson",
+      "song":"Rhythm Nation",
+      "album":"Janet Jackson\\'s Rhythm Nation 1814",
+      "release_year":"1989",
+      "id":"OAwaNWGLM0c",
+      "offset":27
+   },
+   {
       "artist":"The Jets",
       "song":"Crush On You",
       "album":"The Jets",
       "release_year":"1985",
       "id":"hA4RJtVFUMY",
       "offset":83
+   },
+   {
+      "artist":"Joan Jett Amd The Blackhearts",
+      "song":"I Love Rock \\'N Roll",
+      "album":"I Love Rock \\'N Roll",
+      "release_year":"1982",
+      "id":"jUxsP8ED_cM",
+      "offset":40
+   },
+   {
+      "artist":"Joan Jett Amd The Blackhearts",
+      "song":"I Hate Myself For Loving You",
+      "album":"Up Your Alley",
+      "release_year":"1988",
+      "id":"bpNw7jYkbVc",
+      "offset":40
    },
    {
       "artist":"John Mellencamp",
@@ -2194,6 +2469,14 @@
    },
    {
       "artist":"Madonna",
+      "song":"Material Girl",
+      "album":"Like a Virgin",
+      "release_year":"1984",
+      "id":"6p-lDYPR2P8",
+      "offset":8
+   },
+   {
+      "artist":"Madonna",
       "song":"Open Your Heart",
       "album":"True Blue",
       "release_year":"1986",
@@ -2227,6 +2510,14 @@
       "release_year":"1989",
       "id":"otCpCn0l4Wo",
       "offset":15
+   },
+   {
+      "artist":"Megadeth",
+      "song":"Hangar 18",
+      "album":"Rust In Peace",
+      "release_year":"1990",
+      "id":"rUGIocJK9Tc",
+      "offset":60
    },
    {
       "artist":"Men At Work",
@@ -2363,9 +2654,9 @@
       "alternates":[
          "Mike & The Mechanics" 
       ],
-      "song":"Silent Running",
-      "album":"",
-      "release_year":"",
+      "song":"Silent Running (On Dangerous Ground)",
+      "album":"Mike And The Mechanics",
+      "release_year":"1985",
       "id":"ep7W89I_V_g",
       "offset":70
    },
@@ -2586,7 +2877,7 @@
       "album":"Welcome to the Real World",
       "release_year":"1985",
       "id":"9NDjt4FzFWY",
-      "offset":15
+      "offset":25
    },
    {
       "artist":"Murray Head",
@@ -2769,6 +3060,21 @@
       "offset":30
    },
    {
+      "artist":"Peter Cetera And Amy Grant",
+      "alternates":[
+         "Peter Cetera & Amy Grant",
+         "Peter Cetera With Amy Grant",
+         "Amy Grant And Peter Cetera",
+         "Amy Grant & Peter Cetera",
+         "Amy Grant With Peter Cetera"
+      ],
+      "song":"The Next Time I Fall",
+      "album":"Solitude/Solitaire",
+      "release_year":"1986",
+      "id":"WQKqp_rZbVk",
+      "offset":48
+   },
+   {
       "artist":"Peter Gabriel",
       "song":"Big Time",
       "album":"So",
@@ -2837,11 +3143,27 @@
    },
    {
       "artist":"Pet Shop Boys",
+      "song":"Always On My Mind",
+      "album":"It Couldn\\'t Happen Here",
+      "release_year":"1987",
+      "id":"wDe60CbIagg",
+      "offset":80
+   },
+   {
+      "artist":"Pet Shop Boys",
       "song":"Domino Dancing",
       "album":"Introspective",
       "release_year":"1988",
       "id":"ik2YF05iX2w",
       "offset":40
+   },
+   {
+     "artist":"Pet Shop Boys",
+     "song":"Suburbia",
+     "album":"Please",
+     "release_year":"1986",
+     "id":"-VCqAjYO3NM",
+     "offset":114
    },
    {
       "artist":"Pet Shop Boys",
@@ -2874,6 +3196,14 @@
       "release_year":"1985",
       "id":"r0qBaBb1Y-U",
       "offset":46
+   },
+   {
+     "artist":"Phil Collins",
+     "song":"Two Hearts",
+     "album":"Buster Soundtrack",
+     "release_year":"1988",
+     "id":"SidxJz94Svs",
+     "offset":75
    },
    {
       "artist":"The Psychedelic Furs",
@@ -2959,7 +3289,7 @@
       "album":"Open Up and Say... Ahh!",
       "release_year":"1988",
       "id":"j2r2nDhTzO4",
-      "offset":34
+      "offset":44
    },
    {
       "artist":"Poison",
@@ -3074,6 +3404,14 @@
       "id":"r3Ui8_oqc9Q"
    },
    {
+      "artist":"Ready For The World",
+      "song":"Oh Sheila",
+      "album":"Ready for the World",
+      "release_year":"1985",
+      "id":"wbL2lMn34Oo",
+      "offset":53
+   },
+   {
       "artist":"R.E.M.",
       "alternates":[
          "REM"
@@ -3153,6 +3491,14 @@
    },
    {
       "artist":"Richard Marx",
+      "song": "Angelia",
+      "album":"Repeat Offender",
+      "release_year":"1989",
+      "id":"DsYK2JJNflg",
+      "offset":40
+   },
+   {
+      "artist":"Richard Marx",
       "song":"Hold On To The Night",
       "album":"Richard Marx",
       "release_year":"1987",
@@ -3165,6 +3511,14 @@
       "album":"Repeat Offender",
       "release_year":"1989",
       "id":"S_E2EHVxNAE" 
+   },
+   {
+      "artist":"Richard Marx",
+      "song":"Satisfied",
+      "album":"Repeat Offender",
+      "release_year":"1989",
+      "id":"7sOjdusDUzE",
+      "offset":60
    },
    {
       "artist":"Richard Marx",
@@ -3469,6 +3823,14 @@
    },
    {
       "artist":"Stray Cats",
+      "song":"Rock This Town",
+      "album":"Stray Cats",
+      "release_year":"1981",
+      "id":"0RxBHRZpIdg",
+      "offset":24
+   },
+   {
+      "artist":"Stray Cats",
       "song":"Stray Cat Strut",
       "album":"Stray Cats",
       "release_year":"1981",
@@ -3476,12 +3838,12 @@
       "offset":8
    },
    {
-      "artist":"Stray Cats",
-      "song":"Rock This Town",
-      "album":"Stray Cats",
-      "release_year":"1981",
-      "id":"0RxBHRZpIdg",
-      "offset":24
+     "artist":"Stray Cats",
+     "song":"(She\\'s) Sexy And 17",
+     "album":"Rant N\\' Rave With The Stray Cats",
+     "release_year":"1983",
+     "id":"ZynIhCs27Xs",
+     "offset":87
    },
    {
       "artist":"Stryper",
@@ -3667,6 +4029,14 @@
       "release_year":"1989",
       "id":"nvlTJrNJ5lA",
       "offset":13
+   },
+   {
+     "artist":"Tom Petty",
+     "song":"Refugee",
+     "album":"Damn The Torpedoes",
+     "release_year":"1980",
+     "id":"fFnOfpIJL0M",
+     "offset":19
    },
    {
       "artist":"Tom Petty",
@@ -4169,14 +4539,33 @@
       "offset":24
    },
    {
-        "artist":".38 Special",
-        "alternates":[
+      "artist":".38 Special",
+      "alternates":[
          "38 Special"
-        ],
+      ],
       "song":"So Caught Up In You",
       "album":"Special Forces",
       "release_year":"1982",
       "id":"zg21Rkew874",
       "offset":16
+   },
+   {
+      "artist":"\\'Til Tuesday",
+      "alternates":[
+         "Til Tuesday"
+      ],
+      "song":"Voices Carry",
+      "album":"Voices Carry",
+      "release_year":"1985",
+      "offset":38,
+      "id":"uejh-bHa4To"
+   },
+   {
+      "artist":"10,000 Maniacs",
+      "song":"Like the Weather",
+      "album":"In My Tribe",
+      "release_year":"1987",
+      "id":"te7bbWBXusk",
+      "offset":56
    }
 ]
