@@ -252,9 +252,9 @@ const HomePage = ({ counter, dispatch }) => {
 	function validateGuess(el, activeVideo) {
 		const currentGuess = el.target.value.toLowerCase() || '';
 		const currentAnswers = [gameVideos[activeVideo - 1].artist] || [];
-		//const currentAlternates = [gameVideos[activeVideo - 1].alternates] || [];
+		const currentAlternates = gameVideos[activeVideo - 1].alternates || [];
 
-		//currentAnswers.push(...currentAlternates);
+		currentAnswers.push(...currentAlternates);
 
 		if(Array.isArray(currentAnswers)
 			&& currentAnswers.length > 0
