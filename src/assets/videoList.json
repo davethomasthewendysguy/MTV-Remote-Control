@@ -243,14 +243,6 @@
    },
    {
       "artist":"Beastie Boys",
-      "song":"Fight For Your Right",
-      "album":"Licensed to Ill",
-      "release_year":"1987",
-      "id":"eBShN8qT4lk",
-      "offset":3
-   }
-   {
-      "artist":"Beastie Boys",
       "song":"No Sleep Till Brooklyn",
       "album":"License To Ill",
       "release_year":"1986",
@@ -879,6 +871,17 @@
       "offset":20
    },
    {
+      "artist":"David Bowie And Mick Jagger",
+      "alternates":[
+         "David Bowie & Mick Jagger"
+      ],
+      "song":"Dancing in the Street",
+      "album":"Dancing in the Street",
+      "release_year":"1982",
+      "id":"HasaQvHCv4w",
+      "offset":7
+   },
+   {
       "artist":"David Lee Roth",
       "song":"Just A Gigolo / I Ain't Got Nobody",
       "album":"Crazy from the Heat",
@@ -1413,7 +1416,8 @@
       "song":"I Ran (So Far Away)",
       "album":"A Flock of Seagulls",
       "release_year":"1982",
-      "id":"qjuEXKwnkLE"
+      "id":"iIpfWORQWhU",
+      "offset":27
    },
    {
      "artist":"Foreigner",
@@ -2164,14 +2168,6 @@
    },
    {
       "artist":"Madonna",
-      "song":"Material Girl",
-      "album":"Like a Virgin",
-      "release_year":"1984",
-      "id":"6p-lDYPR2P8",
-      "offset":8
-   },
-   {
-      "artist":"Madonna",
       "song":"Express Yourself",
       "album":"Like A Prayer",
       "release_year":"1989",
@@ -2208,6 +2204,14 @@
      "release_year":"1983",
      "id":"ThHz9wlBeLU",
      "offset":25
+   },
+   {
+      "artist":"Madonna",
+      "song":"Material Girl",
+      "album":"Like a Virgin",
+      "release_year":"1984",
+      "id":"6p-lDYPR2P8",
+      "offset":8
    },
    {
       "artist":"Madonna",
@@ -2380,9 +2384,9 @@
       "alternates":[
          "Mike & The Mechanics" 
       ],
-      "song":"Silent Running",
-      "album":"",
-      "release_year":"",
+      "song":"Silent Running (On Dangerous Ground)",
+      "album":"Mike And The Mechanics",
+      "release_year":"1985",
       "id":"ep7W89I_V_g",
       "offset":70
    },
@@ -2603,7 +2607,7 @@
       "album":"Welcome to the Real World",
       "release_year":"1985",
       "id":"9NDjt4FzFWY",
-      "offset":5
+      "offset":25
    },
    {
       "artist":"Murray Head",
@@ -2973,7 +2977,7 @@
       "album":"Open Up and Say... Ahh!",
       "release_year":"1988",
       "id":"j2r2nDhTzO4",
-      "offset":34
+      "offset":44
    },
    {
       "artist":"Poison",
@@ -4190,13 +4194,5 @@
       "release_year":"1982",
       "id":"zg21Rkew874",
       "offset":16
-   },
-   {
-      "artist":"David Bowie & Mick Jagger",
-      "song":"Dancing in the Street",
-      "album":"Dancing in the Street",
-      "release_year":"1982",
-      "id":"HasaQvHCv4w",
-      "offset":7
-   },
+   }
 ]
