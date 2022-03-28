@@ -1,13 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { soundex } from 'soundex-code'
 import YouTube from 'react-youtube';
-import { useScrollSection, Section } from 'react-scroll-section';
-
 
 import Button from '@components/button';
 import { Wrapper } from './styles';
 import { increment, decrement } from './actions';
 import { INCREMENT_ASYNC, DECREMENT_ASYNC } from './constants';
+import { useScrollSection, Section } from 'react-scroll-section';
 
 import Correct from '@assets/correct.jpg';
 import GameLogo from '@assets/logo.png';
@@ -24,12 +23,12 @@ const winVideos = [
 ];
 
 /*******************
-	GAME STATE INDEX
-	0 - Initial
-	1 - Game Started
-	2 - Win
-	3 - Lose
-	4 - About Author
+GAME STATE INDEX
+0 - Initial
+1 - Game Started
+2 - Win
+3 - Lose
+4 - About Author
 *******************/
 
 let VideoList = require('@assets/videoList.json');
@@ -39,13 +38,6 @@ const imageStyle = { display: 'block', margin: 'auto' };
 const gameClock = 120;
 
 const Placeholder = ({videoId, image}) => <img className={`game-video-placeholder`} src={image} alt="Video Placeholder" />;
-
-const useScroll = () => {
-	const elRef = useRef(null);
-  	const executeScroll = () => elRef.current.scrollIntoView();
-
-  	return [executeScroll, elRef];
-};
 
 function formatDataHelper(randomVideos) {
 	return randomVideos.map(video => {
@@ -65,7 +57,7 @@ const Intro = () => {
 			<audio className="themesong" controls>
 				<source src={ThemeSong} type="audio/mpeg" />
 
-			  	Your browser does not support the video element.
+				Your browser does not support the video element.
 			</audio>
 		</div>
 	);
@@ -80,7 +72,7 @@ const WinScreen = ({gameVideos, resetGame}) => {
 			<video className="win-video u-text-center u-rounded-corners-lg" controls autoPlay>
 				<source src={WinVideo} type="video/mp4" />
 
-			  	Your browser does not support the video element.
+				Your browser does not support the video element.
 			</video>
 			<div className="win-video-container">
 				<p className="type-size-med u-margin-bottom-none">Your videos were:</p>
@@ -106,9 +98,11 @@ const WinScreen = ({gameVideos, resetGame}) => {
 }
 
 const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
+	const totalGuessed = gameVideos.filter((video) => video.guessed).length || 0;
+
 	return (
 		<React.Fragment>
-			<div className="lose-screen type-sans-serif u-text-center u-margin-top-xxl">Game Over! You didn't successfully guess all 9.</div>
+			<div className="lose-screen type-sans-serif u-text-center u-margin-top-xxl">Game Over! You guessed {totalGuessed} out of 9.</div>
 			<div className="win-video-container">
 				<p className="type-size-med u-margin-bottom-none">Your score was:</p>
 				<div className="win-video-info u-padding-sm u-rounded-corners-lg">
@@ -152,14 +146,15 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 	);
 }
 
+
 const YouTubeComponent = ({id , options}) => {
-	const [played, setPlayed] = useState(false)
+	const [played, setPlayed] = useState(false);
+
 	return (
 		<YouTube
 			videoId={id}
 			opts={options}
-			onReady={(e)=>{
-				console.log("ready:", e)
+			onReady={(e)=> {
 				e.target.playVideo();
 				setPlayed(true);
 			}}
@@ -173,9 +168,9 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo, ref})
 
 	const opts = {
 		playerVars: {
-            autohide: 0,
-            autoplay: 1,
-            controls: 0,
+			autohide: 0,
+			autoplay: 1,
+			controls: 0,
 			disablekb: 0,
 			enablejsapi: 1,
 			fs: 0,
@@ -184,37 +179,37 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo, ref})
 			playsinline: 1,
 			rel: 0,
 			showinfo: 0,
-            start: offset,
-      	},
-    };
+			start: offset,
+		},
+	};
 
 	return (
 		<Section id={`video-${videoId}`} className="game-video-container" ref={(ref) ? ref : undefined}>
-		  	<div className="u-display-flex u-position-relative">
-			    <div className="game-video-number">{videoId}</div>
-			    <div
+            <div className="u-display-flex u-position-relative">
+				<div className="game-video-number">{videoId}</div>               
+				<div
 					className={`game-video game-video-${videoId}`}
 					onClick={() => {
-			      		if(!guessState) {
-			      			setActiveVideo(videoId);
-			      		}
-			      	}}
+						if (!guessState) {
+							setActiveVideo(videoId);
+						}
+					}}
 				  >
-			      	{activeVideo !== videoId
-			      		&& guessState === false
-			      		&& (
-			      			<Placeholder videoId={videoId} image={TVLogo} />
-			      		)
-			      	}
+					{activeVideo !== videoId
+						&& guessState === false
+						&& (
+							<Placeholder videoId={videoId} image={TVLogo} />
+						)
+					}
 					{guessState === true
-			      		&& (
-			      			<Placeholder videoId={videoId} image={Correct} />
-			      		)
-			      	}
+						&& (
+							<Placeholder videoId={videoId} image={Correct} />
+						)
+					}
 
-			      	{activeVideo === videoId
-			      		&& guessState === false
-			      		&& (
+					{activeVideo === videoId
+						&& guessState === false
+						&& (
 							<div className="frame-wrapper">
 								<div className="frame-container">
 									<YouTubeComponent
@@ -223,11 +218,11 @@ const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo, ref})
 									/>
 								</div>
 							</div>
-			      		)
-			      	}
-	      		</div>
-	      	</div>
-	    </Section>
+						)
+					}
+				</div>
+			</div>
+		</Section>
 	);
 }
 
@@ -247,6 +242,7 @@ const HomePage = ({ counter, dispatch }) => {
 	const [activeVideo, setActiveVideo] = useState(null);
 	const [gameVideos, setVideoArray] = useState(videoArray);
 	const [timeLeft, setTimeLeft] = useState(gameClock);
+
 	const videoSection1 = useScrollSection('video-1');
 	const videoSection2 = useScrollSection('video-2');
 	const videoSection3 = useScrollSection('video-3');
@@ -264,14 +260,14 @@ const HomePage = ({ counter, dispatch }) => {
 			const newTimeLeft = timeLeft;
 
 			const timer = setTimeout(() => {
-		    	setTimeLeft(newTimeLeft - 1);
+				setTimeLeft(newTimeLeft - 1);
 
-		    	if(newTimeLeft < 0) {
+				if(newTimeLeft < 0) {
 					setGameState(3);
 				}
-		  	}, 1000);
+			}, 1000);
 
-		  	return () => clearTimeout(timer);
+			return () => clearTimeout(timer);
 		}
 	});
 
@@ -295,11 +291,11 @@ const HomePage = ({ counter, dispatch }) => {
 			let highestUnguessedIndex;
 
 			// Find highest unguessed video to know where to loop back around
-			for (var idx = updatedGameVideos.length - 1; idx >= 0; idx--) {
-	 			if(updatedGameVideos[idx].guessed === false) {
-	 				highestUnguessedIndex = idx;
-	 				break;
-	 			}
+			for (let idx = updatedGameVideos.length - 1; idx >= 0; idx--) {
+				if(updatedGameVideos[idx].guessed === false) {
+					highestUnguessedIndex = idx;
+					break;
+				}
 			}
 
 			const nextIndex = updatedGameVideos.findIndex((el, idx) => {
@@ -316,7 +312,7 @@ const HomePage = ({ counter, dispatch }) => {
 				}
 			});
 
-			if(nextIndex === -1) {
+			if (nextIndex === -1) {
 				// Win Status
 				setGameState(2);
 			} else {
@@ -326,6 +322,7 @@ const HomePage = ({ counter, dispatch }) => {
 				// Maybe fetch new answer here so it doesn't have to refetch it on each keypress.
 				setVideoArray(updatedGameVideos);
 				setActiveVideo(nextIndex + 1);
+				scrollToVideo(nextIndex + 1);
 			}
 		}
 	}
@@ -335,10 +332,10 @@ const HomePage = ({ counter, dispatch }) => {
 
 		// Find highest unguessed video to know where to loop back around
 		for (var idx = gameVideos.length - 1; idx >= 0; idx--) {
- 			if(gameVideos[idx].guessed === false) {
- 				highestUnguessedIndex = idx;
- 				break;
- 			}
+			if(gameVideos[idx].guessed === false) {
+				highestUnguessedIndex = idx;
+				break;
+			}
 		}
 
 		const nextIndex = gameVideos.findIndex((el, idx) => {
@@ -353,42 +350,44 @@ const HomePage = ({ counter, dispatch }) => {
 			}
 		});
 
-		if(nextIndex !== -1) {
+		if (nextIndex !== -1) {
 			setActiveVideo(nextIndex + 1);
 
-			let videoSection; 
+			scrollToVideo(nextIndex + 1);
+		}
+	}
 
-			switch (nextIndex + 1) {
-  				case 1:
-  					videoSection1.onClick();
-  					break;
-				case 2:
-  					videoSection2.onClick();
-  					break;
-  				case 3:
-  					videoSection3.onClick();
-  					break;
-  				case 4:
-  					videoSection4.onClick();
-  					break;
-  				case 5:
-  					videoSection5.onClick();
-  					break;
-  				case 6:
-  					videoSection6.onClick();
-  					break;
-  				case 7:
-  					videoSection7.onClick();
-  					break;
-  				case 8:
-  					videoSection8.onClick();
-  					break;
-  				case 9:
-  					videoSection9.onClick();
-  					break;
-  				default:
-  					break;
-  			}
+	function scrollToVideo(index) {
+		switch (index) {
+			case 1:
+				videoSection1.onClick();
+				break;
+			case 2:
+				videoSection2.onClick();
+				break;
+			case 3:
+				videoSection3.onClick();
+				break;
+			case 4:
+				videoSection4.onClick();
+				break;
+			case 5:
+				videoSection5.onClick();
+				break;
+			case 6:
+				videoSection6.onClick();
+				break;
+			case 7:
+				videoSection7.onClick();
+				break;
+			case 8:
+				videoSection8.onClick();
+				break;
+			case 9:
+				videoSection9.onClick();
+				break;
+			default:
+				break;
 		}
 	}
 
@@ -406,12 +405,22 @@ const HomePage = ({ counter, dispatch }) => {
 		setTimeLeft(120);
 	}
 
+	function startGame() {
+		setGameState(1);
+		setActiveVideo(1);
+
+		//Not sure why this is needed to get initial scrolling on mobile/tablet to work but it is.
+		setTimeout(() => {
+			scrollToVideo(1);
+		}, 0);
+	}
+
 	return (
 		<React.Fragment>
 			<div className="tile-background">
 				{gameState === 1
-				 	&& gameState === 2
-				 	&& gameState === 3
+					&& gameState === 2
+					&& gameState === 3
 					&& (
 						<img className="game-logo" src={GameLogo} />
 					)
@@ -422,7 +431,7 @@ const HomePage = ({ counter, dispatch }) => {
 							<div className="u-margin-bottom-med u-padding-left-med u-padding-right-med">
 								<img className="intro-logo" src={GameLogo} />
 
-								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.76</h1>
+								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.78</h1>
 								<Intro />
 
 								<div className="game-rules type-sans-serif u-rounded-corners-lg">
@@ -433,7 +442,7 @@ const HomePage = ({ counter, dispatch }) => {
 									In memory of Ken Ober.
 								</div>
 
-								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => {setGameState(1); setActiveVideo(1);} }>Start Bonus Round</button>
+								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => { startGame() } }>Start Bonus Round</button>
 
 								<button className="about-author type-sans-serif" onClick={() => setGameState(4)}>About Author</button>
 							</div>
@@ -453,23 +462,23 @@ const HomePage = ({ counter, dispatch }) => {
 								</div>
 
 								<section className="game-container u-margin-top-xl">
-								    <div className="mountain">
-								      <div className="game-row game-row-1 u-padding-top-med u-padding-bottom-med">
-								      	<VideoComponent activeVideo={activeVideo} videoId={8} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      	<VideoComponent activeVideo={activeVideo} videoId={9} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      </div>
-								      <div className="game-row game-row-2 u-padding-top-med u-padding-bottom-med">
-								        <VideoComponent activeVideo={activeVideo} videoId={5} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      	<VideoComponent activeVideo={activeVideo} videoId={6} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      	<VideoComponent activeVideo={activeVideo} videoId={7} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      </div>
-								      <div className="game-row game-row-3 u-padding-top-med u-padding-bottom-med">
-								        <VideoComponent activeVideo={activeVideo} videoId={1} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      	<VideoComponent activeVideo={activeVideo} videoId={2} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      	<VideoComponent activeVideo={activeVideo} videoId={3} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      	<VideoComponent activeVideo={activeVideo} videoId={4} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-								      </div>
-								    </div>
+									<div className="mountain">
+									  <div className="game-row game-row-1 u-padding-top-med u-padding-bottom-med">
+										<VideoComponent activeVideo={activeVideo} videoId={8} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+										<VideoComponent activeVideo={activeVideo} videoId={9} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+									  </div>
+									  <div className="game-row game-row-2 u-padding-top-med u-padding-bottom-med">
+										<VideoComponent activeVideo={activeVideo} videoId={5} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+										<VideoComponent activeVideo={activeVideo} videoId={6} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+										<VideoComponent activeVideo={activeVideo} videoId={7} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+									  </div>
+									  <div className="game-row game-row-3 u-padding-top-med u-padding-bottom-med">
+										<VideoComponent activeVideo={activeVideo} videoId={1} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+										<VideoComponent activeVideo={activeVideo} videoId={2} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+										<VideoComponent activeVideo={activeVideo} videoId={3} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+										<VideoComponent activeVideo={activeVideo} videoId={4} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
+									  </div>
+									</div>
 								</section>
 							</React.Fragment>
 						)

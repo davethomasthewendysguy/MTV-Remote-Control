@@ -12,7 +12,7 @@
       "song":"The Look Of Love",
       "album":"The Lexicon of Love",
       "release_year":"1982",
-      "id":"w6Q3mHyzn78",
+      "id":"cNEdxZURTaI",
       "offset":26
    },
    {
@@ -24,7 +24,8 @@
       "song":"Back In Black",
       "album":"Back In Black",
       "release_year":"1980",
-      "id":"pAgnJDJN4VA"
+      "id":"pAgnJDJN4VA",
+      "offset":7
    },
    {
       "artist":"AC/DC",
@@ -131,7 +132,7 @@
       ],
       "song":"Don\\'t Answer Me",
       "album":"Ammonia Avenue",
-      "release_year":"",
+      "release_year":"1983",
       "id":"JLvFbBR4XOg"
    },
    {
@@ -243,7 +244,7 @@
       "song":"Turn up the Radio",
       "album":"Sign In Please",
       "release_year":"1984",
-      "id":"w6Q3mHyzn78",
+      "id":"j8CcTYsMHYU",
       "offset":107
    },
    {
@@ -599,7 +600,8 @@
       "song":"You Give Love A Bad Name",
       "album":"Slippery When Wet",
       "release_year":"1986",
-      "id":"KrZHPOeOxQQ" 
+      "id":"KrZHPOeOxQQ",
+      "offset":6
    },
    {
       "artist":"Bon Jovi",
@@ -892,7 +894,7 @@
       "album":"Kissing to Be Clever",
       "release_year":"1982",
       "id":"8tI1_KlO6xI",
-      "offset":5
+      "offset":20
    },
    {
       "artist":"The Cure",
@@ -1170,6 +1172,14 @@
      "album":"Violator",
      "release_year":"1990",
      "offset":30
+   },
+   {
+      "artist":"Depeche Mode",
+      "song":"Route 66",
+      "album":"Earth Girls Are Easy Soundtrack",
+      "release_year":"1988",
+      "id":"AwPV3qJegEE",
+      "offset":45
    },
    {
       "artist":"Dire Straits",
@@ -1722,7 +1732,8 @@
       "song":"Father Figure",
       "album":"Faith",
       "release_year":"1987",
-      "id":"m_9hfHvQSNo"
+      "id":"m_9hfHvQSNo",
+      "offset":47
    },
    {
       "artist":"Glenn Mederios",
@@ -1973,6 +1984,22 @@
       "offset":59
    },
    {
+      "artist":"Howard Jones",
+      "song":"No One Is To Blame",
+      "album":"One To One",
+      "release_year":"1986",
+      "id":"pekhxxngQ3s",
+      "offset":38
+   },
+   {
+      "artist":"Howard Jones",
+      "song":"What Is Love",
+      "album":"Human\\'s Lib",
+      "release_year":"1984",
+      "id":"w34vnz_LEX4",
+      "offset":41
+   },
+   {
       "artist":"Huey Lewis And The News",
       "song":"Hip To Be Square",
       "album":"Fore!",
@@ -2018,6 +2045,14 @@
       "release_year":"1986",
       "id":"s1ysoohV_zA",
       "offset":4
+   },
+   {
+      "artist":"Icehouse",
+      "song":"Crazy",
+      "album":"Man Of Colours",
+      "release_year":"1987",
+      "id":"dRpJaZbt0uQ",
+      "offset":115
    },
    {
       "artist":"Information Society",
@@ -2107,7 +2142,7 @@
       "offset":83
    },
    {
-      "artist":"Joan Jett Amd The Blackhearts",
+      "artist":"Joan Jett And The Blackhearts",
       "song":"I Love Rock \\'N Roll",
       "album":"I Love Rock \\'N Roll",
       "release_year":"1982",
@@ -2115,7 +2150,7 @@
       "offset":40
    },
    {
-      "artist":"Joan Jett Amd The Blackhearts",
+      "artist":"Joan Jett And The Blackhearts",
       "song":"I Hate Myself For Loving You",
       "album":"Up Your Alley",
       "release_year":"1988",
@@ -2637,7 +2672,7 @@
       "album":"Diesel and Dust",
       "release_year":"1987",
       "id":"ejorQVy3m8E",
-      "offset":10
+      "offset":20
    },
    {
       "artist":"Mike And The Mechanics",
@@ -3946,6 +3981,14 @@
       "offset":89
    },
    {
+      "artist":"Testament",
+      "song":" Practice What You Preach",
+      "album":"Practice What You Preach",
+      "release_year":"1989",
+      "id":"OVbTXg8x2EA",
+      "offset":100
+   },
+   {
       "artist":"Thomas Dolby",
       "song":"She Blinded Me With Science",
       "album":"The Golden Age of Wireless",
@@ -3958,7 +4001,7 @@
       "song":"Hold Me Now",
       "album":"Into the Gap",
       "release_year":"1983",
-      "id":"CsHiG-43Fzg",
+      "id":"H9694K85Xc8",
       "offset":32
    },
    {
@@ -3967,7 +4010,7 @@
       "album":"Tiffany",
       "release_year":"1987",
       "id":"w6Q3mHyzn78",
-      "offset":5
+      "offset":107
    },
    {
       "artist":"Timbuk 3",

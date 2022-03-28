@@ -585,13 +585,13 @@ export default createGlobalStyle`
 	.game-row {
 		display: flex;
     	flex-wrap: wrap;
-    	position: relative;
 	  	margin: 0 auto;
 	  	height: auto;
 
 	  	${smallDesktopBreakpoint} {
 	  		flex-wrap: initial;
 		  	justify-content: space-around;
+		  	position: relative;
 		  	left: 40px;
 		  	height: 230px;
 	  	}
