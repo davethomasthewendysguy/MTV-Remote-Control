@@ -403,6 +403,9 @@ const HomePage = ({ counter, dispatch }) => {
 		setActiveVideo(1);
 		setVideoArray(videoArray);
 		setTimeLeft(120);
+		setTimeout(() => {
+			scrollToVideo(1);
+		}, 0);
 	}
 
 	function startGame() {
