@@ -21,7 +21,7 @@ v0.55 -
 	- Google Analytics tracking
 	- Proper parsing of escape characters for artist and song
 	- Prevented videos from the same artist appearing twice
-	- An updated Win Screen with your game videos
+	- An updated end screen with your game's videos
 
 v0.6 -
 	- Added alternate spellings for some artists
