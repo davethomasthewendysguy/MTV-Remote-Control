@@ -31,12 +31,10 @@ GAME STATE INDEX
 4 - About Author
 *******************/
 
-let VideoList = require('@assets/videoList.json');
-
-const imageStyle = { display: 'block', margin: 'auto' };
-
+const VideoList = require('@assets/videoList.json');
 const gameClock = 120;
 
+const imageStyle = { display: 'block', margin: 'auto' };
 const Placeholder = ({videoId, image}) => <img className={`game-video-placeholder`} src={image} alt="Video Placeholder" />;
 
 function formatDataHelper(randomVideos) {
@@ -154,6 +152,7 @@ const YouTubeComponent = ({id , options}) => {
 		<YouTube
 			videoId={id}
 			opts={options}
+			controlsList={"noplaybackrate nodownload"}
 			onReady={(e)=> {
 				e.target.playVideo();
 				setPlayed(true);
@@ -434,7 +433,7 @@ const HomePage = ({ counter, dispatch }) => {
 							<div className="u-margin-bottom-med u-padding-left-med u-padding-right-med">
 								<img className="intro-logo" src={GameLogo} />
 
-								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.78</h1>
+								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.82</h1>
 								<Intro />
 
 								<div className="game-rules type-sans-serif u-rounded-corners-lg">
@@ -513,9 +512,6 @@ const HomePage = ({ counter, dispatch }) => {
 									<p><a className="animated-link" href="mailto:contact@mtvremotecontrol.site">E-mail me</a></p>
 
 									<p>Front End web developer who's looking for work.</p>
-
-									<p>I also do a podcast about video games. Take a listen if you'd like:</p>
-									<p><a className="animated-link" href="https://www.ratedgforgamers.com">Rated G for Gamers Podcast</a></p>
 								</div>
 								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => setGameState(0)}>Back</button>
 							</div>

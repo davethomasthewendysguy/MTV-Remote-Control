@@ -21,7 +21,7 @@ v0.55 -
 	- Google Analytics tracking
 	- Proper parsing of escape characters for artist and song
 	- Prevented videos from the same artist appearing twice
-	- An updated Win Screen with your game videos
+	- An updated end screen with your game's videos
 
 v0.6 -
 	- Added alternate spellings for some artists
@@ -46,3 +46,5 @@ v0.77 - About screen added.
 v.0.78 - More songs added (551 total) and fixed alignment of about us screen.
 
 v0.8 - Rework to embeds to use YouTube API instead of Iframe element.
+
+v0.9 - Fixed some song IDs, added some new songs (591 total).

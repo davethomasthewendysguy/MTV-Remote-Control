@@ -226,20 +226,26 @@ module.exports = (env = {}) => {
 							safeToUseOptionalCaches: true
 						}),
 						new WebpackPwaManifest({
-							name: 'React Template',
-							short_name: 'React TPL',
-							description: 'A React application!',
+							name: 'MTV Remote Control',
+							short_name: 'MTV Remote Control',
+							description: 'Guess music videos in your browser',
 							background_color: '#cccccc',
 							theme_color: '#333333',
 							inject: true,
 							ios: true,
 							icons: [
 								{
-									src: resolve('src/assets/icon-512x512.png'),
-									sizes: [72, 96, 128, 144, 192, 384, 512]
+									src: resolve('src/assets/android-chrome-192x192.png'),
+									sizes: [192]
+								},
+								
+
+								{
+									src: resolve('src/assets/android-chrome-512x512.png'),
+									sizes: [512]
 								},
 								{
-									src: resolve('src/assets/icon-512x512.png'),
+									src: resolve('src/assets/apple-touch-icon.png'),
 									sizes: [120, 152, 167, 180],
 									ios: true
 								}
