@@ -307,7 +307,7 @@
       "album":"Everything",
       "release_year":"1986",
       "id":"PSoOFn3wQV4",
-      "offset":4
+      "offset":20
    },
    {
       "artist":"The Bangles",
@@ -342,6 +342,14 @@
       "offset":104
    },
    {
+      "artist":"Bauhaus",
+      "song":"She\\'s In Parties",
+      "album":"Burning From The Inside",
+      "release_year":"1983",
+      "id":"Qxqq5vahHKk",
+      "offset":40
+   },
+   {
       "artist":"Beastie Boys",
       "song":"Hey Ladies",
       "album":"Paul\\'s Boutique",
@@ -361,7 +369,9 @@
       "artist":"Beastie Boys",
       "song":"(You Gotta) Fight For Your Right (To Party) ",
       "album":"License To Ill",
-      "id":"eBShN8qT4lk"
+      "release_year":"1986",
+      "id":"eBShN8qT4lk",
+      "offset":32
    },
    {
       "artist":"Beastie Boys",
@@ -1283,7 +1293,7 @@
       "song":"Enjoy the Silence",
       "album":"Violator",
       "release_year":"1990",
-      "id":"m0AKJMGxwpE" 
+      "id":"jaxqd77d3oE"
    },
    {
       "artist":"Depeche Mode",
@@ -1314,7 +1324,7 @@
       "song":"Personal Jesus",
       "album":"Violator",
       "release_year":"1989",
-      "id":"u1xrNaTO1bI" 
+      "id":"u1xrNaTO1bI"
    },
    {
      "id": "M2VBmHOYpV8",
@@ -1480,8 +1490,8 @@
       "song":"Girls",
       "album":"Jungle",
       "release_year":"1984",
-      "id":"n7ykctLEW4",
-      "offset":45
+      "id":"vBFQT0aNBNY",
+      "offset":72
    },
    {
       "artist":"Echo And the Bunnymen",
@@ -2355,6 +2365,61 @@
       "offset":27
    },
    {
+      "artist":"The Jesus and Mary Chain",
+      "alternates":[
+         "Jesus and Mary Chain"
+      ],
+      "song":"Blues From A Gun",
+      "album":"Automatic",
+      "release_year":"1989",
+      "id":"TIOim3J-jpU",
+      "offset":30
+   },
+   {
+      "artist":"The Jesus and Mary Chain",
+      "alternates":[
+         "Jesus and Mary Chain"
+      ],
+      "song":"Darklands",
+      "album":"Darklands",
+      "release_year":"1987",
+      "id":"_w9sCTtZ9EA",
+      "offset":20
+   },
+   {
+      "artist":"The Jesus and Mary Chain",
+      "alternates":[
+         "Jesus and Mary Chain"
+      ],
+      "song":"Head On",
+      "album":"Automatic",
+      "release_year":"1989",
+      "id":"eGp47YwDZ48",
+      "offset":22
+   },
+   {
+      "artist":"The Jesus and Mary Chain",
+      "alternates":[
+         "Jesus and Mary Chain"
+      ],
+      "song":"Her Way Of Praying",
+      "album":"Automatic",
+      "release_year":"1989",
+      "id":"K7gRQH7R2NQ",
+      "offset":20
+   },
+   {
+      "artist":"The Jesus and Mary Chain",
+      "alternates":[
+         "Jesus and Mary Chain"
+      ],
+      "song":"Just Like Honey",
+      "album":"Psychocandy",
+      "release_year":"1985",
+      "id":"7EgB__YratE",
+      "offset":16
+   },
+   {
       "artist":"The Jets",
       "alternates":[
          "Jets"
@@ -2446,7 +2511,7 @@
       "album":"Frontiers",
       "release_year":"1983",
       "id":"OMD8hBsA-RI",
-      "offset":8
+      "offset":22
    },
    {
       "artist":"Journey",
@@ -2700,7 +2765,7 @@
       "album":"Like A Prayer",
       "release_year":"1989",
       "id":"GsVcUzP_O_8",
-      "offset":18
+      "offset":23
    },
    {
       "artist":"Madonna",
@@ -3455,11 +3520,27 @@
    },
    {
       "artist":"Peter Murphy",
+      "song":"All Night Long",
+      "album":"Love Hysteria",
+      "release_year":"1988",
+      "id":"v_Qzd3OnbL4",
+      "offset":39
+   },
+   {
+      "artist":"Peter Murphy",
       "song":"Cuts You Up",
       "album":"Deep",
       "release_year":"1990",
       "id":"UrfFHzqGBZI",
       "offset":39
+   },
+   {
+      "artist":"Peter Murphy",
+      "song":"Strange Kind Of Love",
+      "album":"Deep",
+      "release_year":"1990",
+      "id":"y3Cy7B9x0qk",
+      "offset":18
    },
    {
       "artist":"Pet Shop Boys",
@@ -3526,48 +3607,70 @@
      "offset":75
    },
    {
-      "artist":"The Psychedelic Furs",
+      "artist":"The Pixies",
       "alternates":[
-         "Psychedelic Furs"
+         "Pixies"
       ],
-      "song":"The Ghost in You",
-      "album":"Mirror Moves",
-      "release_year":"1984",
-      "id":"T87u5yuUVi8",
-      "offset":75
+      "song":"Alec Eiffel",
+      "album":"Trompe Le Monde",
+      "release_year":"1991",
+      "id":"y0ugnZfHHCE",
+      "offset":20
    },
    {
-      "artist":"The Psychedelic Furs",
+      "artist":"The Pixies",
       "alternates":[
-         "Psychedelic Furs"
+         "Pixies"
       ],
-      "song":"Heartbreak Beat",
-      "album":"Midnight to Midnight",
-      "release_year":"1987",
-      "id":"RXfXTB7UcuU",
-      "offset":65
-   },
-   {
-      "artist":"The Psychedelic Furs",
-      "alternates":[
-         "Psychedelic Furs"
-      ],
-      "song":"Heaven",
-      "album":"Mirror Moves",
-      "release_year":"1984",
-      "id":"4G_CAYf-itw",
-      "offset":23
-   },
-   {
-      "artist":"The Psychedelic Furs",
-      "alternates":[
-         "Psychedelic Furs"
-      ],
-      "song":"Pretty in Pink",
-      "album":"Pretty in Pink Soundtrack",
-      "release_year":"1986",
-      "id":"nu0sYQRECkY",
+      "song":"Debaser",
+      "album":"Doolittle",
+      "release_year":"1989",
+      "id":"PVyS9JwtFoQ",
       "offset":22
+   },
+   {
+      "artist":"The Pixies",
+      "alternates":[
+         "Pixies"
+      ],
+      "song":"Head On",
+      "album":"Trompe Le Monde",
+      "release_year":"1991",
+      "id":"oKKdylxI1YE",
+      "offset":15
+   },
+   {
+      "artist":"The Pixies",
+      "alternates":[
+         "Pixies"
+      ],
+      "song":"Here Comes Your Man",
+      "album":"Wave Of Mutilation",
+      "release_year":"1989",
+      "id":"tPgf_btTFlc",
+      "offset":15
+   },
+   {
+      "artist":"The Pixies",
+      "alternates":[
+         "Pixies"
+      ],
+      "song":"Monkey Gone To Heaven",
+      "album":"Doolittle",
+      "release_year":"1989",
+      "id":"OncDlwNH9F0",
+      "offset":12
+   },
+   {
+      "artist":"The Pixies",
+      "alternates":[
+         "Pixies"
+      ],
+      "song":"Velouria",
+      "album":"Bossanova",
+      "release_year":"1990",
+      "id":"nc0Mv4Iyxvc",
+      "offset":33
    },
    {
      "artist":"The Police",
@@ -3693,6 +3796,50 @@
       "album":"Purple Rain",
       "release_year":"1984",
       "id":"IUc0R8bbWQE"
+   },
+   {
+      "artist":"The Psychedelic Furs",
+      "alternates":[
+         "Psychedelic Furs"
+      ],
+      "song":"The Ghost in You",
+      "album":"Mirror Moves",
+      "release_year":"1984",
+      "id":"T87u5yuUVi8",
+      "offset":75
+   },
+   {
+      "artist":"The Psychedelic Furs",
+      "alternates":[
+         "Psychedelic Furs"
+      ],
+      "song":"Heartbreak Beat",
+      "album":"Midnight to Midnight",
+      "release_year":"1987",
+      "id":"RXfXTB7UcuU",
+      "offset":65
+   },
+   {
+      "artist":"The Psychedelic Furs",
+      "alternates":[
+         "Psychedelic Furs"
+      ],
+      "song":"Heaven",
+      "album":"Mirror Moves",
+      "release_year":"1984",
+      "id":"4G_CAYf-itw",
+      "offset":23
+   },
+   {
+      "artist":"The Psychedelic Furs",
+      "alternates":[
+         "Psychedelic Furs"
+      ],
+      "song":"Pretty in Pink",
+      "album":"Pretty in Pink Soundtrack",
+      "release_year":"1986",
+      "id":"nu0sYQRECkY",
+      "offset":22
    },
    {
       "artist":"Quarterflash",
@@ -3859,10 +4006,70 @@
       "alternates":[
          "Replacements"
       ],
+      "song":"Achin\\' To Be",
+      "album":"Don\\'t Tell a Soul",
+      "release_year":"1989",
+      "id":"at4DL40FQ7Y"
+   },
+   {
+      "artist":"The Replacements",
+      "alternates":[
+         "Replacements"
+      ],
+      "song":"Alex Chilton",
+      "album":"Pleased to Meet Me",
+      "release_year":"1987",
+      "id":"ftTOEJfzdq0"
+   },
+   {
+      "artist":"The Replacements",
+      "alternates":[
+         "Replacements"
+      ],
+      "song":"Bastards Of Young",
+      "album":"Tim",
+      "release_year":"1985",
+      "id":"fl9KQ1Mub6Q"
+   },
+   {
+      "artist":"The Replacements",
+      "alternates":[
+         "Replacements"
+      ],
+      "song":"Can\\'t Hardly Wait",
+      "album":"Pleased to Meet Me",
+      "release_year":"1987",
+      "id":"EvGjAYH-Nq4"
+   },
+   {
+      "artist":"The Replacements",
+      "alternates":[
+         "Replacements"
+      ],
       "song":"I\\'ll Be You",
-      "album":"Don\\'t Tell a Soul'",
+      "album":"Don\\'t Tell a Soul",
       "release_year":"1989",
       "id":"n3XMC_Sk3QE"
+   },
+   {
+      "artist":"The Replacements",
+      "alternates":[
+         "Replacements"
+      ],
+      "song":"Merry Go Round",
+      "album":"All Shook Down",
+      "release_year":"1990",
+      "id":"uac_KQn9Q-M"
+   },
+   {
+      "artist":"The Replacements",
+      "alternates":[
+         "Replacements"
+      ],
+      "song":"When It Began",
+      "album":"All Shook Down",
+      "release_year":"1990",
+      "id":"fS-1waMLk9k"
    },
    {
       "artist":"Richard Marx",
@@ -4178,6 +4385,93 @@
       "offset":23
    },
    {
+      "artist":"The Smiths",
+      "song":"Ask",
+      "album":"The World Won't Listen",
+      "release_year":"1986",
+      "id":"zoo9Vu1a9bU",
+      "offset":13
+   },
+   {
+      "artist":"The Smiths",
+      "song":"Girlfriend In A Coma",
+      "album":"Strangeways, Here We Come",
+      "release_year":"1987",
+      "id":"3GhoWZ5qTwI",
+      "offset":9
+   },
+   {
+      "artist":"The Smiths",
+      "song":"Heaven Knows I\\'m Miserable Now",
+      "album":"Hatful Of Hollow",
+      "release_year":"1984",
+      "id":"TjPhzgxe3L0",
+      "offset":18
+   },
+   {
+      "artist":"The Smiths",
+      "song":"How Soon Is Now?",
+      "album":"Hatful Of Hollow",
+      "release_year":"1984",
+      "id":"hnpILIIo9ek",
+      "offset":20
+   },
+   {
+      "artist":"The Smiths",
+      "song":"Panic",
+      "album":"The World Won't Listen",
+      "release_year":"1986",
+      "id":"wMykYSQaG_c",
+      "offset":3
+   },
+   {
+      "artist":"The Smiths",
+      "song":"Sheila Take A Bow",
+      "album":"Louder Than Bombs",
+      "release_year":"1987",
+      "id":"8kKH4COvg",
+      "offset":11
+   },
+   {
+      "artist":"The Smiths",
+      "song":"Shoplifters Of The World",
+      "album":"The World Won't Listen",
+      "release_year":"1986",
+      "id":"lJRN76hxFz0"
+   },
+   {
+      "artist":"The Smiths",
+      "song":"Stop Me If You Think You've Heard This One Before",
+      "album":"The Smiths",
+      "release_year":"1983",
+      "id":"SckD99B51IA",
+      "offset":20
+   },
+   {
+      "artist":"The Smiths",
+      "song":"The Boy With The Thorn In His Side",
+      "album":"The Queen Is Dead",
+      "release_year":"1985",
+      "id":"qdOHPjMzY8s",
+      "offset":11
+   },
+   {
+      "artist":"The Smiths",
+      "song":"This Charming Man",
+      "album":"The Smiths",
+      "release_year":"1983",
+      "id":"cJRP3LRcUFg",
+      "offset":12
+   },
+   {
+      "artist":"The Smiths",
+      "song":"What Difference Does It Make",
+      "album":"The Smiths",
+      "release_year":"1983",
+      "id":"XbOx8TyvUmI",
+      "offset":17
+   },
+   {
       "artist":"Soft Cell",
       "song":"Tainted Love",
       "album":"Non-Stop Erotic Cabaret",
@@ -4320,7 +4614,8 @@
       "song":"Luka",
       "album":"Solitude Standing",
       "release_year":"1987",
-      "id":"VZt7J0iaUD0"
+      "id":"VZt7J0iaUD0",
+      "offset":15
    },
    {      
       "artist":"Suzanne Vega",
