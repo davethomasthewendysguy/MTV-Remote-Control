@@ -1562,6 +1562,9 @@
    },
    {
       "artist":"Electric Light Orchestra",
+      "alternates":[
+        "ELO"
+      ],
       "song":"Hold On Tight",
       "album":"Time",
       "release_year":"1981",
@@ -2362,7 +2365,7 @@
       "album":"Janet Jackson\\'s Rhythm Nation 1814",
       "release_year":"1989",
       "id":"OAwaNWGLM0c",
-      "offset":27
+      "offset":56
    },
    {
       "artist":"The Jesus and Mary Chain",
@@ -2625,6 +2628,22 @@
       "album":"Kim Wilde",
       "release_year":"1980",
       "offset":30
+   },
+   {
+      "artist":"Klymaxx",
+      "song":"I Miss You",
+      "id":"gvlhHJNppQg",
+      "album":"Meeting in the Ladies Room",
+      "release_year":"1984",
+      "offset":40
+   },
+   {
+      "artist":"Klymaxx",
+      "song":"Meeting in the Ladies Room",
+      "id":"_odTlZaoLCA",
+      "album":"Meeting in the Ladies Room",
+      "release_year":"1984",
+      "offset":63
    },
    {
       "artist":"Lisa Stansfield",
@@ -3775,6 +3794,30 @@
       "offset":43
    },
    {
+      "artist":"Pop Will Eat Itself",
+      "song":"Can U Dig It?",
+      "album":"This Is the Day...This Is the Hour...This Is This!",
+      "release_year":"1989",
+      "id":"Xef60FAN6Vk",
+      "offset":38
+   },
+   {
+      "artist":"Pop Will Eat Itself",
+      "song":"Def. Con. One",
+      "album":"Once Upon a Time",
+      "release_year":"1988",
+      "id":"Xef60FAN6Vk",
+      "offset":26
+   },
+   {
+      "artist":"Pop Will Eat Itself",
+      "song":"Wise Up! Sucker",
+      "album":"This Is the Day...This Is the Hour...This Is This!",
+      "release_year":"1989",
+      "id":"wxycYzogeys",
+      "offset":35
+   },
+   {
       "artist":"Pretty Poison",
       "song":"Catch Me I\\'m Falling",
       "album":"Hiding Out",
@@ -4247,6 +4290,14 @@
       "id":"4B_UYYPb-Gk" 
    },
    {
+      "artist":"Rush",
+      "song":"Distant Early Warning",
+      "album":"Grace Under Pressure",
+      "release_year":"1984",
+      "id":"4TYv2PhG89A",
+      "offset":40
+   },
+   {
       "artist":"Sade",
       "song":"Smooth Operator",
       "album":"Diamond Life",
@@ -4331,11 +4382,20 @@
       "offset":39
    },
    {
+      "artist":"Sigue Sigue Sputnik",
+      "song":"Love Missile F1-11",
+      "album":"Flaunt It",
+      "release_year":"1986",
+      "id":"ECRWT9TEaj0",
+      "offset":57
+   },
+   {
       "artist":"Simple Minds",
       "song":"Alive And Kicking",
       "album":"Once Upon a Time",
       "release_year":"1985",
-      "id":"ljIQo1OHkTI" 
+      "id":"ljIQo1OHkTI",
+      "offset":18
    },
    {
       "artist":"Simple Minds",
@@ -4429,7 +4489,7 @@
       "song":"Sheila Take A Bow",
       "album":"Louder Than Bombs",
       "release_year":"1987",
-      "id":"8kKH4COvg",
+      "id":"q-8kKH4COvg",
       "offset":11
    },
    {
@@ -4492,6 +4552,14 @@
       "album":"True",
       "release_year":"1983",
       "id":"AR8D2yqgQ1U"
+   },
+   {
+      "artist":"Sparks",
+      "song":"When I\\'m With You",
+      "album":"True",
+      "release_year":"1983",
+      "id":"TVTH7OsNbhs",
+      "offset":42
    },
    {
       "artist":"Starship",
@@ -4911,6 +4979,38 @@
       "release_year":"1987",
       "id":"SwrYMWoqg5w",
       "offset":76
+   },
+   {
+      "artist":"UB40",
+      "song":"Here I Am (Come and Take Me)",
+      "album":"Labour Of Love II",
+      "release_year":"1990",
+      "id":"-AeRMrZCPGk",
+      "offset":20
+   },
+   {
+      "artist":"UB40",
+      "song":"Red Red Wine",
+      "album":"Labour Of Love",
+      "release_year":"1983",
+      "id":"zXt56MB-3vc",
+      "offset":20
+   },
+   {
+      "artist":"Ultravox",
+      "song":"Dancing With Tears In My Eyes",
+      "album":"Lament",
+      "release_year":"1984",
+      "id":"PSQWUZ8a2Ho",
+      "offset":35
+   },
+   {
+      "artist":"Ultravox",
+      "song":"The Thin Wall",
+      "album":"Rage in Eden",
+      "release_year":"1981",
+      "id":"yYGx00779f8",
+      "offset":22
    },
    {
       "artist":"U2",
