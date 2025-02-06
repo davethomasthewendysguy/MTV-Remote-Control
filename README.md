@@ -48,3 +48,5 @@ v.0.78 - More songs added (551 total) and fixed alignment of about us screen.
 v0.8 - Rework to embeds to use YouTube API instead of Iframe element.
 
 v0.9 - Fixed some song IDs, added some new songs (591 total).
+
+v0.91 - 634 songs. Reworked CSS to use Bootstrap. New stats screen added using localStorage.
