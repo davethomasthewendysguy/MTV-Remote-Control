@@ -16,27 +16,27 @@ v0.4 - A working version with hardcoded songs.
 
 v0.5 - A small set of songs objects has been added into a JSON file and picked out randomly on each play. Offset start times added for songs with long intros or where the band name is prominently displayed.
 
-v0.55 -
-	- More songs added
-	- Google Analytics tracking
-	- Proper parsing of escape characters for artist and song
-	- Prevented videos from the same artist appearing twice
+v0.55 - \
+	- More songs added \
+	- Google Analytics tracking \
+	- Proper parsing of escape characters for artist and song \
+	- Prevented videos from the same artist appearing twice \
 	- An updated end screen with your game's videos
 
-v0.6 -
-	- Added alternate spellings for some artists
-	- More songs added
-	- Tweaked offsets for some songs so the beat or lyrics start when played
+v0.6 - \
+	- Added alternate spellings for some artists \
+	- More songs added \
+	- Tweaked offsets for some songs so the beat or lyrics start when played \
 	- Album and release year added to win and lose screens
 
-v0.7 -
-	- Major UI refactor
-	- More songs added (345 total)
-	- Implemented Reset Game button
+v0.7 - \
+	- Major UI refactor \
+	- More songs added (345 total) \
+	- Implemented Reset Game button \
 	- Implemented a click to reveal info for missed answers
 
-v0.75 -
-	- Fixed issue with duplicate videos from the same artist appearing in a single game
+v0.75 - \
+	- Fixed issue with duplicate videos from the same artist appearing in a single game \
 	- More songs added (497 total)
 
 v0.76 - Now next video shown will be the next in order after the last guessed instead of the lowest non-guessed video index. Will loop around to beginning if need be.
@@ -49,4 +49,7 @@ v0.8 - Rework to embeds to use YouTube API instead of Iframe element.
 
 v0.9 - Fixed some song IDs, added some new songs (591 total).
 
-v0.91 - 634 songs. Reworked CSS to use Bootstrap. New stats screen added using localStorage.
+v0.91 - \
+	- 634 songs \
+	- Reworked CSS to use Bootstrap \
+	- New stats screen added using localStorage
