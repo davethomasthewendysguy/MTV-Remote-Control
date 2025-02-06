@@ -41,7 +41,10 @@ const htmlConfig = {
 		}
 	]
 };
-
+loaders: [
+  { test: /\.json$/, loader: 'json-loader' },
+  // other loaders 
+]
 const postcssPlugins = [
 	require('postcss-easy-import'),
 	require('postcss-url')({
