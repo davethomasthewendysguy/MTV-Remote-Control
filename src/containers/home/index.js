@@ -1,17 +1,15 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { soundex } from 'soundex-code'
-import YouTube from 'react-youtube';
-
-import Button from '@components/button';
-import { Wrapper } from './styles';
-import { increment, decrement } from './actions';
-import { INCREMENT_ASYNC, DECREMENT_ASYNC } from './constants';
+// import { soundex } from 'soundex-code';
 import { useScrollSection, Section } from 'react-scroll-section';
 
-import Correct from '@assets/correct.jpg';
-import GameLogo from '@assets/logo.png';
-import ThemeSong from '@assets/theme.mp3';
-import TVLogo from '@assets/tv-logo.jpg';
+import { AboutAuthor } from '@components/AboutAuthor';
+import { GameLogoContainer } from '@components/GameLogoContainer';
+import { GameStats } from '@components/GameStats';
+import { Intro } from '@components/Intro';
+import { VideoComponent } from '@components/VideoComponent';
+
+import VanHalen from '@assets/vanhalen.jpg';
+import VideoList from '@assets/videoList.json';
 import WinVideo1 from '@assets/win1.mp4';
 import WinVideo2 from '@assets/win2.mp4';
 import WinVideo3 from '@assets/win3.mp4';
@@ -29,13 +27,10 @@ GAME STATE INDEX
 2 - Win
 3 - Lose
 4 - About Author
+5 - User Stats
 *******************/
 
-const VideoList = require('@assets/videoList.json');
 const gameClock = 120;
-
-const imageStyle = { display: 'block', margin: 'auto' };
-const Placeholder = ({videoId, image}) => <img className={`game-video-placeholder`} src={image} alt="Video Placeholder" />;
 
 function formatDataHelper(randomVideos) {
 	return randomVideos.map(video => {
@@ -48,50 +43,87 @@ function formatDataHelper(randomVideos) {
 	});
 }
 
-const Intro = () => {
-	return (
-		<div className="themesong-container u-margin-top-med">
-			<h3 className="play-themsong type-sans-serif">Play Theme</h3>
-			<audio className="themesong" controls>
-				<source src={ThemeSong} type="audio/mpeg" />
-
-				Your browser does not support the video element.
-			</audio>
-		</div>
-	);
-}
-
 const WinScreen = ({gameVideos, resetGame}) => {
 	const WinVideo = winVideos[Math.floor(Math.random() * winVideos.length)];
 
 	return (
-		<React.Fragment>
-			<h3 className="u-text-center u-margin-top-none u-margin-bottom-sm">You Win!</h3>
-			<video className="win-video u-text-center u-rounded-corners-lg" controls autoPlay>
-				<source src={WinVideo} type="video/mp4" />
-
-				Your browser does not support the video element.
-			</video>
-			<div className="win-video-container">
-				<p className="type-size-med u-margin-bottom-none">Your videos were:</p>
-				<div className="win-video-info u-padding-sm u-rounded-corners-lg">
-					{gameVideos.map((video, idx) => {
-						const {
-							artist,
-							song,
-							album,
-							release_year
-						} = video;
-
-						return (
-							<p key={idx}>{idx + 1}: {artist} - {song}<br />
-							Album: {album} ({release_year})</p>
-						);
-					})}
+		<>
+		<div class="modal show" id="myModal" role="dialog" tabindex="-1">
+				<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Modal title</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p>Modal body text goes here.</p>
+					</div>
+					<div class="modal-footer">
+						
+					</div>
+					</div>
 				</div>
-				<button className="start-game type-sans-serif u-margin-top-med" onClick={() => resetGame()}>Play Again?</button>
+		</div>
+
+		<div className="container pb-5">
+			{/* <div className="row">
+				<div className="col-12 lose-screen text-white text-center fs-3 u-text-shadow">You Win!</div>
+			</div> */}
+			<div className="row justify-content-center">
+				<div className="col-12 col-md-6 mt-4">
+					<video className="m-auto w-100 text-center border-5 rounded-4"
+						controls
+						preload="metadata"
+						autoPlay
+					>
+						<source src={WinVideo} type="video/mp4" />
+
+						You win but your browser does not support the video element.
+					</video>
+				</div>
 			</div>
-		</React.Fragment>
+			<div className="row">
+				<div className="col-12 col-lg-10 col-xl-8 mt-5 m-auto px-4 py-3 text-white fs-5">
+					<p className="m-0 u-text-shadow">Your videos were:</p>
+				</div>
+			</div>
+			<div className="row">
+				<div className="col-12 col-lg-10 col-xl-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
+					<ol className="d-flex flex-wrap px-3">
+						{gameVideos.map((video, idx) => {
+							const {
+								artist,
+								song,
+								album,
+								release_year
+							} = video;
+
+							const classes = "col-12 col-md-6 pb-2";
+
+							return (
+								<li
+									key={idx}
+									className={classes}
+								>
+									<div>{artist} - {song}<br />
+									Album: {album} ({release_year})</div>
+								</li>
+							);
+						})}
+					</ol>
+					<div className="container">
+						<div className="row">
+						<button
+							className="col-12 col-md-4 col-lg-3 mt-3 px-3 py-2 m-auto text-black text-center start-game"
+							onClick={() => resetGame()}>
+								Play Again?
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</>
 	);
 }
 
@@ -99,11 +131,16 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 	const totalGuessed = gameVideos.filter((video) => video.guessed).length || 0;
 
 	return (
-		<React.Fragment>
-			<div className="lose-screen type-sans-serif u-text-center u-margin-top-xxl">Game Over! You guessed {totalGuessed} out of 9.</div>
-			<div className="win-video-container">
-				<p className="type-size-med u-margin-bottom-none">Your score was:</p>
-				<div className="win-video-info u-padding-sm u-rounded-corners-lg">
+		<div className="container">
+			<div className="row">
+				<div className="col-12 lose-screen text-white text-center fs-3 u-text-shadow">Game Over! You guessed {totalGuessed} out of 9.</div>
+			</div>
+			<div className="row">
+				<div className="col-12 col-md-8 mt-5 m-auto px-4 py-3 text-white fs-5">
+					<p className="m-0 u-text-shadow">Your score was:</p>
+				</div>
+				<div className="col-12 col-md-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
+					<ol className="d-flex flex-wrap px-3">
 					{gameVideos.map((video, idx) => {
 						const {
 							album,
@@ -114,114 +151,59 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 							song,
 						} = video;
 
+						const classes = "w-50 pb-2";
+
+						// Some duplicate code, refactor
 						if (guessed) {
 							return (
-								<p key={idx}>{idx + 1}: {artist} - {song}<br />
-								Album: {album} ({release_year})</p>
+								<li
+									className={classes}
+									key={idx}
+								>
+									<div>{artist} - {song}</div>
+									Album: {album} ({release_year})
+								</li>
 							);
 						} else if (revealAnswer) {
 							return (
-								<p key={idx} className="u-inline"><span>{idx + 1}:</span> <span className="color-red">{artist} - {song}<br />
-								Album: {album} ({release_year})</span></p>
+								<li
+								className={classes}
+									key={idx}
+								>
+									<div className="text-danger">{artist} - {song}<br />
+									Album: {album} ({release_year})</div>
+								</li>
 							);
 						} else {
 							return (
-								<p key={idx} className="u-inline" onClick={() => {
-									gameVideos[idx].revealAnswer = true;
-									const gameVideos2 = [...gameVideos];
+								<li
+									key={idx}
+									className={classes}
+									onClick={() => {
+										gameVideos[idx].revealAnswer = true;
+										const gameVideos2 = [...gameVideos];
 
-									return setVideoArray(gameVideos2)}
+										return setVideoArray(gameVideos2)
+									}
 								}
-								><span>{idx + 1}:</span> <span className="color-red u-cursor-pointer">Missed</span></p>
+								>
+									
+									<div className="text-danger u-cursor-pointer">Missed</div>
+								</li>
 							);
 						}
 					})}
+					</ol>
+					
 					<p>*Click to reveal video info</p>
-				</div>
-				<button className="start-game type-sans-serif u-margin-top-med" onClick={() => resetGame()}>Play Again?</button>
-			</div>
-		</React.Fragment>
-	);
-}
-
-
-const YouTubeComponent = ({id , options}) => {
-	const [played, setPlayed] = useState(false);
-
-	return (
-		<YouTube
-			videoId={id}
-			opts={options}
-			controlsList={"noplaybackrate nodownload"}
-			onReady={(e)=> {
-				e.target.playVideo();
-				setPlayed(true);
-			}}
-		/>
-	)
-}
-
-const VideoComponent = ({activeVideo, videoId, gameVideos, setActiveVideo, ref}) => {
-	const guessState = gameVideos[videoId - 1].guessed;
-	const offset = gameVideos[videoId - 1].offset || 0;
-
-	const opts = {
-		playerVars: {
-			autohide: 0,
-			autoplay: 1,
-			controls: 0,
-			disablekb: 0,
-			enablejsapi: 1,
-			fs: 0,
-			loop: 1,
-			modestbranding: 1,
-			playsinline: 1,
-			rel: 0,
-			showinfo: 0,
-			start: offset,
-		},
-	};
-
-	return (
-		<Section id={`video-${videoId}`} className="game-video-container" ref={(ref) ? ref : undefined}>
-            <div className="u-display-flex u-position-relative">
-				<div className="game-video-number">{videoId}</div>               
-				<div
-					className={`game-video game-video-${videoId}`}
-					onClick={() => {
-						if (!guessState) {
-							setActiveVideo(videoId);
-						}
-					}}
-				  >
-					{activeVideo !== videoId
-						&& guessState === false
-						&& (
-							<Placeholder videoId={videoId} image={TVLogo} />
-						)
-					}
-					{guessState === true
-						&& (
-							<Placeholder videoId={videoId} image={Correct} />
-						)
-					}
-
-					{activeVideo === videoId
-						&& guessState === false
-						&& (
-							<div className="frame-wrapper">
-								<div className="frame-container">
-									<YouTubeComponent
-										id={gameVideos[videoId - 1].id}
-										options={opts}
-									/>
-								</div>
-							</div>
-						)
-					}
+					<div className="container">
+						<div className="row">
+							<button className="col-12 col-md-4 col-lg-3 col-xl-2 mt-3 px-3 py-2 m-auto text-black text-center start-game" onClick={() => resetGame()}>Play Again?</button>
+						</div>
+					</div>
 				</div>
 			</div>
-		</Section>
+		</div>
 	);
 }
 
@@ -285,8 +267,6 @@ const HomePage = ({ counter, dispatch }) => {
 
 			updatedGameVideos[activeVideo - 1].guessed = true;
 
-			console.log("You guessed correctly!");
-
 			let highestUnguessedIndex;
 
 			// Find highest unguessed video to know where to loop back around
@@ -348,6 +328,7 @@ const HomePage = ({ counter, dispatch }) => {
 				}
 			}
 		});
+
 
 		if (nextIndex !== -1) {
 			setActiveVideo(nextIndex + 1);
@@ -417,109 +398,171 @@ const HomePage = ({ counter, dispatch }) => {
 		}, 0);
 	}
 
+	function seeStats() {
+		setGameState(5);
+	}
+
 	return (
-		<React.Fragment>
-			<div className="tile-background">
-				{gameState === 1
-					&& gameState === 2
-					&& gameState === 3
+		<div className="position-relative tile-background">
+			{[1, 2, 3].includes(gameState) && (
+				<GameLogoContainer
+					gameState={gameState}
+				/>
+			)}
+
+			{[5].includes(gameState) && (
+				<GameStats
+					gameState={gameState}
+				/>
+			)}
+
+			<div className={`${mountainBackground} pt-3`}>
+				{gameState === 0
 					&& (
-						<img className="game-logo" src={GameLogo} />
+						<>
+							<GameLogoContainer />
+
+							<div className="container">
+								<div className="row">
+									<h1 className="mt-2 p-0 w-100 text-center text-white fs-3 fw-bold u-text-shadow">Welcome to MTV Remote Control v0.82</h1>
+									<Intro />
+								</div>
+								<div className="row">
+									<div className="col-12 col-md-10 col-xl-6 mt-5 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
+										<p>Based on the hit gameshow from the late 80s on MTV, Remote Control asked contestants a series of pop culture themed trivia in an attempt to garner points. The contestant with the most points gets to go to the bonus round which you get to play today.</p>
+										
+										<p className="mb-0">The objective is simple: you have two minutes to guess the artist of a random assortment of 9 music videos. Clicking on the different TVs will switch videos. Guess them all and you'll win a brand new Zenith 19" color TV with remote control. Good luck!</p>
+									</div>
+								</div>
+
+								<div className="row">
+									<div className="col-12 col-md-4 col-lg-3 mt-4 m-auto p-3 text-center fs-6 rounded-4 text-white u-game-window-background">
+										In memory of Ken Ober.
+									</div>
+								</div>
+								<div className="row row-cols-2 gx-5 justify-content-evenly justify-content-md-center">
+									<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 me-md-2 px-3 py-2 text-black start-game" onClick={() => { startGame() } }>Start Bonus Round</button>
+									<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 ms-md-2 px-3 py-2 text-black start-game" onClick={() => { seeStats() } }>See Stats</button>
+								</div>
+								<div className="row justify-content-evenly justify-content-md-end">
+									<button className="col-12 col-md-2 mt-5 px-3 py-2 start-game" onClick={() => setGameState(4)}>About Author</button>
+								</div>
+							</div>
+						</>
 					)
 				}
-				<div className={`${mountainBackground} u-padding-top-med`}>
-					{gameState === 0
-						&& (
-							<div className="u-margin-bottom-med u-padding-left-med u-padding-right-med">
-								<img className="intro-logo" src={GameLogo} />
 
-								<h1 className="h1 type-sans-serif u-text-center">Welcome to MTV Remote Control v0.82</h1>
-								<Intro />
-
-								<div className="game-rules type-sans-serif u-rounded-corners-lg">
-									Based on the hit gameshow from the late 80s on MTV, Remote Control asked contestants a series of pop culture themed trivia in an attempt to garner points. The contestant with the most points gets to go to the bonus round which you get to play today.<br /><br />The objective is simple: you have two minutes to guess the artist of a random assortment of 9 music videos. Clicking on the different TVs will switch videos. Guess them all and you win a brand new Zenith 19" color TV with remote control. Good luck!
-								</div>
-
-								<div className="in-memoriam type-sans-serif u-padding-sm u-rounded-corners-lg u-text-center">
-									In memory of Ken Ober.
-								</div>
-
-								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => { startGame() } }>Start Bonus Round</button>
-
-								<button className="about-author type-sans-serif" onClick={() => setGameState(4)}>About Author</button>
+				{gameState === 1
+					&& (
+						<>	
+							<div className="answer-container">
+								<input className="answer u-rounded-corners-sm" placeholder="Guess" onKeyUp={(e) => validateGuess(e, activeVideo) }/>
+								<button className="skip-button u-rounded-corners-sm" onClick={() => gotoNextVideo(gameVideos, activeVideo)}>Skip Video</button>
+								
+								<span className={`${timeLeft > 20 || timeLeft <= 0 ? 'color-white' : 'color-white a-warning-flash'} timer u-margin-top-xs`}>
+									{timeLeft > 0 ? `TIMER: ${timeLeft}` : 'Time\'s up!'}
+								</span>
 							</div>
-						)
-					}
 
-					{gameState === 1
-						&& (
-							<React.Fragment>	
-								<div className="answer-container type-sans-serif">
-									<input className="answer u-rounded-corners-sm" placeholder="Guess" onKeyUp={(e) => validateGuess(e, activeVideo) }/>
-									<button className="skip-button type-sans-serif u-rounded-corners-sm" onClick={() => gotoNextVideo(gameVideos, activeVideo)}>Skip Video</button>
-									
-									<span className={`${timeLeft > 20 || timeLeft <= 0 ? 'color-white' : 'color-white a-warning-flash'} timer u-margin-top-xs`}>
-										{timeLeft > 0 ? `TIMER: ${timeLeft}` : 'Time\'s up!'}
-									</span>
-								</div>
-
-								<section className="game-container u-margin-top-xl">
-									<div className="mountain">
-									  <div className="game-row game-row-1 u-padding-top-med u-padding-bottom-med">
-										<VideoComponent activeVideo={activeVideo} videoId={8} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-										<VideoComponent activeVideo={activeVideo} videoId={9} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-									  </div>
-									  <div className="game-row game-row-2 u-padding-top-med u-padding-bottom-med">
-										<VideoComponent activeVideo={activeVideo} videoId={5} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-										<VideoComponent activeVideo={activeVideo} videoId={6} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-										<VideoComponent activeVideo={activeVideo} videoId={7} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-									  </div>
-									  <div className="game-row game-row-3 u-padding-top-med u-padding-bottom-med">
-										<VideoComponent activeVideo={activeVideo} videoId={1} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-										<VideoComponent activeVideo={activeVideo} videoId={2} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-										<VideoComponent activeVideo={activeVideo} videoId={3} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-										<VideoComponent activeVideo={activeVideo} videoId={4} gameVideos={gameVideos} setActiveVideo={setActiveVideo} />
-									  </div>
+							<div className="container mt-5    game-container">
+								<div className="mountain pb-5 pb-lg-0">
+									<div className="row justify-content-center game-row game-row-1 py-4 py-xxl-5">
+										<VideoComponent
+											activeVideo={activeVideo}
+											videoId={8}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+										<VideoComponent
+											activeVideo={activeVideo}
+											videoId={9}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
 									</div>
-								</section>
-							</React.Fragment>
-						)
-					}
-
-					{gameState === 2
-						&& (
-							<div className="win-screen type-sans-serif u-margin-top-lg u-margin-bottom-med">
-								<WinScreen gameVideos={gameVideos} resetGame={resetGame} />
-							</div>
-						)
-					}
-
-					{gameState === 3
-						&& (
-							<div className="win-screen type-sans-serif u-margin-top-lg">
-								<LoseScreen gameVideos={gameVideos} resetGame={resetGame} setVideoArray={setVideoArray} />
-							</div>
-						)
-					}
-
-					{gameState === 4
-						&& (
-							<div className="author-info-container">
-								<img className="intro-logo" src={GameLogo} />
-								<div className="author-info type-sans-serif u-rounded-corners-lg">
-									<p><b>Created by:</b> Dave Rottino</p>
-									<p>This game was created out the love of the 80s. Maintaining and adding to this in my free time. Have a question, suggestion, comment, or bug?</p>
-									<p><a className="animated-link" href="mailto:contact@mtvremotecontrol.site">E-mail me</a></p>
-
-									<p>Front End web developer who's looking for work.</p>
+									<div className="row justify-content-center  py-4">
+										<VideoComponent
+											activeVideo={activeVideo}
+											videoId={5}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+										<VideoComponent
+											activeVideo={activeVideo}
+											videoId={6}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+										<VideoComponent
+											activeVideo={activeVideo}
+											videoId={7}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+									</div>
+									<div className="row justify-content-center  py-4">
+										<VideoComponent
+											activeVideo={activeVideo} 
+											videoId={1}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+										<VideoComponent
+											activeVideo={activeVideo} 
+											videoId={2}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+										<VideoComponent
+											activeVideo={activeVideo} 
+											videoId={3}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+										<VideoComponent
+											activeVideo={activeVideo} 
+											videoId={4}
+											gameVideos={gameVideos}
+											setActiveVideo={setActiveVideo}
+										/>
+									</div>
 								</div>
-								<button className="start-game type-sans-serif u-margin-top-med" onClick={() => setGameState(0)}>Back</button>
 							</div>
-						)
-					}
-				</div>
+						</>
+					)
+				}
+
+				{gameState === 2
+					&& (
+						<div className="win-screen type-sans-serif u-margin-top-lg u-margin-bottom-med">
+							<WinScreen
+								gameVideos={gameVideos}
+								resetGame={resetGame}
+							/>
+						</div>
+					)
+				}
+
+				{gameState === 3
+					&& (
+						<LoseScreen
+							gameVideos={gameVideos}
+							resetGame={resetGame}
+							setVideoArray={setVideoArray}
+						/>
+					)
+				}
+
+				{gameState === 4
+					&& (
+						<>
+							<GameLogoContainer />
+							<AboutAuthor />
+						</>
+					)
+				}
 			</div>
-		</React.Fragment>
+		</div>
 	)
 };
 
