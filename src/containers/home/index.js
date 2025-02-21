@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, {  useEffect, useState, useRef } from 'react';
 // import { soundex } from 'soundex-code';
 import { useScrollSection, Section } from 'react-scroll-section';
 
@@ -48,81 +48,61 @@ const WinScreen = ({gameVideos, resetGame}) => {
 
 	return (
 		<>
-		<div class="modal show" id="myModal" role="dialog" tabindex="-1">
-				<div class="modal-dialog">
-					<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title">Modal title</h5>
-						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					</div>
-					<div class="modal-body">
-						<p>Modal body text goes here.</p>
-					</div>
-					<div class="modal-footer">
-						
-					</div>
+			<div className="container pb-5">
+				<div className="row justify-content-center">
+					<div className="col-12 col-md-6 mt-4">
+						<video className="m-auto w-100 text-center border-5 rounded-4"
+							controls
+							preload="metadata"
+							autoPlay
+						>
+							<source src={WinVideo} type="video/mp4" />
+
+							You win but your browser does not support the video element.
+						</video>
 					</div>
 				</div>
-		</div>
-
-		<div className="container pb-5">
-			{/* <div className="row">
-				<div className="col-12 lose-screen text-white text-center fs-3 u-text-shadow">You Win!</div>
-			</div> */}
-			<div className="row justify-content-center">
-				<div className="col-12 col-md-6 mt-4">
-					<video className="m-auto w-100 text-center border-5 rounded-4"
-						controls
-						preload="metadata"
-						autoPlay
-					>
-						<source src={WinVideo} type="video/mp4" />
-
-						You win but your browser does not support the video element.
-					</video>
+				<div className="row">
+					<div className="col-12 col-lg-10 col-xl-8 mt-5 m-auto px-4 py-3 text-white fs-5">
+						<p className="m-0 u-text-shadow">Your videos were:</p>
+					</div>
 				</div>
-			</div>
-			<div className="row">
-				<div className="col-12 col-lg-10 col-xl-8 mt-5 m-auto px-4 py-3 text-white fs-5">
-					<p className="m-0 u-text-shadow">Your videos were:</p>
-				</div>
-			</div>
-			<div className="row">
-				<div className="col-12 col-lg-10 col-xl-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
-					<ol className="d-flex flex-wrap px-3">
-						{gameVideos.map((video, idx) => {
-							const {
-								artist,
-								song,
-								album,
-								release_year
-							} = video;
+				<div className="row">
+					<div className="col-12 col-lg-10 col-xl-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
+						<ol className="d-flex flex-wrap px-3">
+							{gameVideos.map((video, idx) => {
+								const {
+									artist,
+									song,
+									album,
+									release_year
+								} = video;
 
-							const classes = "col-12 col-md-6 pb-2";
+								const classes = "col-12 col-md-6 pb-2";
 
-							return (
-								<li
-									key={idx}
-									className={classes}
-								>
-									<div>{artist} - {song}<br />
-									Album: {album} ({release_year})</div>
-								</li>
-							);
-						})}
-					</ol>
-					<div className="container">
-						<div className="row">
-						<button
-							className="col-12 col-md-4 col-lg-3 mt-3 px-3 py-2 m-auto text-black text-center start-game"
-							onClick={() => resetGame()}>
-								Play Again?
-							</button>
+								return (
+									<li
+										key={idx}
+										className={classes}
+									>
+										<div>{artist} - {song}<br />
+										Album: {album} ({release_year})</div>
+									</li>
+								);
+							})}
+						</ol>
+						<div className="container">
+							<div className="row">
+							<button
+								className="col-12 col-md-4 col-lg-3 mt-3 px-3 py-2 m-auto text-black text-center start-game"
+								onClick={() => resetGame()}>
+									Play Again?
+								</button>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 		</>
 	);
 }
@@ -184,10 +164,9 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 										const gameVideos2 = [...gameVideos];
 
 										return setVideoArray(gameVideos2)
-									}
-								}
+									}}
 								>
-									
+
 									<div className="text-danger u-cursor-pointer">Missed</div>
 								</li>
 							);
@@ -207,7 +186,7 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 	);
 }
 
-const HomePage = ({ counter, dispatch }) => {
+const HomePage = () => {
 	const randomVideos = VideoList.sort(() => Math.random() - Math.random());
 	const formattedRandomVideos = formatDataHelper([...new Map(randomVideos.map((video) => [video["artist"], video])).values()]);
 
@@ -236,21 +215,38 @@ const HomePage = ({ counter, dispatch }) => {
 
 	const mountainBackground = gameState === 1 ? 'mountain-background' : '';
 
+	// Update play count on game start
 	useEffect(() => {
-		if(gameState === 1) {
+		if (gameState === 1 && timeLeft === 120) {
+			const playCount = Number(localStorage.getItem('plays'));	
+
+			if (playCount > 0) {
+				localStorage.setItem('plays', playCount + 1);
+			} else {
+				localStorage.setItem('plays', 1);
+			}
+		}
+	}, [gameState]);
+
+	// Update game timer
+	useEffect(() => {
+		if (gameState === 1) {
 			const newTimeLeft = timeLeft;
 
 			const timer = setTimeout(() => {
 				setTimeLeft(newTimeLeft - 1);
 
 				if(newTimeLeft < 0) {
-					setGameState(3);
+					const loseCount = Number(localStorage.getItem('losses'));	
+					localStorage.setItem('wins', loseCount + 1);
+
+					return setGameState(3);
 				}
 			}, 1000);
 
 			return () => clearTimeout(timer);
 		}
-	});
+	}, [gameState, timeLeft]);
 
 	function validateGuess(el, activeVideo) {
 		const currentGuess = el.target.value.toLowerCase() || '';
@@ -260,12 +256,15 @@ const HomePage = ({ counter, dispatch }) => {
 		// Combine artist and alternate spellings into one searchable value.
 		currentAnswers = currentAnswers.concat(currentAlternates);
 
-		if(Array.isArray(currentAnswers)
+		if (Array.isArray(currentAnswers)
 			&& currentAnswers.length > 0
 			&& currentAnswers.includes(currentGuess)) {
 			const updatedGameVideos = gameVideos;
 
 			updatedGameVideos[activeVideo - 1].guessed = true;
+
+			const correctGuesses = Number(localStorage.getItem('correctGuesses'));	
+			localStorage.setItem('correctGuesses', correctGuesses + 1);
 
 			let highestUnguessedIndex;
 
@@ -279,7 +278,7 @@ const HomePage = ({ counter, dispatch }) => {
 
 			const nextIndex = updatedGameVideos.findIndex((el, idx) => {
 				// If current element is not solved and it does not equal the active video
-				if(el.guessed === false
+				if (el.guessed === false
 					&& idx + 1 != activeVideo) {
 					if(activeVideo === highestUnguessedIndex + 1) { // If already at highest unguessed video loop back around to the beginning
 						return true;
@@ -294,6 +293,9 @@ const HomePage = ({ counter, dispatch }) => {
 			if (nextIndex === -1) {
 				// Win Status
 				setGameState(2);
+
+				const winCount = Number(localStorage.getItem('wins'));	
+				localStorage.setItem('wins', winCount + 1);
 			} else {
 				// Find next unguessed video
 				el.target.value = '';
@@ -392,7 +394,7 @@ const HomePage = ({ counter, dispatch }) => {
 		setGameState(1);
 		setActiveVideo(1);
 
-		//Not sure why this is needed to get initial scrolling on mobile/tablet to work but it is.
+		// Not sure why this is needed to get initial scrolling on mobile/tablet to work but it is.
 		setTimeout(() => {
 			scrollToVideo(1);
 		}, 0);
@@ -413,48 +415,47 @@ const HomePage = ({ counter, dispatch }) => {
 			{[5].includes(gameState) && (
 				<GameStats
 					gameState={gameState}
+					setGameState={setGameState}
 				/>
 			)}
 
 			<div className={`${mountainBackground} pt-3`}>
-				{gameState === 0
-					&& (
-						<>
-							<GameLogoContainer />
-
-							<div className="container">
-								<div className="row">
-									<h1 className="mt-2 p-0 w-100 text-center text-white fs-3 fw-bold u-text-shadow">Welcome to MTV Remote Control v0.82</h1>
-									<Intro />
-								</div>
-								<div className="row">
-									<div className="col-12 col-md-10 col-xl-6 mt-5 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
-										<p>Based on the hit gameshow from the late 80s on MTV, Remote Control asked contestants a series of pop culture themed trivia in an attempt to garner points. The contestant with the most points gets to go to the bonus round which you get to play today.</p>
-										
-										<p className="mb-0">The objective is simple: you have two minutes to guess the artist of a random assortment of 9 music videos. Clicking on the different TVs will switch videos. Guess them all and you'll win a brand new Zenith 19" color TV with remote control. Good luck!</p>
-									</div>
-								</div>
-
-								<div className="row">
-									<div className="col-12 col-md-4 col-lg-3 mt-4 m-auto p-3 text-center fs-6 rounded-4 text-white u-game-window-background">
-										In memory of Ken Ober.
-									</div>
-								</div>
-								<div className="row row-cols-2 gx-5 justify-content-evenly justify-content-md-center">
-									<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 me-md-2 px-3 py-2 text-black start-game" onClick={() => { startGame() } }>Start Bonus Round</button>
-									<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 ms-md-2 px-3 py-2 text-black start-game" onClick={() => { seeStats() } }>See Stats</button>
-								</div>
-								<div className="row justify-content-evenly justify-content-md-end">
-									<button className="col-12 col-md-2 mt-5 px-3 py-2 start-game" onClick={() => setGameState(4)}>About Author</button>
+				{gameState === 0 && (
+					<>
+						<GameLogoContainer />
+				
+						<div className="container">
+							<div className="row">
+								<h1 className="mt-2 p-0 w-100 text-center text-white fs-3 fw-bold u-text-shadow">Welcome to MTV Remote Control v0.9</h1>
+								<Intro />
+							</div>
+							<div className="row">
+								<div className="col-12 col-md-10 col-xl-6 mt-5 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
+									<p>Based on the hit gameshow from the late 80s on MTV, Remote Control asked contestants a series of pop culture themed trivia in an attempt to garner points. The contestant with the most points gets to go to the bonus round which you get to play today.</p>
+									
+									<p className="mb-0">The objective is simple: you have two minutes to guess the artist of a random assortment of 9 music videos. Clicking on the different TVs will switch videos. Guess them all and you'll win a brand new Zenith 19" color TV with remote control. Good luck!</p>
 								</div>
 							</div>
-						</>
-					)
-				}
+				
+							<div className="row">
+								<div className="col-12 col-md-4 col-lg-3 mt-4 m-auto p-3 text-center fs-6 rounded-4 text-white u-game-window-background">
+									In memory of Ken Ober.
+								</div>
+							</div>
+							<div className="row row-cols-2 gx-5 justify-content-evenly justify-content-md-center">
+								<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 me-md-2 px-3 py-2 text-black start-game" onClick={() => { startGame() } }>Start Bonus Round</button>
+								<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 ms-md-2 px-3 py-2 text-black start-game" onClick={() => { seeStats() } }>See Stats</button>
+							</div>
+							<div className="row justify-content-evenly justify-content-md-end">
+								<button className="col-12 col-md-2 mt-5 px-3 py-2 start-game" onClick={() => setGameState(4)}>About Author</button>
+							</div>
+						</div>
+					</>
+				)}
 
 				{gameState === 1
 					&& (
-						<>	
+						<>
 							<div className="answer-container">
 								<input className="answer u-rounded-corners-sm" placeholder="Guess" onKeyUp={(e) => validateGuess(e, activeVideo) }/>
 								<button className="skip-button u-rounded-corners-sm" onClick={() => gotoNextVideo(gameVideos, activeVideo)}>Skip Video</button>
@@ -557,7 +558,7 @@ const HomePage = ({ counter, dispatch }) => {
 					&& (
 						<>
 							<GameLogoContainer />
-							<AboutAuthor />
+							<AboutAuthor setGameState={setGameState} />
 						</>
 					)
 				}

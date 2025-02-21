@@ -969,7 +969,7 @@
       "album":"Crowded House",
       "release_year":"1986",
       "id":"J9gKyRmic20",
-      "offset":10
+      "offset":24
    },
    {
       "artist":"Culture Club",
@@ -1207,7 +1207,7 @@
       "song":"Just A Gigolo / I Ain't Got Nobody",
       "album":"Crazy from the Heat",
       "release_year":"1985",
-      "id":"lN-4lX0QyZc",
+      "id":"rkdhhEjX-I0",
       "offset": 116
    },
    {
@@ -1807,7 +1807,8 @@
      "song":"Waiting For A Girl Like You",
      "album":"4",
      "release_year":"1981",
-     "id":"5jhocSCSZzk"
+     "id":"5jhocSCSZzk",
+     "offset": 21
    },
    {
       "artist":"Foreigner",
@@ -3442,7 +3443,8 @@
       "song":"Come Back and Stay",
       "album":" No Parlez",
       "release_year":"1983",
-      "id":"aeeJhEpeUfc"
+      "id":"aeeJhEpeUfc",
+      "offset":75
    },
    {
       "artist":"Paul Young",
@@ -4278,7 +4280,12 @@
    {
       "artist":"RUN-DMC And Aerosmith",
       "alternates":[
-         "RUN DMC And Aerosmith",
+         "Aerosmith and RUN DMC",
+         "Aerosmith with RUN-DMC",
+         "Aerosmith with RUN DMC",
+         "Aerosmith RUN-DMC",
+         "RUN DMC Aerosmith",
+         "RUN DMC and Aerosmith",
          "RUN-DMC with Aerosmith",
          "RUN DMC with Aerosmith",
          "RUN-DMC Aerosmith",
@@ -4310,7 +4317,7 @@
       "album":"Promise",
       "release_year":"1985",
       "id":"kcPc18SG6uA",
-      "offset":45
+      "offset":98
    },
    {
       "artist":"Salt-N-Pepa",

@@ -30,12 +30,6 @@ export const VideoComponent = (props) => {
 		},
 	};
 
-// 	display: flex;
-// // 	  	position: relative;
-// // 	  	margin: 0 auto;
-// // 	    width: 100%;
-// // 		justify-content: center;
-
 	const paddingClasses = [9, 6, 7, 2, 3, 4].includes(videoId) ? 'px-xxl-5' : '';
 	const paddingClasses2 = [8, 5, 1].includes(videoId) ? 'px-xxl-5' : '';
 

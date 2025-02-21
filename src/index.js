@@ -25,7 +25,7 @@ render(router(App), node);
 if (module.hot) {
 	module.hot.accept();
 
-	const NextApp = require('@containers/App').default;
+	const NextApp = require('@containers/app').default;
 
 	render(router(NextApp), node);
 }

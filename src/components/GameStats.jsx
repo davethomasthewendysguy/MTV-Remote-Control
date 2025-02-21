@@ -6,9 +6,7 @@ const losses = localStorage.getItem('losses') || 0;
 const plays = localStorage.getItem('plays') || 0;
 const correctGuesses = localStorage.getItem('correctGuesses') || 0;
 
-console.log(localStorage);
-
-export const GameStats = ({gameState = 1}) => (
+export const GameStats = ({gameState = 1, setGameState}) => (
     <>
         <div className={`container pt-3 ${gameState === 1 ? 'position-absolute end-100': ''}`}>
             <div className="row justify-content-center">
@@ -56,6 +54,9 @@ export const GameStats = ({gameState = 1}) => (
                             <button className="col-12 col-md-4 col-lg-3 col-xl-2 mt-3 px-3 py-2 m-auto text-black text-center start-game" onClick={() => resetGame()}>Play Again?</button>
                         </div>
                     </div> */}
+                </div>
+                <div className="row justify-content-center">
+                    <button className="start-game col-12 col-md-3 col-lg-2 mt-4 px-3 py-2" onClick={() => setGameState(0)}>Back</button>
                 </div>
             </div>
         </div>
