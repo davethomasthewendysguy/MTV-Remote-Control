@@ -116,10 +116,10 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 				<div className="col-12 lose-screen text-white text-center fs-3 u-text-shadow">Game Over! You guessed {totalGuessed} out of 9.</div>
 			</div>
 			<div className="row">
-				<div className="col-12 col-md-8 mt-5 m-auto px-4 py-3 text-white fs-5">
+				<div className="col-12 col-md-10 col-xl-8 mt-5 m-auto px-4 py-3 text-white fs-5">
 					<p className="m-0 u-text-shadow">Your score was:</p>
 				</div>
-				<div className="col-12 col-md-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
+				<div className="col-12 col-md-10 col-xl-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
 					<ol className="d-flex flex-wrap px-3">
 					{gameVideos.map((video, idx) => {
 						const {
@@ -131,7 +131,7 @@ const LoseScreen = ({gameVideos, resetGame, setVideoArray}) => {
 							song,
 						} = video;
 
-						const classes = "w-50 pb-2";
+						const classes = "col-12 col-lg-6 pb-2";
 
 						// Some duplicate code, refactor
 						if (guessed) {
@@ -424,7 +424,7 @@ const HomePage = () => {
 					<>
 						<GameLogoContainer />
 				
-						<div className="container">
+						<div className="container px-4">
 							<div className="row">
 								<h1 className="mt-2 p-0 w-100 text-center text-white fs-3 fw-bold u-text-shadow">Welcome to MTV Remote Control v0.9</h1>
 								<Intro />
@@ -442,7 +442,7 @@ const HomePage = () => {
 									In memory of Ken Ober.
 								</div>
 							</div>
-							<div className="row row-cols-2 gx-5 justify-content-evenly justify-content-md-center">
+							<div className="row row-cols-2 justify-content-evenly justify-content-md-center">
 								<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 me-md-2 px-3 py-2 text-black start-game" onClick={() => { startGame() } }>Start Bonus Round</button>
 								<button className="col-6 col-md-4 col-lg-3 col-xl-2 mt-3 ms-md-2 px-3 py-2 text-black start-game" onClick={() => { seeStats() } }>See Stats</button>
 							</div>

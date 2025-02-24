@@ -3,14 +3,11 @@ import tileBackground from '@assets/tile-background.jpg';
 import mountainBackground from '@assets/game-background3.png';
 import dirtCircle from '@assets/dirt-circle.png';
 
-
-
 const tablet = '768'
 const smallDesktop = '1024';
 const desktop = '1280';
 const laptopHeight = '800';
 const desktopHeight = '900';
-
 
 const underTabletBreakpoint = `@media all and (max-width: ${tablet - 1}px)`;
 const tabletBreakpoint = `@media all and (min-width: ${tablet}px)`;

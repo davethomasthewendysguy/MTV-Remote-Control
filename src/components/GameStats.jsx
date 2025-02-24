@@ -16,7 +16,7 @@ export const GameStats = ({gameState = 1, setGameState}) => (
             </div>
         </div>
 
-        <div className="container">
+        <div className="container px-4">
             <div className="row">
                 <div className="col-12 col-md-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
                     <div className="d-flex flex-wrap px-3">    
@@ -55,9 +55,8 @@ export const GameStats = ({gameState = 1, setGameState}) => (
                         </div>
                     </div> */}
                 </div>
-                <div className="row justify-content-center">
-                    <button className="start-game col-12 col-md-3 col-lg-2 mt-4 px-3 py-2" onClick={() => setGameState(0)}>Back</button>
-                </div>
+                
+                <button className="start-game col-12 col-md-3 col-lg-2 mt-4 px-3 py-2" onClick={() => setGameState(0)}>Back</button>
             </div>
         </div>
     </>
