@@ -69,7 +69,7 @@ const WinScreen = ({gameVideos, resetGame}) => {
 				</div>
 				<div className="row">
 					<div className="col-12 col-lg-10 col-xl-8 m-auto px-4 py-3 rounded-4 text-white fs-6 u-game-window-background">
-						<ol className="d-flex flex-wrap px-3">
+						<ol className="d-flex flex-wrap ps-3">
 							{gameVideos.map((video, idx) => {
 								const {
 									artist,
@@ -78,7 +78,7 @@ const WinScreen = ({gameVideos, resetGame}) => {
 									release_year
 								} = video;
 
-								const classes = "col-12 col-md-6 pb-2";
+								const classes = idx % 2 === 0 ? "col-12 flex-shrink col-md-6 pb-2 pe-4" : "col-12 flex-shrink col-md-6 pb-2 ps-2";
 
 								return (
 									<li
@@ -198,7 +198,7 @@ const HomePage = () => {
 		};
 	})
 
-	const [gameState, setGameState] = useState(0);
+	const [gameState, setGameState] = useState(2);
 	const [activeVideo, setActiveVideo] = useState(null);
 	const [gameVideos, setVideoArray] = useState(videoArray);
 	const [timeLeft, setTimeLeft] = useState(gameClock);
