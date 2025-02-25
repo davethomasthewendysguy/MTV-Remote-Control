@@ -181,7 +181,8 @@ module.exports = (env = {}) => {
 				'@components': PATHS.components,
 				'@containers': PATHS.containers
 			},
-			extensions: ['*', '.js', '.jsx'],
+			extensions: ['.*', '.js', '.jsx'],
+			fallback: { "url": require.resolve("url/") },
 			modules: ['src', 'node_modules']
 		},
 		plugins: [
@@ -260,9 +261,11 @@ module.exports = (env = {}) => {
 		bail: false,
 		devtool: isDev ? 'eval-source-map' : false,
 		devServer: {
-			noInfo: true,
+			// noInfo: true,
 			historyApiFallback: true,
-			contentBase: './dist',
+			static: {
+				directory: './dist'
+			},
 			hot: true
 		},
 		stats: 'errors-only',
